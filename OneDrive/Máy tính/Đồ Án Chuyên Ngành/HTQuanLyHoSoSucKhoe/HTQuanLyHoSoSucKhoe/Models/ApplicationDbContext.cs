@@ -8,7 +8,7 @@ public class ApplicationDbContext : DbContext
     {
     }
 
-    public DbSet<User> Users { get; set; } // Đảm bảo đã tạo lớp User
+    public DbSet<User> Users { get; set; }
     public DbSet<BenhVien> BenhVien { get; set; }
 
     public DbSet<Appointment> Appointments{ get; set; }
@@ -16,6 +16,8 @@ public class ApplicationDbContext : DbContext
     public DbSet<ChuyenKhoa> ChuyenKhoas{ get; set; }
 
     public DbSet<TKBenhVien> TKBenhVien{ get; set; }
+
+    public DbSet<Role> Roles{ get; set; }
     // Cấu hình bảng, ánh xạ cột và khóa
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -48,6 +50,14 @@ public class ApplicationDbContext : DbContext
            .IsUnique();
 
         base.OnModelCreating(modelBuilder);
+
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.Entity<User>()
+            .HasOne(u => u.Role)  // Một User có một Role
+            .WithMany(r => r.Users)  // Một Role có nhiều User
+            .HasForeignKey(u => u.RoleId)  // Khóa ngoại RoleId
+            .OnDelete(DeleteBehavior.Cascade);  // Xóa cascade khi xóa User
 
         modelBuilder.Entity<Appointment>().ToTable("appointments");
     }

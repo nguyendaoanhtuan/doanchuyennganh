@@ -11,7 +11,7 @@ using HTQuanLyHoSoSucKhoe.ViewModels;
 namespace HTQuanLyHoSoSucKhoe.Controllers
 {
 
-    [Authorize(AuthenticationSchemes = "UserScheme")]
+    [Authorize(Roles = "User")]
     public class DangKyThamKhamController : Controller
     {
         private readonly ApplicationDbContext _context;

@@ -156,6 +156,23 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     b.ToTable("ChuyenKhoas");
                 });
 
+            modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Vaitro")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
+                });
+
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.TKBenhVien", b =>
                 {
                     b.Property<int>("Id")
@@ -209,9 +226,8 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Role")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -235,6 +251,8 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
 
                     b.HasIndex("Phone_Number")
                         .IsUnique();
+
+                    b.HasIndex("RoleId");
 
                     b.ToTable("Users");
                 });
@@ -290,11 +308,27 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     b.Navigation("BenhVien");
                 });
 
+            modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.User", b =>
+                {
+                    b.HasOne("HTQuanLyHoSoSucKhoe.Models.Role", "Role")
+                        .WithMany("Users")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
+                });
+
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.BenhVien", b =>
                 {
                     b.Navigation("Appointments");
 
                     b.Navigation("ChuyenKhoas");
+                });
+
+            modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.Role", b =>
+                {
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.User", b =>
