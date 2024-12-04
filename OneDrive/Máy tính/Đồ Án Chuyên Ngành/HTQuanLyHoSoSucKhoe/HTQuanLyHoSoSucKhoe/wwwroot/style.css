@@ -48,11 +48,11 @@ Version:	1.1
 /*=============================
 	Global CSS 
 ===============================*/
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+	font-family: Roboto, Arial, sans-serif;
 	font-weight: 400;
-	font-size:14px;
-	color:#888;
+	font-size: 14px;
+	color: #888;
 }
 .pro-features {
 	position: fixed;

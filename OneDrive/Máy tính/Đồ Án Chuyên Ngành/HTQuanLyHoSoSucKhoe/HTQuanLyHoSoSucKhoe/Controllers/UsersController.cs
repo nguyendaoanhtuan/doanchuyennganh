@@ -70,8 +70,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
                     Phone_Number = model.Phone_Number,
                     Email = model.Email,
                     Cccd = model.Cccd,
-                    Ho = model.Ho,
-                    Ten = model.Ten,
+                    hoVaTen = model.hoVaTen,
                     Address = model.Address,
                     password = model.password, // Chuyển đổi mật khẩu thành PasswordHash
                     RoleId = model.RoleId
@@ -113,9 +112,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                    new Claim(ClaimTypes.Name, user.Ho + " " + user.Ten),
-                    new Claim("ho", user.Ho),
-                    new Claim("ten", user.Ten),
+                    new Claim(ClaimTypes.Name, user.hoVaTen),
                     new Claim(ClaimTypes.Role, user.Role.Vaitro)
                 };
                 var claimsIdentity = new ClaimsIdentity(claims, "login");

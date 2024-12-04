@@ -17,7 +17,7 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.10")
+                .HasAnnotation("ProductVersion", "8.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -34,9 +34,6 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int>("BenhVienId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("BenhVienId1")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Created_At")
@@ -64,18 +61,11 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UserId1")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("BenhVienId");
 
-                    b.HasIndex("BenhVienId1");
-
                     b.HasIndex("UserId");
-
-                    b.HasIndex("UserId1");
 
                     b.ToTable("appointments", (string)null);
                 });
@@ -89,11 +79,6 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("ChuyenKhoa")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
@@ -139,9 +124,6 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     b.Property<int>("BenhVienId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("BenhVienId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -151,9 +133,28 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
 
                     b.HasIndex("BenhVienId");
 
-                    b.HasIndex("BenhVienId1");
-
                     b.ToTable("ChuyenKhoas");
+                });
+
+            modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.HoSoKhamBenh", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<DateTime>("ngayKhoiTao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("userId")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("userId");
+
+                    b.ToTable("HoSoKhamBenhs");
                 });
 
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.Role", b =>
@@ -218,10 +219,6 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Ho")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Phone_Number")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -233,12 +230,12 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Ten")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("Updated_At")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("hoVaTen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("password")
                         .IsRequired()
@@ -260,24 +257,16 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.Appointment", b =>
                 {
                     b.HasOne("HTQuanLyHoSoSucKhoe.Models.BenhVien", "BenhVien")
-                        .WithMany()
+                        .WithMany("Appointments")
                         .HasForeignKey("BenhVienId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HTQuanLyHoSoSucKhoe.Models.BenhVien", null)
-                        .WithMany("Appointments")
-                        .HasForeignKey("BenhVienId1");
-
                     b.HasOne("HTQuanLyHoSoSucKhoe.Models.User", "User")
-                        .WithMany()
+                        .WithMany("Appointments")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("HTQuanLyHoSoSucKhoe.Models.User", null)
-                        .WithMany("Appointments")
-                        .HasForeignKey("UserId1");
 
                     b.Navigation("BenhVien");
 
@@ -287,16 +276,23 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.ChuyenKhoa", b =>
                 {
                     b.HasOne("HTQuanLyHoSoSucKhoe.Models.BenhVien", "BenhVien")
-                        .WithMany()
+                        .WithMany("ChuyenKhoas")
                         .HasForeignKey("BenhVienId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HTQuanLyHoSoSucKhoe.Models.BenhVien", null)
-                        .WithMany("ChuyenKhoas")
-                        .HasForeignKey("BenhVienId1");
-
                     b.Navigation("BenhVien");
+                });
+
+            modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.HoSoKhamBenh", b =>
+                {
+                    b.HasOne("HTQuanLyHoSoSucKhoe.Models.User", "User")
+                        .WithMany("HoSoKhamBenhs")
+                        .HasForeignKey("userId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.TKBenhVien", b =>
@@ -334,6 +330,8 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.User", b =>
                 {
                     b.Navigation("Appointments");
+
+                    b.Navigation("HoSoKhamBenhs");
                 });
 #pragma warning restore 612, 618
         }

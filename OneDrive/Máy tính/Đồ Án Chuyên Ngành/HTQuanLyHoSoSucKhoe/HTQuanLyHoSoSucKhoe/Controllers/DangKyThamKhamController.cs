@@ -41,7 +41,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
               
                 var model = new Appointment
                 {
-                    Name = $"{user.Ho} {user.Ten}",
+                    Name = $"{user.hoVaTen}",
                     Email = user.Email,
                     Phone_Number = user.Phone_Number
                 };

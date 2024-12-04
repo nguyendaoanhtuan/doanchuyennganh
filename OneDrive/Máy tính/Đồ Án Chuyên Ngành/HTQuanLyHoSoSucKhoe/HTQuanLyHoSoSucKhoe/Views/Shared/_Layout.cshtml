@@ -42,6 +42,7 @@
 	<link rel="stylesheet" href="@Url.Content("~/css/normalize.css")">
 	<link rel="stylesheet" href="@Url.Content("~/style.css")">
 	<link rel="stylesheet" href="@Url.Content("~/css/responsive.css")">
+	<link rel="stylesheet" href="@Url.Content("~/css/benh-nhan.css")">
 
 
 </head>
@@ -126,8 +127,8 @@
 							<div class="main-menu">
 								<nav class="navigation">
 									<ul class="nav menu">
-										<li class="active"><a asp-action = "Index" asp-controller ="Home">Trang Chủ</a></li>
-										<li>
+										<li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" || string.IsNullOrEmpty(ViewContext.HttpContext.Request.Path) ? "active" : "" )"><a asp-action="Index" asp-controller="Home">Trang Chủ</a></li>
+										<li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "HoSoSucKhoe" ? "active" : "")">
 											<a asp-action = "Index" asp-controller ="HoSoSucKhoe">Hồ Sơ Bệnh Cá Nhân <i class="icofont-rounded-down"></i></a>
 											<ul class="dropdown">
 												<li><a href="index.html">Lịch Sử Khám Bệnh</a></li>
@@ -161,6 +162,10 @@
 											</ul>
 										</li>
 										<li><a href="contact.html">Contact Us</a></li>
+										<li>
+											<a asp-action="Index" asp-controller="BenhNhan">Bệnh Nhân</a>
+
+										</li>
 									</ul>
 								</nav>
 							</div>

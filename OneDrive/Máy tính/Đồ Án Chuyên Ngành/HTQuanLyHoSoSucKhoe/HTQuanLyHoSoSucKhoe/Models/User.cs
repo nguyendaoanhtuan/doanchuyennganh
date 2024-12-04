@@ -18,9 +18,7 @@ namespace HTQuanLyHoSoSucKhoe.Models
         [NotMapped]
         public string confirmpassword { get; set; }
         [Required]
-        public string Ho {  get; set; }
-        [Required]
-        public string Ten {  get; set; }
+        public string hoVaTen {  get; set; }
         [Required]
         public string Cccd { get; set; }
 
@@ -35,6 +33,7 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public DateTime Updated_At { get; set; } = DateTime.Now;
 
         public virtual ICollection<Appointment> Appointments { get; set; }  // Một User có thể có nhiều Appointment
-        
+        public virtual ICollection<HoSoKhamBenh> HoSoKhamBenhs { get; set; }  // Một User có thể có nhiều Appointment
+
     }
 }

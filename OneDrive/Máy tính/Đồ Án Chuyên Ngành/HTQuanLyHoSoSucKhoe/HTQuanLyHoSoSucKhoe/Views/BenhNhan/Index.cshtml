@@ -1,0 +1,45 @@
+﻿@model HTQuanLyHoSoSucKhoe.ViewModels.ThongTinBenhNhanViewModel;
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+			<nav class="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a asp-action="Index" asp-controller="BenhNhan" class="nav-link cmenu-item">Thông tin cá nhân</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a asp-action="Index" asp-controller="BenhNhan" class="nav-link cmenu-item">Hồ sơ khám bệnh</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-md-9">
+            <h2>Thông tin cá nhân</h2>
+            <hr />
+            <div>
+                <ul>
+                    <li>
+                        <a class="nav-link" asp-action="Index" asp-controller="BenhNhan">
+                            <div class="row">
+                                <div class="col-md">Tên</div>
+                                <div class="col-md">@Model.hoTen</div>
+                            </div> 
+                        </a>
+                        <a class="nav-link" asp-action="Index" asp-controller="BenhNhan">
+                            <div class="row">
+                                <div class="col-md">Ngày sinh</div>
+                                <div class="col-md">@Model.ngaySinh</div>
+                            </div>
+                        </a>
+                        <a class="nav-link" asp-action="Index" asp-controller="BenhNhan">
+                            <div class="row">
+                                <div class="col-md">Giới tính</div>
+                                <div class="col-md">@Model.gioiTinh</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

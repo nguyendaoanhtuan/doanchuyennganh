@@ -18,24 +18,34 @@ public class ApplicationDbContext : DbContext
     public DbSet<TKBenhVien> TKBenhVien{ get; set; }
 
     public DbSet<Role> Roles{ get; set; }
+    public DbSet<HoSoKhamBenh> HoSoKhamBenhs { get; set; }
     // Cấu hình bảng, ánh xạ cột và khóa
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        // Cấu hình mối quan hệ User - HoSoKhamBenh
+        modelBuilder.Entity<HoSoKhamBenh>()
+            .HasOne(a => a.User)
+            .WithMany(u => u.HoSoKhamBenhs)
+            .HasForeignKey(u => u.userId);
+
         // Cấu hình mối quan hệ User - Appointment
         modelBuilder.Entity<Appointment>()
             .HasOne(a => a.User)
-            .WithMany()  // Nếu một User có nhiều Appointment
+            .WithMany(u => u.Appointments)
+            .HasForeignKey( u=>u.UserId)// Nếu một User có nhiều Appointment
             .OnDelete(DeleteBehavior.Cascade); // Hành động xóa
 
         // Cấu hình mối quan hệ BenhVien - Appointment
         modelBuilder.Entity<Appointment>()
             .HasOne(a => a.BenhVien)
-            .WithMany()  // Nếu một BenhVien có nhiều Appointment
+            .WithMany(b=>b.Appointments)
+            .HasForeignKey(c=>c.BenhVienId)// Nếu một BenhVien có nhiều Appointment
             .OnDelete(DeleteBehavior.Cascade); // Hành động xóa
 
         modelBuilder.Entity<ChuyenKhoa>()
             .HasOne(a => a.BenhVien)
-            .WithMany()  // Nếu một BenhVien có nhiều ChuyenKhoa
+            .WithMany(b=>b.ChuyenKhoas)
+            .HasForeignKey(c=>c.BenhVienId)// Nếu một BenhVien có nhiều ChuyenKhoa
             .OnDelete(DeleteBehavior.Cascade); // Hành động xóa
 
         // Tạo chỉ mục cho PhoneNumber và đảm bảo tính duy nhất
