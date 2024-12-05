@@ -1,0 +1,74 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="page-wrapper">
+	<div class="header">
+		<h1 class="page-header">
+			Quản lý đặt khám
+		</h1>
+		<ol class="breadcrumb">
+            <li><a asp-action="Index" asp-controller="QuanLyBenhVien">Trang chủ</a></li>
+			<li class="active">Quản lý đặt khám</li>
+		</ol>
+
+	</div>
+    <div id="page-inner">
+
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Advanced Tables -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Bảng thông tin bệnh nhân đặt khám
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                <thead>
+                                    <tr>
+                                        <th>STT</th>
+                                        <th>Tên</th>
+                                        <th>Số điện thoại</th>
+                                        <th>Ngày đăng ký</th>
+                                        <th>Chức năng</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        int index = 1;
+                                    }
+                                    @foreach (var item in Model ?? new List<HTQuanLyHoSoSucKhoe.Models.Appointment>())
+
+                                    {
+                                        <tr class="odd gradeX">
+                                            <td>@index</td>
+                                            <td>@(item?.Name ?? "Không có dữ liệu")</td>
+                                            <td>@(item?.PhoneNumber ?? "Không có dữ liệu")</td>
+                                            <td>@(item?.AppointmentDate?.ToString("dd/MM/yyyy") ?? "Không có dữ liệu")</td>
+                                            <td><a asp-action="chiTietQuanLyDatKham" asp-controller="QuanLyBenhVien" class="btn btn-info btn-sm">Xem chi tiết</a></td>
+                                        </tr>
+                                        index++;
+
+                                    }
+                                 </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+                <!--End Advanced Tables -->
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/assets/js/dataTables/jquery.dataTables.js"></script>
+    <script src="~/assets/js/dataTables/dataTables.bootstrap.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#dataTables-example').dataTable();
+        });
+    </script>
+}

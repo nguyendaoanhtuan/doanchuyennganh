@@ -1,24 +1,21 @@
 ﻿using HTQuanLyHoSoSucKhoe.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddAuthentication(options =>
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.Cookie.Name = "AuthCookie";
+        options.LoginPath = "/DangNhap";  // Đường dẫn chung cho tất cả
+        options.AccessDeniedPath = "/AccessDenied";  // Trang truy cập bị từ chối
+    });
+
+builder.Services.AddAuthorization(options =>
 {
-    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-})
-.AddCookie("AdminScheme", options =>
-{
-    options.Cookie.Name = "AdminAuthCookie";
-    options.LoginPath = "/QuanLyBenhVien/DangNhap";
-    options.AccessDeniedPath = "/QuanLyBenhVien/AccessDenied";
-})
-.AddCookie("UserScheme", options =>
-{
-    options.Cookie.Name = "UserAuthCookie";
-    options.LoginPath = "/Users/Login";
-    options.AccessDeniedPath = "/Users/AccessDenied";
+    options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
 });
 
 // Add services to the container.
@@ -46,7 +43,10 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 
-
+app.MapControllerRoute(
+    name: "quanlybenhvien",
+    pattern: "QuanLyBenhVien/{action=Index}/{id?}",
+    defaults: new { controller = "QuanLyBenhVien", action = "Index" }) .RequireAuthorization("Admin");;
 
 
 app.MapControllerRoute(

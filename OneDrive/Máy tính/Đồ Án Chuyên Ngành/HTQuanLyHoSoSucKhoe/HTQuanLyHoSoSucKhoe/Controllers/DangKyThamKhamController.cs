@@ -11,7 +11,7 @@ using HTQuanLyHoSoSucKhoe.ViewModels;
 namespace HTQuanLyHoSoSucKhoe.Controllers
 {
 
-    [Authorize(AuthenticationSchemes = "UserScheme")]
+    [Authorize(Roles = "User")]
     public class DangKyThamKhamController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -41,7 +41,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
               
                 var model = new Appointment
                 {
-                    Name = $"{user.Ho} {user.Ten}",
+                    Name = $"{user.hoVaTen}",
                     Email = user.Email,
                     Phone_Number = user.Phone_Number
                 };

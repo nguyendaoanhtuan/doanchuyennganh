@@ -23,8 +23,7 @@ namespace HTQuanLyHoSoSucKhoe.Models
         [StringLength(255)]
         public string Image_Path { get; set; }  // Đường dẫn ảnh
 
-        [StringLength(255)]
-        public string ChuyenKhoa { get; set; }  // Chuyên khoa
+        public ICollection<ChuyenKhoa> ChuyenKhoas { get; set; }  // Chuyên khoa
 
         public string Description { get; set; }  // Mô tả chi tiết về bệnh viện
 
@@ -32,8 +31,6 @@ namespace HTQuanLyHoSoSucKhoe.Models
 
         public DateTime Updated_At { get; set; } = DateTime.Now;  // Ngày cập nhật
 
-        public virtual ICollection<Appointment> Appointments { get; set; }  // Một BenhVien có thể có nhiều Appointment
-
-        public virtual ICollection<ChuyenKhoa> ChuyenKhoas { get; set; }  // Một BenhVien có thể có nhiều ChuyenKhoa
+        public virtual ICollection<Appointment> Appointments { get; set; } // Một BenhVien có thể có nhiều Appointment
     }
 }

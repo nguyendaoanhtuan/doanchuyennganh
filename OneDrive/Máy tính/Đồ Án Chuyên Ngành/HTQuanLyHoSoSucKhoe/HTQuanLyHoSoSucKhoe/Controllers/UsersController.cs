@@ -7,8 +7,10 @@ using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 namespace HTQuanLyHoSoSucKhoe.Controllers
 {
+    
     public class UsersController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -51,6 +53,15 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
                     return View(model);
                 }
 
+                 model.RoleId = 1;
+
+                var role = await _context.Roles.FindAsync(model.RoleId);
+                    if (role == null)
+                    {
+                        ModelState.AddModelError("", "Vai trò không tồn tại.");
+                        return View(model);
+                    }
+
                 model.password = BCrypt.Net.BCrypt.HashPassword(model.password);
 
                 // Tạo người dùng mới
@@ -59,15 +70,17 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
                     Phone_Number = model.Phone_Number,
                     Email = model.Email,
                     Cccd = model.Cccd,
-                    Ho = model.Ho,
-                    Ten = model.Ten,
+                    hoVaTen = model.hoVaTen,
                     Address = model.Address,
-                    password = model.password  // Chuyển đổi mật khẩu thành PasswordHash
-                    
+                    password = model.password, // Chuyển đổi mật khẩu thành PasswordHash
+                    RoleId = model.RoleId
+
                 };
 
-                // Lưu vào cơ sở dữ liệu
-                 user.confirmpassword = null; // Chắc chắn rằng không lưu giá trị này
+              
+
+            // Lưu vào cơ sở dữ liệu
+            user.confirmpassword = null; // Chắc chắn rằng không lưu giá trị này
    
                 _context.Users.Add(user);
                 await _context.SaveChangesAsync();
@@ -88,15 +101,19 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> LoginAsync(string phone_Number, string password)
         {
-            var user = _context.Users.SingleOrDefault(u => u.Phone_Number == phone_Number);
+            var user = _context.Users.Include(u => u.Role).SingleOrDefault(u => u.Phone_Number == phone_Number);
             if (user != null && BCrypt.Net.BCrypt.Verify(password, user.password))
             {
+                if (user.Role == null)  // Kiểm tra nếu Role là null
+                {
+                    ModelState.AddModelError("", "Vai trò của người dùng không hợp lệ.");
+                    return View();
+                }
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                    new Claim(ClaimTypes.Name, user.Ho + " " + user.Ten),
-                    new Claim("ho", user.Ho),
-                    new Claim("ten", user.Ten)
+                    new Claim(ClaimTypes.Name, user.hoVaTen),
+                    new Claim(ClaimTypes.Role, user.Role.Vaitro)
                 };
                 var claimsIdentity = new ClaimsIdentity(claims, "login");
                 var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
