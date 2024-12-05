@@ -1,0 +1,92 @@
+﻿<div class="breadcrumbs overlay">
+	<div class="container">
+		<div class="bread-inner">
+			<div class="row">
+				<div class="col-12">
+					<h2>Hồ Sơ Sức Khỏe Cá Nhân</h2>
+					<ul class="bread-list">
+						<li><a href="index.html">Trang Chủ</a></li>
+						<li><i class="icofont-simple-right"></i></li>
+						<li class="active">Hồ Sơ Sức Khỏe Cá Nhân</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<section class="pf-details section">
+	<div class="container">
+		<div class="row">
+			<div class="col-3">
+				<div class="danh-muc-container">
+					<h2 class="danh-muc">
+						<div class="icon">📋</div>
+						Danh Mục
+					</h2>
+					<div class="menu-hssk">					
+						<a asp-action="LichSuKhamBenh" asp-controller ="HoSoSucKhoe" class="btn menu-item">
+							<div class="icon">🩺</div>
+							<div class="text">Lịch Sử Thăm Khám</div>
+						</a>
+						<a asp-action="LichSuKeThuoc" asp-controller="HoSoSucKhoe" class="btn menu-item">
+							<div class="icon">💊</div>
+							<div class="text">Lịch Sử Kê Thuốc</div>
+						</a>
+						<a asp-action="LichSuTiemPhong" asp-controller="HoSoSucKhoe" class="btn menu-item">
+							<div class="icon">💉</div>
+							<div class="text">Lịch Sử Tiêm Phòng</div>
+						</a>
+						<a asp-action="LichSuDatLichKham" asp-controller="HoSoSucKhoe" class="btn menu-item">
+							<div class="icon">📅</div>
+							<div class="text">Lịch Sử Đặt Lịch Khám</div>
+						</a>
+						<a asp-action="LichSuDatLichTiemPhong" asp-controller="HoSoSucKhoe" class="btn menu-item">
+							<div class="icon">🗓️</div>
+							<div class="text">Đặt Lịch Tiêm Phòng</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-9">
+				<div class="info-container">
+					<h3 class="info-title">Thông Tin Lịch Sử Đặt Lịch Khám</h3>
+					<div class="search-container">
+						<input type="text" class="search-input" placeholder="Tìm kiếm lịch sử thăm khám...">
+						<button class="btn btn-search">Tìm Kiếm</button>
+					</div>
+					<div class="info-detail">
+						<div class="info-row">
+							<div class="info-item">
+								<strong class="strong-item">Ngày tháng năm</strong>
+							</div>
+							<div class="info-item">
+								<strong class="strong-item">Thời gian</strong>
+							</div>
+							<div class="info-item">
+								<strong class="strong-item">STT</strong>
+							</div>
+							<div class="info-item">
+								<strong class="strong-item">Bệnh viện</strong>
+							</div>
+							<div class="info-item">
+								<strong class="strong-item">Tình trạng</strong>
+							</div>
+						</div>
+						<div class="info-row">
+							<div class="info-item info-item-text">01/10/2024</div>
+							<div class="info-item info-item-text">09:00 AM</div>
+							<div class="info-item info-item-text">01</div>
+							<div class="info-item info-item-text">Bệnh viện Bạch Mai</div>
+							<div class="info-item info-item-text">Đang xử lí</div>
+						</div>
+						<div class="button-container">
+							<a href="/hoso-suckhoe/lichsu-thamkham/chitiet" class="btn btn-primary">Xem Chi Tiết</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+

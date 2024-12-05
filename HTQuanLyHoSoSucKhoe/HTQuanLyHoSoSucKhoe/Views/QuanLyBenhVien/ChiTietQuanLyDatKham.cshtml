@@ -1,0 +1,64 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div id="page-wrapper">
+	<div class="header">
+		<h1 class="page-header">
+			Quản lý đặt khám
+		</h1>
+		<ol class="breadcrumb">
+			<li><a asp-action="Index" asp-controller="QuanLyBenhVien">Trang chủ</a></li>
+			<li><a asp-action="quanLyDatKham" asp-controller="QuanLyBenhVien">Quản lý đặt khám</a></li>
+			<li class="active">Chi tiết quản lí đặt khám</li>
+		</ol>
+
+	</div>
+
+	<div id="page-inner">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Bảng thông tin chi tiết bệnh nhân đặt khám
+					</div>
+					<div class="panel-body">
+						<table class="detail-table">
+							<tr>
+								<th>Họ tên:</th>
+								<td><input class="form-control" type="text" value="Nguyễn Văn A" readonly></td>
+							</tr>
+							<tr>
+								<th>Email:</th>
+								<td><input class="form-control" type="text" value="nguyenvana@example.com" readonly></td>
+							</tr>
+							<tr>
+								<th>Số điện thoại:</th>
+								<td><input class="form-control" type="text" value="0123456789" readonly></td>
+							</tr>
+							<tr>
+								<th>Địa chỉ:</th>
+								<td><input class="form-control" type="text" value="123 Đường ABC, Quận X, TP.HCM" readonly></td>
+							</tr>
+
+						</table>
+						<div class ="btn-container-form">
+							<button class="btn btn-primary"><i class="fa fa-edit "></i> Chỉnh sửa</button>
+							<button class="btn btn-danger"><i class="fa fa-pencil"></i> Xóa</button>
+						</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+ </div>
+
+
+
+@section Scripts {
+
+    <script src="~/assets/js/dataTables/dataTables.bootstrap.js"></script>
+ 
+}
