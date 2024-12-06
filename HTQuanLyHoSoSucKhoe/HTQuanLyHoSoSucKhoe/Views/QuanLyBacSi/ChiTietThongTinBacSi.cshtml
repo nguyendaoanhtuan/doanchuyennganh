@@ -1,0 +1,139 @@
+﻿@model HTQuanLyHoSoSucKhoe.ViewModels.ThongTinBacSiViewModel
+
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+<div id="page-wrapper">
+    <div class="header">
+        <h1 class="page-header">Cài đặt tài khoản</h1>
+        <ol class="breadcrumb">
+            <li><a asp-action="Index" asp-controller="QuanLyBenhVien">Trang chủ</a></li>
+            <li class="active">Cài đặt tài khoản</li>
+        </ol>
+    </div>
+
+    <div id="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Bảng thông tin tài khoản</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <!-- Khu vực hiển thị hình ảnh -->
+                            <div class="col-md-4 text-center">
+                                @if (!string.IsNullOrEmpty(Model.Image_Path))
+                                {
+                                    <img src="@Model.Image_Path" alt="Hình đại diện" class="img-thumbnail" style="width: 200px; height: 200px; object-fit: cover;">
+                                }
+                                else
+                                {
+                                    <img src="~/images/default-avatar.png" alt="Hình đại diện" class="img-thumbnail" style="width: 200px; height: 200px; object-fit: cover;">
+                                }
+                                <div class="btn-container-form">
+                                    <button class="btn btn-success" data-toggle="modal" data-target="#updateImageModal"><i class="fa fa-edit"></i> Cập nhật hình ảnh</button>
+                                </div>
+                                <!-- Modal cập nhật hình ảnh -->
+                                <div class="modal fade" id="updateImageModal" tabindex="-1" role="dialog" aria-labelledby="updateImageModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <form asp-action="capNhatHinhAnh" asp-controller="QuanLyBacSi" method="post" enctype="multipart/form-data">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="updateImageModalLabel">Thêm file hình ảnh</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <input type="file" name="ImageFile" class="form-control mt-3" required>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Thoát</button>
+                                                    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Khu vực hiển thị bảng thông tin -->
+                            <div class="col-md-6">
+                                <table class="detail-table">
+                                    <tr>
+                                        <th>Tên bệnh viện:</th>
+                                        <td><input class="form-control" type="text" value="@Model.hoTen" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Số điện thoại:</th>
+                                        <td><input class="form-control" type="text" value="@Model.email" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Địa chỉ:</th>
+                                        <td><input class="form-control" type="text" value="@Model.diaChi" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>tên chuyên khoa:</th>
+                                        <td><input class="form-control" type="text" value="@Model.tenChuyenKhoa" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tên bệnh viện:</th>
+                                        <td><input class="form-control" type="text" value="@Model.tenBenhVien" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Ngày tạo hồ sơ:</th>
+                                        <td><input class="form-control" type="text" value="@Model.ngayTaoBacSi" readonly></td>
+                                    </tr>
+
+                                </table>
+                                <div class="btn-container-form">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target="#editInfoModal"><i class="fa fa-edit"></i> Chỉnh sửa</button>
+                                </div>
+                                <!-- Modal chỉnh sửa thông tin -->
+                                <div class="modal fade" id="editInfoModal" tabindex="-1" role="dialog" aria-labelledby="editInfoModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <form asp-action="chinhSuaThongTin" asp-controller="QuanLyBacSi" method="post">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="editInfoModalLabel">Chỉnh sửa thông tin</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="detail-table">
+                                                        <tr>
+                                                            <th>Tên bệnh viện:</th>
+                                                            <td><input class="form-control" asp-for="hoTen" type="text" value="@Model.hoTen"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Số điện thoại:</th>
+                                                            <td><input class="form-control" asp-for="soDienThoai" type="text" value="@Model.soDienThoai"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Số điện thoại:</th>
+                                                            <td><input class="form-control" asp-for="email" type="text" value="@Model.email"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Địa chỉ:</th>
+                                                            <td><input class="form-control" asp-for="diaChi" type="text" value="@Model.diaChi"></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Thoát</button>
+                                                    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="btn-container-form">
+                                    <button class="btn btn-warning" data-toggle="modal" data-target="#changePasswordModal"><i class="fa fa-key"></i> Thay đổi mật khẩu</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

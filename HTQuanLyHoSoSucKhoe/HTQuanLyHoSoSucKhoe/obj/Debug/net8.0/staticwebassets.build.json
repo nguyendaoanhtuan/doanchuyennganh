@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J4ch1530WgD+2ojEUbed6iqpeaMe3J0zDHrgM4Jqzco=",
+  "Hash": "48vyI8AqyzlhHe7/3ouonyHrlbNXYJGiaAy+sohQPW8=",
   "Source": "HTQuanLyHoSoSucKhoe",
   "BasePath": "_content/HTQuanLyHoSoSucKhoe",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HTQuanLyHoSoSucKhoe.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "assets/css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6pyy0pk0dm",
+      "Integrity": "1teqLenzsHP5QuhH9jtduF+PODRfrNfmjMlGV6vCVA8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap.css"
+    },
+    {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap-theme.min.css",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
@@ -80,12 +101,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap-theme.min.css"
     },
     {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\custom-styles.css",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
       "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "assets/css/bootstrap#[.{fingerprint}]?.css",
+      "RelativePath": "assets/css/custom-styles#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -94,11 +115,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ztje2hio61",
-      "Integrity": "56GRc+RE3A9JrlZSD3v2roduXcO7EjACLgDdGEaXydY=",
+      "Fingerprint": "hujs1axgqj",
+      "Integrity": "h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm+djY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\assets\\css\\custom-styles.css"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\checkbox3.min.css",
@@ -120,27 +141,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\checkbox3.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\custom-styles.css",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "assets/css/custom-styles#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hujs1axgqj",
-      "Integrity": "h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm+djY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\css\\custom-styles.css"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\font-awesome.css",
@@ -437,12 +437,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart-data.js",
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom.js",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
       "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "assets/js/chart-data#[.{fingerprint}]?.js",
+      "RelativePath": "assets/js/custom#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -451,53 +451,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "x8oy2lkkme",
-      "Integrity": "QaVz44rYnDB8JFFPajFZHuElRmn3Wcm0yMSkyfSoN2Q=",
+      "Fingerprint": "vyl7toa7mt",
+      "Integrity": "CZjP+SmO9M+EmMp+U0uwnPMv/zqxZBoaDLVH8POIF2A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\chart-data.js"
-    },
-    {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart.min.js",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "assets/js/chart.min#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "gl7q4ay3lg",
-      "Integrity": "DIv88FGCqqjvty1BahonZCUccaU7SVPC3D22T0btl3U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\chart.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chartjs.js",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "assets/js/chartjs#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "80n45uu1m8",
-      "Integrity": "iDVFS2UoacGU1o7KGXH8ugDm9iF+VPHLR27WokgvpkI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\chartjs.js"
+      "OriginalItemSpec": "wwwroot\\assets\\js\\custom.js"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom-scripts.js",
@@ -521,12 +479,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\custom-scripts.js"
     },
     {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom.js",
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart.min.js",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
       "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "assets/js/custom#[.{fingerprint}]?.js",
+      "RelativePath": "assets/js/chart.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -535,11 +493,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vyl7toa7mt",
-      "Integrity": "CZjP+SmO9M+EmMp+U0uwnPMv/zqxZBoaDLVH8POIF2A=",
+      "Fingerprint": "gl7q4ay3lg",
+      "Integrity": "DIv88FGCqqjvty1BahonZCUccaU7SVPC3D22T0btl3U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\custom.js"
+      "OriginalItemSpec": "wwwroot\\assets\\js\\chart.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart-data.js",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "assets/js/chart-data#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x8oy2lkkme",
+      "Integrity": "QaVz44rYnDB8JFFPajFZHuElRmn3Wcm0yMSkyfSoN2Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\chart-data.js"
+    },
+    {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chartjs.js",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "assets/js/chartjs#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "80n45uu1m8",
+      "Integrity": "iDVFS2UoacGU1o7KGXH8ugDm9iF+VPHLR27WokgvpkI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\chartjs.js"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\dataTables.bootstrap.css",
@@ -605,27 +605,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\dataTables\\jquery.dataTables.js"
     },
     {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart-data.js",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "assets/js/easypiechart-data#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "abud9529tp",
-      "Integrity": "the1oYNvHFUdVhzvsKj3FuqFRlROWPINoKuhBuXDYwA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\easypiechart-data.js"
-    },
-    {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart.js",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
@@ -647,12 +626,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\easypiechart.js"
     },
     {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\jquery-1.10.2.js",
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart-data.js",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
       "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "assets/js/jquery-1.10.2#[.{fingerprint}]?.js",
+      "RelativePath": "assets/js/easypiechart-data#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -661,11 +640,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2y23a32bxf",
-      "Integrity": "VrgFJr6kxDzPPH/7X3KmUgTsUzUSiUCVAGqOXzDUtUI=",
+      "Fingerprint": "abud9529tp",
+      "Integrity": "the1oYNvHFUdVhzvsKj3FuqFRlROWPINoKuhBuXDYwA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\jquery-1.10.2.js"
+      "OriginalItemSpec": "wwwroot\\assets\\js\\easypiechart-data.js"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\jquery.metisMenu.js",
@@ -689,12 +668,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\jquery.metisMenu.js"
     },
     {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\chart.js",
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\jquery-1.10.2.js",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
       "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "assets/js/Lightweight-Chart/chart#[.{fingerprint}]?.js",
+      "RelativePath": "assets/js/jquery-1.10.2#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -703,11 +682,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6o5gub4ovp",
-      "Integrity": "tqomWQaXj+AF0yRu8QQMV13i74ejEz8CjJUJPxDyv1U=",
+      "Fingerprint": "2y23a32bxf",
+      "Integrity": "VrgFJr6kxDzPPH/7X3KmUgTsUzUSiUCVAGqOXzDUtUI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\Lightweight-Chart\\chart.js"
+      "OriginalItemSpec": "wwwroot\\assets\\js\\jquery-1.10.2.js"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\cssCharts.css",
@@ -729,6 +708,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\Lightweight-Chart\\cssCharts.css"
+    },
+    {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\chart.js",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "assets/js/Lightweight-Chart/chart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6o5gub4ovp",
+      "Integrity": "tqomWQaXj+AF0yRu8QQMV13i74ejEz8CjJUJPxDyv1U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\Lightweight-Chart\\chart.js"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\index - Copy.html",
@@ -836,27 +836,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\Lightweight-Chart\\README.md"
     },
     {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris-0.4.3.min.css",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "assets/js/morris/morris-0.4.3.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "e6r3qn6w8n",
-      "Integrity": "ViLouKysE15oUzi5CxkZmwIi2Y5lsfq/laSKuWT2IUE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\morris\\morris-0.4.3.min.css"
-    },
-    {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris.js",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
@@ -876,6 +855,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\morris\\morris.js"
+    },
+    {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris-0.4.3.min.css",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "assets/js/morris/morris-0.4.3.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e6r3qn6w8n",
+      "Integrity": "ViLouKysE15oUzi5CxkZmwIi2Y5lsfq/laSKuWT2IUE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\morris\\morris-0.4.3.min.css"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\raphael-2.1.0.min.js",
@@ -1550,69 +1550,6 @@
       "OriginalItemSpec": "wwwroot\\img\\blockqoute-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar1.jpg",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "img/blog-sidebar1#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "36pnitoax0",
-      "Integrity": "K8X7tpsDDbQy8X7XVAw7bNtil+EPbEycB6qzWaiU41M=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\blog-sidebar1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar2.jpg",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "img/blog-sidebar2#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ll132qchy8",
-      "Integrity": "2RRDNmdHcNN+3As9oTZSXWgVebjkrybQ8boP9HR5PWs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\blog-sidebar2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar3.jpg",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "img/blog-sidebar3#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ed4obyyu30",
-      "Integrity": "In8DMHpQhN1LOaTCR1RP6+k9hJ05dZL+Guh+KFYqITI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\blog-sidebar3.jpg"
-    },
-    {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog1.jpg",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
@@ -1676,6 +1613,69 @@
       "OriginalItemSpec": "wwwroot\\img\\blog3.jpg"
     },
     {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar1.jpg",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "img/blog-sidebar1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "36pnitoax0",
+      "Integrity": "K8X7tpsDDbQy8X7XVAw7bNtil+EPbEycB6qzWaiU41M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog-sidebar1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar2.jpg",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "img/blog-sidebar2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ll132qchy8",
+      "Integrity": "2RRDNmdHcNN+3As9oTZSXWgVebjkrybQ8boP9HR5PWs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog-sidebar2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar3.jpg",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "img/blog-sidebar3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ed4obyyu30",
+      "Integrity": "In8DMHpQhN1LOaTCR1RP6+k9hJ05dZL+Guh+KFYqITI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog-sidebar3.jpg"
+    },
+    {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\bread-bg.jpg",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
@@ -1737,27 +1737,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\cccd.png"
-    },
-    {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client-bg.jpg",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "img/client-bg#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ha98onydqy",
-      "Integrity": "9+oiDGimzHa/gEpmsk3HbBvg9Z9/pwVbZr6tffwnRmE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\client-bg.jpg"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client1.png",
@@ -1865,6 +1844,27 @@
       "OriginalItemSpec": "wwwroot\\img\\client5.png"
     },
     {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client-bg.jpg",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "img/client-bg#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ha98onydqy",
+      "Integrity": "9+oiDGimzHa/gEpmsk3HbBvg9Z9/pwVbZr6tffwnRmE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\client-bg.jpg"
+    },
+    {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\contact-img.png",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
@@ -1970,6 +1970,27 @@
       "OriginalItemSpec": "wwwroot\\img\\l.png"
     },
     {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\logo.png",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "img/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gbr968um52",
+      "Integrity": "jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y+E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
+    },
+    {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\Logo_BenhViens\\logo-benh-vien-cho-ray.png",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
@@ -2010,27 +2031,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Logo_User\\logo-benh-vien-cho-ray.png"
-    },
-    {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\logo.png",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "img/logo#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "gbr968um52",
-      "Integrity": "jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y+E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\m.png",
@@ -2453,27 +2453,6 @@
       "OriginalItemSpec": "wwwroot\\img\\video-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap-datepicker.js",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "js/bootstrap-datepicker#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9u7ywz9hut",
-      "Integrity": "z0dTQrvf/IP4npEQMZUYHoh/3VgvK+U0A5o6AIxpPTU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\bootstrap-datepicker.js"
-    },
-    {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
@@ -2493,6 +2472,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap-datepicker.js",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "js/bootstrap-datepicker#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9u7ywz9hut",
+      "Integrity": "z0dTQrvf/IP4npEQMZUYHoh/3VgvK+U0A5o6AIxpPTU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap-datepicker.js"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\colors.js",
@@ -2558,27 +2558,6 @@
       "OriginalItemSpec": "wwwroot\\js\\gmaps.min.js"
     },
     {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk_confirm.js",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "js/hienthimk_confirm#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "zq6nved4qv",
-      "Integrity": "FTct19FMeMX5lPXBlnenxFO6cjRBiEabZJdukZHpRmI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\hienthimk_confirm.js"
-    },
-    {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk.js",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
@@ -2600,12 +2579,12 @@
       "OriginalItemSpec": "wwwroot\\js\\hienthimk.js"
     },
     {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-migrate-3.0.0.js",
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk_confirm.js",
       "SourceId": "HTQuanLyHoSoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
       "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "js/jquery-migrate-3.0.0#[.{fingerprint}]?.js",
+      "RelativePath": "js/hienthimk_confirm#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2614,32 +2593,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "covgo6cc2t",
-      "Integrity": "pEtXJ71FOVm6jyrjf9I1knK3MK2gnoD7Klu//Qhu8HU=",
+      "Fingerprint": "zq6nved4qv",
+      "Integrity": "FTct19FMeMX5lPXBlnenxFO6cjRBiEabZJdukZHpRmI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\jquery-migrate-3.0.0.js"
-    },
-    {
-      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-ui.min.js",
-      "SourceId": "HTQuanLyHoSoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
-      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
-      "RelativePath": "js/jquery-ui.min#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5vfv76728v",
-      "Integrity": "724cW4h9VBmUgsEOS8Ieec/Tppy2Ifm9+rZIU/rCYFw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\jquery-ui.min.js"
+      "OriginalItemSpec": "wwwroot\\js\\hienthimk_confirm.js"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.counterup.min.js",
@@ -2766,6 +2724,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-migrate-3.0.0.js",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "js/jquery-migrate-3.0.0#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "covgo6cc2t",
+      "Integrity": "pEtXJ71FOVm6jyrjf9I1knK3MK2gnoD7Klu//Qhu8HU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-migrate-3.0.0.js"
+    },
+    {
+      "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-ui.min.js",
+      "SourceId": "HTQuanLyHoSoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/HTQuanLyHoSoSucKhoe",
+      "RelativePath": "js/jquery-ui.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5vfv76728v",
+      "Integrity": "724cW4h9VBmUgsEOS8Ieec/Tppy2Ifm9+rZIU/rCYFw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-ui.min.js"
     },
     {
       "Identity": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\main.js",
@@ -3001,6 +3001,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "assets/css/bootstrap.6pyy0pk0dm.css",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1teqLenzsHP5QuhH9jtduF+PODRfrNfmjMlGV6vCVA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:50:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pyy0pk0dm"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1teqLenzsHP5QuhH9jtduF+PODRfrNfmjMlGV6vCVA8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/bootstrap.css",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1teqLenzsHP5QuhH9jtduF+PODRfrNfmjMlGV6vCVA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:50:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1teqLenzsHP5QuhH9jtduF+PODRfrNfmjMlGV6vCVA8="
+        }
+      ]
+    },
+    {
       "Route": "assets/css/bootstrap-theme.min.css",
       "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap-theme.min.css",
       "Selectors": [],
@@ -3083,8 +3165,8 @@
       ]
     },
     {
-      "Route": "assets/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
+      "Route": "assets/css/custom-styles.css",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\custom-styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3093,7 +3175,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "117309"
+          "Value": "13904"
         },
         {
           "Name": "Content-Type",
@@ -3101,11 +3183,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"56GRc+RE3A9JrlZSD3v2roduXcO7EjACLgDdGEaXydY=\""
+          "Value": "\"h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm+djY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+          "Value": "Thu, 05 Dec 2024 15:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3115,13 +3197,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-56GRc+RE3A9JrlZSD3v2roduXcO7EjACLgDdGEaXydY="
+          "Value": "sha256-h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm+djY="
         }
       ]
     },
     {
-      "Route": "assets/css/bootstrap.ztje2hio61.css",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
+      "Route": "assets/css/custom-styles.hujs1axgqj.css",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\custom-styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3130,7 +3212,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "117309"
+          "Value": "13904"
         },
         {
           "Name": "Content-Type",
@@ -3138,11 +3220,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"56GRc+RE3A9JrlZSD3v2roduXcO7EjACLgDdGEaXydY=\""
+          "Value": "\"h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm+djY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+          "Value": "Thu, 05 Dec 2024 15:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3152,15 +3234,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ztje2hio61"
+          "Value": "hujs1axgqj"
         },
         {
           "Name": "label",
-          "Value": "assets/css/bootstrap.css"
+          "Value": "assets/css/custom-styles.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-56GRc+RE3A9JrlZSD3v2roduXcO7EjACLgDdGEaXydY="
+          "Value": "sha256-h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm+djY="
         }
       ]
     },
@@ -3243,88 +3325,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-ml2EwNd+fw0xbgWQAzTog7JCKdWh+CVBbb2hhHK9JAM="
-        }
-      ]
-    },
-    {
-      "Route": "assets/css/custom-styles.css",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\custom-styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13904"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm+djY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 15:58:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm+djY="
-        }
-      ]
-    },
-    {
-      "Route": "assets/css/custom-styles.hujs1axgqj.css",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\custom-styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13904"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm+djY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 15:58:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hujs1axgqj"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/css/custom-styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm+djY="
         }
       ]
     },
@@ -4477,8 +4477,8 @@
       ]
     },
     {
-      "Route": "assets/js/chart-data.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart-data.js",
+      "Route": "assets/js/custom.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4487,7 +4487,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3594"
+          "Value": "5928"
         },
         {
           "Name": "Content-Type",
@@ -4495,7 +4495,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QaVz44rYnDB8JFFPajFZHuElRmn3Wcm0yMSkyfSoN2Q=\""
+          "Value": "\"CZjP+SmO9M+EmMp+U0uwnPMv/zqxZBoaDLVH8POIF2A=\""
         },
         {
           "Name": "Last-Modified",
@@ -4509,13 +4509,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QaVz44rYnDB8JFFPajFZHuElRmn3Wcm0yMSkyfSoN2Q="
+          "Value": "sha256-CZjP+SmO9M+EmMp+U0uwnPMv/zqxZBoaDLVH8POIF2A="
         }
       ]
     },
     {
-      "Route": "assets/js/chart-data.x8oy2lkkme.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart-data.js",
+      "Route": "assets/js/custom.vyl7toa7mt.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4524,7 +4524,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3594"
+          "Value": "5928"
         },
         {
           "Name": "Content-Type",
@@ -4532,7 +4532,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QaVz44rYnDB8JFFPajFZHuElRmn3Wcm0yMSkyfSoN2Q=\""
+          "Value": "\"CZjP+SmO9M+EmMp+U0uwnPMv/zqxZBoaDLVH8POIF2A=\""
         },
         {
           "Name": "Last-Modified",
@@ -4546,179 +4546,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x8oy2lkkme"
+          "Value": "vyl7toa7mt"
         },
         {
           "Name": "label",
-          "Value": "assets/js/chart-data.js"
+          "Value": "assets/js/custom.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QaVz44rYnDB8JFFPajFZHuElRmn3Wcm0yMSkyfSoN2Q="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/chart.min.gl7q4ay3lg.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "52101"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DIv88FGCqqjvty1BahonZCUccaU7SVPC3D22T0btl3U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gl7q4ay3lg"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/chart.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DIv88FGCqqjvty1BahonZCUccaU7SVPC3D22T0btl3U="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/chart.min.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "52101"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DIv88FGCqqjvty1BahonZCUccaU7SVPC3D22T0btl3U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DIv88FGCqqjvty1BahonZCUccaU7SVPC3D22T0btl3U="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/chartjs.80n45uu1m8.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chartjs.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8829"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iDVFS2UoacGU1o7KGXH8ugDm9iF+VPHLR27WokgvpkI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "80n45uu1m8"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/chartjs.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-iDVFS2UoacGU1o7KGXH8ugDm9iF+VPHLR27WokgvpkI="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/chartjs.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chartjs.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8829"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iDVFS2UoacGU1o7KGXH8ugDm9iF+VPHLR27WokgvpkI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iDVFS2UoacGU1o7KGXH8ugDm9iF+VPHLR27WokgvpkI="
+          "Value": "sha256-CZjP+SmO9M+EmMp+U0uwnPMv/zqxZBoaDLVH8POIF2A="
         }
       ]
     },
@@ -4805,8 +4641,8 @@
       ]
     },
     {
-      "Route": "assets/js/custom.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom.js",
+      "Route": "assets/js/chart.min.gl7q4ay3lg.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4815,7 +4651,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5928"
+          "Value": "52101"
         },
         {
           "Name": "Content-Type",
@@ -4823,44 +4659,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CZjP+SmO9M+EmMp+U0uwnPMv/zqxZBoaDLVH8POIF2A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CZjP+SmO9M+EmMp+U0uwnPMv/zqxZBoaDLVH8POIF2A="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/custom.vyl7toa7mt.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5928"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CZjP+SmO9M+EmMp+U0uwnPMv/zqxZBoaDLVH8POIF2A=\""
+          "Value": "\"DIv88FGCqqjvty1BahonZCUccaU7SVPC3D22T0btl3U=\""
         },
         {
           "Name": "Last-Modified",
@@ -4874,15 +4673,216 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vyl7toa7mt"
+          "Value": "gl7q4ay3lg"
         },
         {
           "Name": "label",
-          "Value": "assets/js/custom.js"
+          "Value": "assets/js/chart.min.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CZjP+SmO9M+EmMp+U0uwnPMv/zqxZBoaDLVH8POIF2A="
+          "Value": "sha256-DIv88FGCqqjvty1BahonZCUccaU7SVPC3D22T0btl3U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/chart.min.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DIv88FGCqqjvty1BahonZCUccaU7SVPC3D22T0btl3U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DIv88FGCqqjvty1BahonZCUccaU7SVPC3D22T0btl3U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/chart-data.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart-data.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QaVz44rYnDB8JFFPajFZHuElRmn3Wcm0yMSkyfSoN2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QaVz44rYnDB8JFFPajFZHuElRmn3Wcm0yMSkyfSoN2Q="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/chart-data.x8oy2lkkme.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart-data.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QaVz44rYnDB8JFFPajFZHuElRmn3Wcm0yMSkyfSoN2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x8oy2lkkme"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/chart-data.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QaVz44rYnDB8JFFPajFZHuElRmn3Wcm0yMSkyfSoN2Q="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/chartjs.80n45uu1m8.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chartjs.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8829"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDVFS2UoacGU1o7KGXH8ugDm9iF+VPHLR27WokgvpkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "80n45uu1m8"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/chartjs.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDVFS2UoacGU1o7KGXH8ugDm9iF+VPHLR27WokgvpkI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/chartjs.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chartjs.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8829"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDVFS2UoacGU1o7KGXH8ugDm9iF+VPHLR27WokgvpkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDVFS2UoacGU1o7KGXH8ugDm9iF+VPHLR27WokgvpkI="
         }
       ]
     },
@@ -5133,88 +5133,6 @@
       ]
     },
     {
-      "Route": "assets/js/easypiechart-data.abud9529tp.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart-data.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "528"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"the1oYNvHFUdVhzvsKj3FuqFRlROWPINoKuhBuXDYwA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "abud9529tp"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/easypiechart-data.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-the1oYNvHFUdVhzvsKj3FuqFRlROWPINoKuhBuXDYwA="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/easypiechart-data.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart-data.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "528"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"the1oYNvHFUdVhzvsKj3FuqFRlROWPINoKuhBuXDYwA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-the1oYNvHFUdVhzvsKj3FuqFRlROWPINoKuhBuXDYwA="
-        }
-      ]
-    },
-    {
       "Route": "assets/js/easypiechart.js",
       "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart.js",
       "Selectors": [],
@@ -5297,8 +5215,8 @@
       ]
     },
     {
-      "Route": "assets/js/jquery-1.10.2.2y23a32bxf.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\jquery-1.10.2.js",
+      "Route": "assets/js/easypiechart-data.abud9529tp.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart-data.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5307,7 +5225,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "293285"
+          "Value": "528"
         },
         {
           "Name": "Content-Type",
@@ -5315,7 +5233,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VrgFJr6kxDzPPH/7X3KmUgTsUzUSiUCVAGqOXzDUtUI=\""
+          "Value": "\"the1oYNvHFUdVhzvsKj3FuqFRlROWPINoKuhBuXDYwA=\""
         },
         {
           "Name": "Last-Modified",
@@ -5329,21 +5247,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2y23a32bxf"
+          "Value": "abud9529tp"
         },
         {
           "Name": "label",
-          "Value": "assets/js/jquery-1.10.2.js"
+          "Value": "assets/js/easypiechart-data.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VrgFJr6kxDzPPH/7X3KmUgTsUzUSiUCVAGqOXzDUtUI="
+          "Value": "sha256-the1oYNvHFUdVhzvsKj3FuqFRlROWPINoKuhBuXDYwA="
         }
       ]
     },
     {
-      "Route": "assets/js/jquery-1.10.2.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\jquery-1.10.2.js",
+      "Route": "assets/js/easypiechart-data.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart-data.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5352,7 +5270,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "293285"
+          "Value": "528"
         },
         {
           "Name": "Content-Type",
@@ -5360,7 +5278,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VrgFJr6kxDzPPH/7X3KmUgTsUzUSiUCVAGqOXzDUtUI=\""
+          "Value": "\"the1oYNvHFUdVhzvsKj3FuqFRlROWPINoKuhBuXDYwA=\""
         },
         {
           "Name": "Last-Modified",
@@ -5374,7 +5292,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VrgFJr6kxDzPPH/7X3KmUgTsUzUSiUCVAGqOXzDUtUI="
+          "Value": "sha256-the1oYNvHFUdVhzvsKj3FuqFRlROWPINoKuhBuXDYwA="
         }
       ]
     },
@@ -5461,8 +5379,8 @@
       ]
     },
     {
-      "Route": "assets/js/Lightweight-Chart/chart.6o5gub4ovp.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\chart.js",
+      "Route": "assets/js/jquery-1.10.2.2y23a32bxf.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\jquery-1.10.2.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5471,7 +5389,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12195"
+          "Value": "293285"
         },
         {
           "Name": "Content-Type",
@@ -5479,7 +5397,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tqomWQaXj+AF0yRu8QQMV13i74ejEz8CjJUJPxDyv1U=\""
+          "Value": "\"VrgFJr6kxDzPPH/7X3KmUgTsUzUSiUCVAGqOXzDUtUI=\""
         },
         {
           "Name": "Last-Modified",
@@ -5493,21 +5411,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6o5gub4ovp"
+          "Value": "2y23a32bxf"
         },
         {
           "Name": "label",
-          "Value": "assets/js/Lightweight-Chart/chart.js"
+          "Value": "assets/js/jquery-1.10.2.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tqomWQaXj+AF0yRu8QQMV13i74ejEz8CjJUJPxDyv1U="
+          "Value": "sha256-VrgFJr6kxDzPPH/7X3KmUgTsUzUSiUCVAGqOXzDUtUI="
         }
       ]
     },
     {
-      "Route": "assets/js/Lightweight-Chart/chart.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\chart.js",
+      "Route": "assets/js/jquery-1.10.2.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\jquery-1.10.2.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5516,7 +5434,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12195"
+          "Value": "293285"
         },
         {
           "Name": "Content-Type",
@@ -5524,7 +5442,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tqomWQaXj+AF0yRu8QQMV13i74ejEz8CjJUJPxDyv1U=\""
+          "Value": "\"VrgFJr6kxDzPPH/7X3KmUgTsUzUSiUCVAGqOXzDUtUI=\""
         },
         {
           "Name": "Last-Modified",
@@ -5538,7 +5456,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tqomWQaXj+AF0yRu8QQMV13i74ejEz8CjJUJPxDyv1U="
+          "Value": "sha256-VrgFJr6kxDzPPH/7X3KmUgTsUzUSiUCVAGqOXzDUtUI="
         }
       ]
     },
@@ -5621,6 +5539,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-AZsKFvsBqDuNv81SoXtPDodnD5E+yvemiWD3PbTfN3Y="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/Lightweight-Chart/chart.6o5gub4ovp.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tqomWQaXj+AF0yRu8QQMV13i74ejEz8CjJUJPxDyv1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6o5gub4ovp"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/Lightweight-Chart/chart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tqomWQaXj+AF0yRu8QQMV13i74ejEz8CjJUJPxDyv1U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/Lightweight-Chart/chart.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tqomWQaXj+AF0yRu8QQMV13i74ejEz8CjJUJPxDyv1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tqomWQaXj+AF0yRu8QQMV13i74ejEz8CjJUJPxDyv1U="
         }
       ]
     },
@@ -6035,88 +6035,6 @@
       ]
     },
     {
-      "Route": "assets/js/morris/morris-0.4.3.min.css",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris-0.4.3.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "443"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ViLouKysE15oUzi5CxkZmwIi2Y5lsfq/laSKuWT2IUE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ViLouKysE15oUzi5CxkZmwIi2Y5lsfq/laSKuWT2IUE="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/morris/morris-0.4.3.min.e6r3qn6w8n.css",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris-0.4.3.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "443"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ViLouKysE15oUzi5CxkZmwIi2Y5lsfq/laSKuWT2IUE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "e6r3qn6w8n"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/morris/morris-0.4.3.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ViLouKysE15oUzi5CxkZmwIi2Y5lsfq/laSKuWT2IUE="
-        }
-      ]
-    },
-    {
       "Route": "assets/js/morris/morris.js",
       "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris.js",
       "Selectors": [],
@@ -6195,6 +6113,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zbBw+zCkbMImXpOsW1pmzw0e411GuiA+m7QobafUjOw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/morris/morris-0.4.3.min.css",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris-0.4.3.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ViLouKysE15oUzi5CxkZmwIi2Y5lsfq/laSKuWT2IUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ViLouKysE15oUzi5CxkZmwIi2Y5lsfq/laSKuWT2IUE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/morris/morris-0.4.3.min.e6r3qn6w8n.css",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris-0.4.3.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ViLouKysE15oUzi5CxkZmwIi2Y5lsfq/laSKuWT2IUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6r3qn6w8n"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/morris/morris-0.4.3.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ViLouKysE15oUzi5CxkZmwIi2Y5lsfq/laSKuWT2IUE="
         }
       ]
     },
@@ -8987,252 +8987,6 @@
       ]
     },
     {
-      "Route": "img/blog-sidebar1.36pnitoax0.jpg",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7546"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K8X7tpsDDbQy8X7XVAw7bNtil+EPbEycB6qzWaiU41M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "36pnitoax0"
-        },
-        {
-          "Name": "label",
-          "Value": "img/blog-sidebar1.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-K8X7tpsDDbQy8X7XVAw7bNtil+EPbEycB6qzWaiU41M="
-        }
-      ]
-    },
-    {
-      "Route": "img/blog-sidebar1.jpg",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7546"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K8X7tpsDDbQy8X7XVAw7bNtil+EPbEycB6qzWaiU41M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-K8X7tpsDDbQy8X7XVAw7bNtil+EPbEycB6qzWaiU41M="
-        }
-      ]
-    },
-    {
-      "Route": "img/blog-sidebar2.jpg",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6767"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2RRDNmdHcNN+3As9oTZSXWgVebjkrybQ8boP9HR5PWs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2RRDNmdHcNN+3As9oTZSXWgVebjkrybQ8boP9HR5PWs="
-        }
-      ]
-    },
-    {
-      "Route": "img/blog-sidebar2.ll132qchy8.jpg",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6767"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2RRDNmdHcNN+3As9oTZSXWgVebjkrybQ8boP9HR5PWs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ll132qchy8"
-        },
-        {
-          "Name": "label",
-          "Value": "img/blog-sidebar2.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2RRDNmdHcNN+3As9oTZSXWgVebjkrybQ8boP9HR5PWs="
-        }
-      ]
-    },
-    {
-      "Route": "img/blog-sidebar3.ed4obyyu30.jpg",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7292"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"In8DMHpQhN1LOaTCR1RP6+k9hJ05dZL+Guh+KFYqITI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ed4obyyu30"
-        },
-        {
-          "Name": "label",
-          "Value": "img/blog-sidebar3.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-In8DMHpQhN1LOaTCR1RP6+k9hJ05dZL+Guh+KFYqITI="
-        }
-      ]
-    },
-    {
-      "Route": "img/blog-sidebar3.jpg",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7292"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"In8DMHpQhN1LOaTCR1RP6+k9hJ05dZL+Guh+KFYqITI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-In8DMHpQhN1LOaTCR1RP6+k9hJ05dZL+Guh+KFYqITI="
-        }
-      ]
-    },
-    {
       "Route": "img/blog1.jpg",
       "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog1.jpg",
       "Selectors": [],
@@ -9479,6 +9233,252 @@
       ]
     },
     {
+      "Route": "img/blog-sidebar1.36pnitoax0.jpg",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K8X7tpsDDbQy8X7XVAw7bNtil+EPbEycB6qzWaiU41M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "36pnitoax0"
+        },
+        {
+          "Name": "label",
+          "Value": "img/blog-sidebar1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K8X7tpsDDbQy8X7XVAw7bNtil+EPbEycB6qzWaiU41M="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog-sidebar1.jpg",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K8X7tpsDDbQy8X7XVAw7bNtil+EPbEycB6qzWaiU41M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K8X7tpsDDbQy8X7XVAw7bNtil+EPbEycB6qzWaiU41M="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog-sidebar2.jpg",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RRDNmdHcNN+3As9oTZSXWgVebjkrybQ8boP9HR5PWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2RRDNmdHcNN+3As9oTZSXWgVebjkrybQ8boP9HR5PWs="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog-sidebar2.ll132qchy8.jpg",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RRDNmdHcNN+3As9oTZSXWgVebjkrybQ8boP9HR5PWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ll132qchy8"
+        },
+        {
+          "Name": "label",
+          "Value": "img/blog-sidebar2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2RRDNmdHcNN+3As9oTZSXWgVebjkrybQ8boP9HR5PWs="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog-sidebar3.ed4obyyu30.jpg",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"In8DMHpQhN1LOaTCR1RP6+k9hJ05dZL+Guh+KFYqITI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ed4obyyu30"
+        },
+        {
+          "Name": "label",
+          "Value": "img/blog-sidebar3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-In8DMHpQhN1LOaTCR1RP6+k9hJ05dZL+Guh+KFYqITI="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog-sidebar3.jpg",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"In8DMHpQhN1LOaTCR1RP6+k9hJ05dZL+Guh+KFYqITI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-In8DMHpQhN1LOaTCR1RP6+k9hJ05dZL+Guh+KFYqITI="
+        }
+      ]
+    },
+    {
       "Route": "img/bread-bg.jpg",
       "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\bread-bg.jpg",
       "Selectors": [],
@@ -9721,88 +9721,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-s/6jxpaYce+/ooRSeqCi0RFs1qPfnHexAyqVknR34oA="
-        }
-      ]
-    },
-    {
-      "Route": "img/client-bg.ha98onydqy.jpg",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client-bg.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20866"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9+oiDGimzHa/gEpmsk3HbBvg9Z9/pwVbZr6tffwnRmE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ha98onydqy"
-        },
-        {
-          "Name": "label",
-          "Value": "img/client-bg.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9+oiDGimzHa/gEpmsk3HbBvg9Z9/pwVbZr6tffwnRmE="
-        }
-      ]
-    },
-    {
-      "Route": "img/client-bg.jpg",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client-bg.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20866"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9+oiDGimzHa/gEpmsk3HbBvg9Z9/pwVbZr6tffwnRmE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9+oiDGimzHa/gEpmsk3HbBvg9Z9/pwVbZr6tffwnRmE="
         }
       ]
     },
@@ -10217,6 +10135,88 @@
       ]
     },
     {
+      "Route": "img/client-bg.ha98onydqy.jpg",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client-bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9+oiDGimzHa/gEpmsk3HbBvg9Z9/pwVbZr6tffwnRmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ha98onydqy"
+        },
+        {
+          "Name": "label",
+          "Value": "img/client-bg.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9+oiDGimzHa/gEpmsk3HbBvg9Z9/pwVbZr6tffwnRmE="
+        }
+      ]
+    },
+    {
+      "Route": "img/client-bg.jpg",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client-bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9+oiDGimzHa/gEpmsk3HbBvg9Z9/pwVbZr6tffwnRmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9+oiDGimzHa/gEpmsk3HbBvg9Z9/pwVbZr6tffwnRmE="
+        }
+      ]
+    },
+    {
       "Route": "img/contact-img.02txrw0kph.png",
       "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\contact-img.png",
       "Selectors": [],
@@ -10627,6 +10627,88 @@
       ]
     },
     {
+      "Route": "img/logo.gbr968um52.png",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gbr968um52"
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y+E="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.png",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y+E="
+        }
+      ]
+    },
+    {
       "Route": "img/Logo_BenhViens/logo-benh-vien-cho-ray.avc8g0ehr0.png",
       "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\Logo_BenhViens\\logo-benh-vien-cho-ray.png",
       "Selectors": [],
@@ -10787,88 +10869,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-JiOwilB+RmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg="
-        }
-      ]
-    },
-    {
-      "Route": "img/logo.gbr968um52.png",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2016"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y+E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gbr968um52"
-        },
-        {
-          "Name": "label",
-          "Value": "img/logo.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y+E="
-        }
-      ]
-    },
-    {
-      "Route": "img/logo.png",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2016"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y+E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y+E="
         }
       ]
     },
@@ -12513,88 +12513,6 @@
       ]
     },
     {
-      "Route": "js/bootstrap-datepicker.9u7ywz9hut.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap-datepicker.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14249"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z0dTQrvf/IP4npEQMZUYHoh/3VgvK+U0A5o6AIxpPTU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9u7ywz9hut"
-        },
-        {
-          "Name": "label",
-          "Value": "js/bootstrap-datepicker.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-z0dTQrvf/IP4npEQMZUYHoh/3VgvK+U0A5o6AIxpPTU="
-        }
-      ]
-    },
-    {
-      "Route": "js/bootstrap-datepicker.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap-datepicker.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14249"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z0dTQrvf/IP4npEQMZUYHoh/3VgvK+U0A5o6AIxpPTU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-z0dTQrvf/IP4npEQMZUYHoh/3VgvK+U0A5o6AIxpPTU="
-        }
-      ]
-    },
-    {
       "Route": "js/bootstrap.min.1ktejbq27s.js",
       "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap.min.js",
       "Selectors": [],
@@ -12673,6 +12591,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-31POnf9wu4OPidF1kDaREUGTnQhfJTwqGbfLIdZJFhU="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap-datepicker.9u7ywz9hut.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap-datepicker.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z0dTQrvf/IP4npEQMZUYHoh/3VgvK+U0A5o6AIxpPTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9u7ywz9hut"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap-datepicker.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z0dTQrvf/IP4npEQMZUYHoh/3VgvK+U0A5o6AIxpPTU="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap-datepicker.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap-datepicker.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z0dTQrvf/IP4npEQMZUYHoh/3VgvK+U0A5o6AIxpPTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z0dTQrvf/IP4npEQMZUYHoh/3VgvK+U0A5o6AIxpPTU="
         }
       ]
     },
@@ -12923,88 +12923,6 @@
       ]
     },
     {
-      "Route": "js/hienthimk_confirm.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk_confirm.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "568"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FTct19FMeMX5lPXBlnenxFO6cjRBiEabZJdukZHpRmI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FTct19FMeMX5lPXBlnenxFO6cjRBiEabZJdukZHpRmI="
-        }
-      ]
-    },
-    {
-      "Route": "js/hienthimk_confirm.zq6nved4qv.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk_confirm.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "568"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FTct19FMeMX5lPXBlnenxFO6cjRBiEabZJdukZHpRmI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zq6nved4qv"
-        },
-        {
-          "Name": "label",
-          "Value": "js/hienthimk_confirm.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FTct19FMeMX5lPXBlnenxFO6cjRBiEabZJdukZHpRmI="
-        }
-      ]
-    },
-    {
       "Route": "js/hienthimk.jnpx62qrpm.js",
       "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk.js",
       "Selectors": [],
@@ -13087,8 +13005,8 @@
       ]
     },
     {
-      "Route": "js/jquery-migrate-3.0.0.covgo6cc2t.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-migrate-3.0.0.js",
+      "Route": "js/hienthimk_confirm.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk_confirm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13097,7 +13015,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7084"
+          "Value": "568"
         },
         {
           "Name": "Content-Type",
@@ -13105,52 +13023,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pEtXJ71FOVm6jyrjf9I1knK3MK2gnoD7Klu//Qhu8HU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "covgo6cc2t"
-        },
-        {
-          "Name": "label",
-          "Value": "js/jquery-migrate-3.0.0.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pEtXJ71FOVm6jyrjf9I1knK3MK2gnoD7Klu//Qhu8HU="
-        }
-      ]
-    },
-    {
-      "Route": "js/jquery-migrate-3.0.0.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-migrate-3.0.0.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7084"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pEtXJ71FOVm6jyrjf9I1knK3MK2gnoD7Klu//Qhu8HU=\""
+          "Value": "\"FTct19FMeMX5lPXBlnenxFO6cjRBiEabZJdukZHpRmI=\""
         },
         {
           "Name": "Last-Modified",
@@ -13164,13 +13037,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pEtXJ71FOVm6jyrjf9I1knK3MK2gnoD7Klu//Qhu8HU="
+          "Value": "sha256-FTct19FMeMX5lPXBlnenxFO6cjRBiEabZJdukZHpRmI="
         }
       ]
     },
     {
-      "Route": "js/jquery-ui.min.5vfv76728v.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-ui.min.js",
+      "Route": "js/hienthimk_confirm.zq6nved4qv.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk_confirm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13179,7 +13052,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30936"
+          "Value": "568"
         },
         {
           "Name": "Content-Type",
@@ -13187,7 +13060,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"724cW4h9VBmUgsEOS8Ieec/Tppy2Ifm9+rZIU/rCYFw=\""
+          "Value": "\"FTct19FMeMX5lPXBlnenxFO6cjRBiEabZJdukZHpRmI=\""
         },
         {
           "Name": "Last-Modified",
@@ -13201,52 +13074,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5vfv76728v"
+          "Value": "zq6nved4qv"
         },
         {
           "Name": "label",
-          "Value": "js/jquery-ui.min.js"
+          "Value": "js/hienthimk_confirm.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-724cW4h9VBmUgsEOS8Ieec/Tppy2Ifm9+rZIU/rCYFw="
-        }
-      ]
-    },
-    {
-      "Route": "js/jquery-ui.min.js",
-      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-ui.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30936"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"724cW4h9VBmUgsEOS8Ieec/Tppy2Ifm9+rZIU/rCYFw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-724cW4h9VBmUgsEOS8Ieec/Tppy2Ifm9+rZIU/rCYFw="
+          "Value": "sha256-FTct19FMeMX5lPXBlnenxFO6cjRBiEabZJdukZHpRmI="
         }
       ]
     },
@@ -13739,6 +13575,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-oueyVwWEYkVrZE9BngfUl2OayqeeS//uBP/kRFcfccY="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-migrate-3.0.0.covgo6cc2t.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-migrate-3.0.0.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pEtXJ71FOVm6jyrjf9I1knK3MK2gnoD7Klu//Qhu8HU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "covgo6cc2t"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery-migrate-3.0.0.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pEtXJ71FOVm6jyrjf9I1knK3MK2gnoD7Klu//Qhu8HU="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-migrate-3.0.0.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-migrate-3.0.0.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pEtXJ71FOVm6jyrjf9I1knK3MK2gnoD7Klu//Qhu8HU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pEtXJ71FOVm6jyrjf9I1knK3MK2gnoD7Klu//Qhu8HU="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-ui.min.5vfv76728v.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-ui.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"724cW4h9VBmUgsEOS8Ieec/Tppy2Ifm9+rZIU/rCYFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5vfv76728v"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery-ui.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-724cW4h9VBmUgsEOS8Ieec/Tppy2Ifm9+rZIU/rCYFw="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-ui.min.js",
+      "AssetFile": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-ui.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"724cW4h9VBmUgsEOS8Ieec/Tppy2Ifm9+rZIU/rCYFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 13:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-724cW4h9VBmUgsEOS8Ieec/Tppy2Ifm9+rZIU/rCYFw="
         }
       ]
     },

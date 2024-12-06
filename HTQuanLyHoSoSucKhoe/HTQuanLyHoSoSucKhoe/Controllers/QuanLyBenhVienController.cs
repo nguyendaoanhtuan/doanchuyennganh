@@ -144,7 +144,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             return View();
         }
 
-        public IActionResult caiDatTaiKhoan()
+        public IActionResult CaiDatTaiKhoan()
         {
             var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của bệnh viện từ claims
 

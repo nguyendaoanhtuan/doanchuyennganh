@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jbriskv5u7"},{"Name":"integrity","Value":"sha256-z/aTw/5iHvQ7AQbf7zTNJttnVeSU7xUE02E669AVxpE="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/assets/css/bootstrap-theme.min.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19967"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022z/aTw/5iHvQ7AQbf7zTNJttnVeSU7xUE02E669AVxpE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/assets/css/bootstrap.6pyy0pk0dm.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\bootstrap.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6pyy0pk0dm"},{"Name":"integrity","Value":"sha256-1teqLenzsHP5QuhH9jtduF\u002BPODRfrNfmjMlGV6vCVA8="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/assets/css/bootstrap.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"161513"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221teqLenzsHP5QuhH9jtduF\u002BPODRfrNfmjMlGV6vCVA8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Dec 2024 14:50:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/assets/css/bootstrap.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\bootstrap.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-56GRc\u002BRE3A9JrlZSD3v2roduXcO7EjACLgDdGEaXydY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"117309"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002256GRc\u002BRE3A9JrlZSD3v2roduXcO7EjACLgDdGEaXydY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/assets/css/bootstrap.ztje2hio61.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\bootstrap.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ztje2hio61"},{"Name":"integrity","Value":"sha256-56GRc\u002BRE3A9JrlZSD3v2roduXcO7EjACLgDdGEaXydY="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/assets/css/bootstrap.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"117309"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002256GRc\u002BRE3A9JrlZSD3v2roduXcO7EjACLgDdGEaXydY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1teqLenzsHP5QuhH9jtduF\u002BPODRfrNfmjMlGV6vCVA8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"161513"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221teqLenzsHP5QuhH9jtduF\u002BPODRfrNfmjMlGV6vCVA8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Dec 2024 14:50:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/assets/css/checkbox3.min.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\checkbox3.min.css'))</AssetFile>

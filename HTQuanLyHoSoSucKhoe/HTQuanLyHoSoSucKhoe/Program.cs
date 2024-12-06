@@ -81,6 +81,7 @@ app.MapControllerRoute(
     defaults: new { controller = "QuanLyBenhVien", action = "Index" }) .RequireAuthorization("Admin");;
 
 
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
