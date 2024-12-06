@@ -34,7 +34,6 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     Address = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Phone_Number = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false),
                     Image_Path = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    ChuyenKhoa = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     RoleId = table.Column<int>(type: "int", nullable: false),
                     Created_At = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -62,6 +61,8 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     Ho = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Ten = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Cccd = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Image_Path = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     RoleId = table.Column<int>(type: "int", nullable: false),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Created_At = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -184,6 +185,40 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                         principalColumn: "Id");
                 });
 
+            migrationBuilder.CreateTable(
+                name: "bac_sis",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    hoTen = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ngaySinh = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    gioiTinh = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    soDienThoai = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    diaChi = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Image_Path = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    ChuyenKhoaId = table.Column<int>(type: "int", nullable: false),
+                    BenhVienId = table.Column<int>(type: "int", nullable: false),
+                    ngayTaoBacSi = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_bac_sis", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_bac_sis_benh_vien_BenhVienId",
+                        column: x => x.BenhVienId,
+                        principalTable: "benh_vien",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_bac_sis_chuyen_khoa_ChuyenKhoaId",
+                        column: x => x.ChuyenKhoaId,
+                        principalTable: "chuyen_khoa",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_appointments_BenhVienId",
                 table: "appointments",
@@ -193,6 +228,16 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                 name: "IX_appointments_UserId",
                 table: "appointments",
                 column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_bac_sis_BenhVienId",
+                table: "bac_sis",
+                column: "BenhVienId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_bac_sis_ChuyenKhoaId",
+                table: "bac_sis",
+                column: "ChuyenKhoaId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_benh_vien_RoleId",
@@ -212,8 +257,7 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_ho_so_benh_an_UserId",
                 table: "ho_so_benh_an",
-                column: "UserId",
-                unique: true);
+                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_tai_khoan_BenhVienId",
@@ -248,7 +292,7 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                 name: "appointments");
 
             migrationBuilder.DropTable(
-                name: "chuyen_khoa");
+                name: "bac_sis");
 
             migrationBuilder.DropTable(
                 name: "ho_so_benh_an");
@@ -257,10 +301,13 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                 name: "tai_khoan");
 
             migrationBuilder.DropTable(
-                name: "benh_vien");
+                name: "chuyen_khoa");
 
             migrationBuilder.DropTable(
                 name: "users");
+
+            migrationBuilder.DropTable(
+                name: "benh_vien");
 
             migrationBuilder.DropTable(
                 name: "roles");

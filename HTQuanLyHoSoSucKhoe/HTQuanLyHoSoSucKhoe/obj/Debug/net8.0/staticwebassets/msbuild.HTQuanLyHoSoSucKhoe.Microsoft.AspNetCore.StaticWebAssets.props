@@ -1674,6 +1674,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-cho-ray.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HTQuanLyHoSoSucKhoe</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HTQuanLyHoSoSucKhoe</BasePath>
+      <RelativePath>img/Logo_BenhViens/logo-benh-vien-cho-ray.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>avc8g0ehr0</Fingerprint>
+      <Integrity>JiOwilB+RmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-cho-ray.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_User\logo-benh-vien-cho-ray.png'))">
       <SourceType>Package</SourceType>
       <SourceId>HTQuanLyHoSoSucKhoe</SourceId>

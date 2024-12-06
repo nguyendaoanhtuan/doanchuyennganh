@@ -59,11 +59,37 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
                 TempData["ErrorMessage"] = "Không tìm thấy tài khoản với CCCD này!";
                 return RedirectToAction("Index");
             }
+            var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của bệnh viện từ claims
+
+            // Kiểm tra xem benhVienId có tồn tại trong claims không
+            if (string.IsNullOrEmpty(benhVienId))
+            {
+                return RedirectToAction("Login", "Users"); // Nếu không có benhVienId, điều hướng về trang login
+            }
+
+            // Chuyển đổi benhVienId thành kiểu int (giả sử Id là kiểu int)
+            if (!int.TryParse(benhVienId, out var parsedBenhVienId))
+            {
+                return RedirectToAction("Login", "Users"); // Nếu không thể chuyển đổi ID, điều hướng về trang login
+            }
+
+            // Tìm tài khoản bệnh viện hiện tại dựa trên benhVienId
+            var taiKhoan = _context.TaiKhoans.Include(t => t.BenhVien) // Include BenhVien để lấy thông tin bệnh viện
+                                              .FirstOrDefault(t => t.BenhVien.Id == parsedBenhVienId);
+
+            if (taiKhoan == null)
+            {
+                return NotFound(); // Nếu không tìm thấy tài khoản bệnh viện, trả về lỗi
+            }
+
+            // Lấy bệnh viện của tài khoản bệnh viện hiện tại
+            var benhVien = _context.BenhVien.FirstOrDefault(bv => bv.Id == parsedBenhVienId);
+
             // Tạo hồ sơ bệnh án từ model truyền vào
             var hoSoBenhAn = new HoSoBenhAn
                 {
                     UserId = user.Id,
-                    BenhVienId = model.BenhVienId,
+                    BenhVienId = benhVien.Id,
                     trieuChung = model.TrieuChung,
                     chanDoan = model.ChanDoan,
                     thuocDuocKe = model.ThuocDuocKe,

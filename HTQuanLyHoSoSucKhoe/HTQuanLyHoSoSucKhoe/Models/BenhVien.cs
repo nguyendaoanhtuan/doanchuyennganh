@@ -23,8 +23,6 @@ namespace HTQuanLyHoSoSucKhoe.Models
         [StringLength(255)]
         public string Image_Path { get; set; }  // Đường dẫn ảnh
 
-        [StringLength(255)]
-        public string ChuyenKhoa { get; set; }  // Chuyên khoa
 
         public string Description { get; set; }  // Mô tả chi tiết về bệnh viện
 
@@ -43,5 +41,7 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public virtual ICollection<HoSoBenhAn> HoSoBenhAns { get; set; } // Một BenhVien có thể có nhiều HoSoBenhAn
 
         public virtual TaiKhoan TaiKhoan { get; set; }
+
+        public virtual ICollection<BacSi> BacSis { get; set; }
     }
 }

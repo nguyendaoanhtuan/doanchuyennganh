@@ -15,6 +15,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<ChuyenKhoa> ChuyenKhoas { get; set; }
     public DbSet<TaiKhoan> TaiKhoans { get; set; }
     public DbSet<Role> Roles { get; set; }
+    public DbSet<BacSi> BacSis { get; set; }
 
     // Cấu hình bảng, ánh xạ cột và khóa
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -27,6 +28,28 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<ChuyenKhoa>().ToTable("chuyen_khoa");
         modelBuilder.Entity<TaiKhoan>().ToTable("tai_khoan");
         modelBuilder.Entity<Role>().ToTable("roles");
+        modelBuilder.Entity<BacSi>().ToTable("bac_sis");
+
+        // Cấu hình quan hệ BenhVien - ChuyenKhoa (1-nhiều)
+        modelBuilder.Entity<BenhVien>()
+            .HasMany(bv => bv.ChuyenKhoas)
+            .WithOne(ck => ck.BenhVien)
+            .HasForeignKey(ck => ck.BenhVienId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // Cấu hình quan hệ BenhVien - BacSi (1-nhiều)
+        modelBuilder.Entity<BenhVien>()
+            .HasMany(bv => bv.BacSis)
+            .WithOne(bs => bs.BenhVien)
+            .HasForeignKey(bs => bs.BenhVienId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        // Cấu hình quan hệ ChuyenKhoa - BacSi (1-nhiều)
+        modelBuilder.Entity<ChuyenKhoa>()
+            .HasMany(ck => ck.BacSis)
+            .WithOne(bs => bs.ChuyenKhoa)
+            .HasForeignKey(bs => bs.ChuyenKhoaId)
+            .OnDelete(DeleteBehavior.Cascade);
 
         // Ràng buộc UserId và BenhVienId là duy nhất trong TaiKhoan
         modelBuilder.Entity<TaiKhoan>()
@@ -50,8 +73,8 @@ public class ApplicationDbContext : DbContext
         // Cấu hình mối quan hệ User - HoSoBenhAn
         modelBuilder.Entity<HoSoBenhAn>()
             .HasOne(h => h.User)
-            .WithOne(u => u.HoSoBenhAn)
-            .HasForeignKey<HoSoBenhAn>(h => h.UserId)
+            .WithMany(u => u.HoSoBenhAns)
+            .HasForeignKey(h => h.UserId)
             .OnDelete(DeleteBehavior.NoAction); // Thay đổi từ Cascade thành NoAction
 
         // Cấu hình mối quan hệ BenhVien - HoSoBenhAn
@@ -74,13 +97,6 @@ public class ApplicationDbContext : DbContext
             .WithMany(bv => bv.Appointments)  // Một BenhVien có thể có nhiều Appointment
             .HasForeignKey(a => a.BenhVienId)  // Khóa ngoại từ Appointment đến BenhVien
             .OnDelete(DeleteBehavior.NoAction); // Không thực hiện Cascade khi BenhVien bị xóa
-
-        // Cấu hình mối quan hệ BenhVien - ChuyenKhoa
-        modelBuilder.Entity<ChuyenKhoa>()
-            .HasOne(ck => ck.BenhVien)
-            .WithMany(bv => bv.ChuyenKhoas)
-            .HasForeignKey(ck => ck.BenhVienId)
-            .OnDelete(DeleteBehavior.NoAction); // Thay đổi từ Cascade thành NoAction
 
         // Cấu hình mối quan hệ User - Role
         modelBuilder.Entity<User>()

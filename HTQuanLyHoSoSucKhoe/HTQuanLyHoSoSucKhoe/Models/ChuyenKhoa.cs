@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using HTQuanLyHoSoSucKhoe.Models;
+
 
 namespace HTQuanLyHoSoSucKhoe.Models
 {
@@ -7,7 +9,7 @@ namespace HTQuanLyHoSoSucKhoe.Models
     {
         public int Id { get; set; }
 
-        [ForeignKey("BenhVien")]
+    
         public int BenhVienId { get; set; }
 
         [Required]
@@ -15,5 +17,7 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public string Name { get; set; }
 
         public virtual BenhVien BenhVien { get; set; }
+
+        public virtual ICollection<BacSi> BacSis { get; set; }
     }
 }

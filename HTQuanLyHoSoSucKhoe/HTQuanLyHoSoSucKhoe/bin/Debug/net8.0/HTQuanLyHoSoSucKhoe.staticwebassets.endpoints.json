@@ -5414,6 +5414,88 @@
       ]
     },
     {
+      "Route": "img/Logo_BenhViens/logo-benh-vien-cho-ray.avc8g0ehr0.png",
+      "AssetFile": "img/Logo_BenhViens/logo-benh-vien-cho-ray.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "217881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JiOwilB+RmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 07:42:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "avc8g0ehr0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JiOwilB+RmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg="
+        },
+        {
+          "Name": "label",
+          "Value": "img/Logo_BenhViens/logo-benh-vien-cho-ray.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/Logo_BenhViens/logo-benh-vien-cho-ray.png",
+      "AssetFile": "img/Logo_BenhViens/logo-benh-vien-cho-ray.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "217881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JiOwilB+RmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 07:42:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JiOwilB+RmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg="
+        }
+      ]
+    },
+    {
       "Route": "img/Logo_User/logo-benh-vien-cho-ray.avc8g0ehr0.png",
       "AssetFile": "img/Logo_User/logo-benh-vien-cho-ray.png",
       "Selectors": [],

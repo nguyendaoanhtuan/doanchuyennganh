@@ -70,6 +70,60 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     b.ToTable("appointments", (string)null);
                 });
 
+            modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.BacSi", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BenhVienId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ChuyenKhoaId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Image_Path")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<string>("diaChi")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("gioiTinh")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("hoTen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ngaySinh")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ngayTaoBacSi")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("soDienThoai")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BenhVienId");
+
+                    b.HasIndex("ChuyenKhoaId");
+
+                    b.ToTable("bac_sis", (string)null);
+                });
+
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.BenhVien", b =>
                 {
                     b.Property<int>("Id")
@@ -79,11 +133,6 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("ChuyenKhoa")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
@@ -190,8 +239,7 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
 
                     b.HasIndex("BenhVienId");
 
-                    b.HasIndex("UserId")
-                        .IsUnique();
+                    b.HasIndex("UserId");
 
                     b.ToTable("ho_so_benh_an", (string)null);
                 });
@@ -323,6 +371,25 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.BacSi", b =>
+                {
+                    b.HasOne("HTQuanLyHoSoSucKhoe.Models.BenhVien", "BenhVien")
+                        .WithMany("BacSis")
+                        .HasForeignKey("BenhVienId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HTQuanLyHoSoSucKhoe.Models.ChuyenKhoa", "ChuyenKhoa")
+                        .WithMany("BacSis")
+                        .HasForeignKey("ChuyenKhoaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("BenhVien");
+
+                    b.Navigation("ChuyenKhoa");
+                });
+
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.BenhVien", b =>
                 {
                     b.HasOne("HTQuanLyHoSoSucKhoe.Models.Role", "Role")
@@ -354,8 +421,8 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                         .IsRequired();
 
                     b.HasOne("HTQuanLyHoSoSucKhoe.Models.User", "User")
-                        .WithOne("HoSoBenhAn")
-                        .HasForeignKey("HTQuanLyHoSoSucKhoe.Models.HoSoBenhAn", "UserId")
+                        .WithMany("HoSoBenhAns")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
@@ -394,12 +461,19 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                 {
                     b.Navigation("Appointments");
 
+                    b.Navigation("BacSis");
+
                     b.Navigation("ChuyenKhoas");
 
                     b.Navigation("HoSoBenhAns");
 
                     b.Navigation("TaiKhoan")
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.ChuyenKhoa", b =>
+                {
+                    b.Navigation("BacSis");
                 });
 
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.Role", b =>
@@ -413,8 +487,7 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                 {
                     b.Navigation("Appointments");
 
-                    b.Navigation("HoSoBenhAn")
-                        .IsRequired();
+                    b.Navigation("HoSoBenhAns");
 
                     b.Navigation("TaiKhoan")
                         .IsRequired();
