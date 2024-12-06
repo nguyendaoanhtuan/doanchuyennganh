@@ -1,8 +1,8 @@
-﻿@model HTQuanLyHoSoSucKhoe.ViewModels.ThongTinBenhVienViewModel
+﻿@model HTQuanLyHoSoSucKhoe.ViewModels.ThongTinNguoiDungViewModel
 
 
 @{
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 
 }
 
@@ -10,7 +10,7 @@
     <div class="header">
         <h1 class="page-header">Cài đặt tài khoản</h1>
         <ol class="breadcrumb">
-            <li><a asp-action="Index" asp-controller="QuanLyBenhVien">Trang chủ</a></li>
+            <li><a asp-action="Index" asp-controller="Home">Trang chủ</a></li>
             <li class="active">Cài đặt tài khoản</li>
         </ol>
     </div>
@@ -24,9 +24,9 @@
                         <div class="row">
                             <!-- Khu vực hiển thị hình ảnh -->
                             <div class="col-md-4 text-center">
-                                @if (!string.IsNullOrEmpty(Model.DuongDanHinhAnh))
+                                @if (!string.IsNullOrEmpty(Model.duongDanHinhAnh))
                                 {
-                                    <img src="@Model.DuongDanHinhAnh" alt="Hình đại diện" class="img-thumbnail" style="width: 200px; height: 200px; object-fit: cover;">
+                                    <img src="@Model.duongDanHinhAnh" alt="Hình đại diện" class="img-thumbnail" style="width: 200px; height: 200px; object-fit: cover;">
                                 }
                                 else
                                 {
@@ -38,7 +38,7 @@
                                 <!-- Modal cập nhật hình ảnh -->
                                 <div class="modal fade" id="updateImageModal" tabindex="-1" role="dialog" aria-labelledby="updateImageModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
-                                        <form asp-action="capNhatHinhAnh" asp-controller="QuanLyBenhVien" method="post" enctype="multipart/form-data">
+                                        <form asp-action="capNhatHinhAnh" asp-controller="Users" method="post" enctype="multipart/form-data">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -61,16 +61,24 @@
                             <div class="col-md-6">
                                 <table class="detail-table">
                                     <tr>
-                                        <th>Tên bệnh viện:</th>
-                                        <td><input class="form-control" type="text" value="@Model.TenBenhVien" readonly></td>
+                                        <th>Họ:</th>
+                                        <td><input class="form-control" type="text" value="@Model.Ho" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tên:</th>
+                                        <td><input class="form-control" type="text" value="@Model.Ten" readonly></td>
                                     </tr>
                                     <tr>
                                         <th>Số điện thoại:</th>
-                                        <td><input class="form-control" type="text" value="@Model.SoDienThoai" readonly></td>
+                                        <td><input class="form-control" type="text" value="@Model.soDienThoai" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>CCCD:</th>
+                                        <td><input class="form-control" type="text" value="@Model.cCCD" readonly></td>
                                     </tr>
                                     <tr>
                                         <th>Địa chỉ:</th>
-                                        <td><input class="form-control" type="text" value="@Model.DiaChi" readonly></td>
+                                        <td><input class="form-control" type="text" value="@Model.diaChi" readonly></td>
                                     </tr>
                                 </table>
                                 <div class="btn-container-form">
@@ -79,7 +87,7 @@
                                 <!-- Modal chỉnh sửa thông tin -->
                                 <div class="modal fade" id="editInfoModal" tabindex="-1" role="dialog" aria-labelledby="editInfoModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
-                                        <form asp-action="chinhSuaThongTin" asp-controller="QuanLyBenhVien" method="post">
+                                        <form asp-action="chinhSuaThongTin" asp-controller="Users" method="post">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -88,16 +96,24 @@
                                                 <div class="modal-body">
                                                     <table class="detail-table">
                                                         <tr>
-                                                            <th>Tên bệnh viện:</th>
-                                                            <td><input class="form-control" asp-for="TenBenhVien" type="text" value="@Model.TenBenhVien"></td>
+                                                            <th>Họ:</th>
+                                                            <td><input class="form-control" asp-for="Ho" type="text" value="@Model.Ho"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Tên:</th>
+                                                            <td><input class="form-control" asp-for="Ten" type="text" value="@Model.Ten"></td>
                                                         </tr>
                                                         <tr>
                                                             <th>Số điện thoại:</th>
-                                                            <td><input class="form-control" asp-for="SoDienThoai" type="text" value="@Model.SoDienThoai"></td>
+                                                            <td><input class="form-control" asp-for="soDienThoai" type="text" value="@Model.soDienThoai"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>CCCD:</th>
+                                                            <td><input class="form-control" asp-for="cCCD" type="text" value="@Model.cCCD"></td>
                                                         </tr>
                                                         <tr>
                                                             <th>Địa chỉ:</th>
-                                                            <td><input class="form-control" asp-for="DiaChi" type="text" value="@Model.DiaChi"></td>
+                                                            <td><input class="form-control" asp-for="diaChi" type="text" value="@Model.diaChi"></td>
                                                         </tr>
                                                     </table>
                                                 </div>
@@ -115,7 +131,7 @@
                                 <!-- Modal thay đổi mật khẩu -->
                                 <div class="modal fade" id="changePasswordModal" tabindex="-1" role="dialog" aria-labelledby="changePasswordModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
-                                        <form asp-action="thayDoiMatKhau" asp-controller="QuanLyBenhVien" method="post">
+                                        <form asp-action="thayDoiMatKhau" asp-controller="Users" method="post">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>

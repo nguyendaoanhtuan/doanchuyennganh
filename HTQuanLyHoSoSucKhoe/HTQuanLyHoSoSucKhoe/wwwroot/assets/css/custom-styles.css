@@ -668,8 +668,7 @@ font-size: 19px;
 
  /*chỉnh sửa css thêm cho phần thông tin chi tiết quản lý đặt khám*/
 .detail-table {
-    width: 50%;
-    margin: auto;
+    width: 100%;
     border-collapse: collapse;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -695,7 +694,6 @@ font-size: 19px;
 }
 
 .btn-container-form {
-    text-align: center;
     margin-top: 20px;
 }
 

@@ -19,8 +19,11 @@ namespace HTQuanLyHoSoSucKhoe.Models
         [Required]
         public string Cccd { get; set; }
 
-        [NotMapped]
+       
         public string Address { get; set; }
+
+        [StringLength(255)]
+        public string Image_Path { get; set; } 
         
         public int RoleId { get; set; }
 

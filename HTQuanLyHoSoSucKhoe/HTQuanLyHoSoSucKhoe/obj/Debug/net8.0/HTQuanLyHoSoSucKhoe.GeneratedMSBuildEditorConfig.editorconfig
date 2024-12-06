@@ -9,105 +9,109 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HTQuanLyHoSoSucKhoe
 build_property.RootNamespace = HTQuanLyHoSoSucKhoe
-build_property.ProjectDir = C:\Users\anktu\OneDrive\Máy tính\Đồ Án Chuyên Ngành\HTQuanLyHoSoSucKhoe\HTQuanLyHoSoSucKhoe\
+build_property.ProjectDir = C:\Users\anktu\OneDrive\Máy tính\doan\HTQuanLyHoSoSucKhoe\HTQuanLyHoSoSucKhoe\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\anktu\OneDrive\Máy tính\Đồ Án Chuyên Ngành\HTQuanLyHoSoSucKhoe\HTQuanLyHoSoSucKhoe
+build_property.MSBuildProjectDirectory = C:\Users\anktu\OneDrive\Máy tính\doan\HTQuanLyHoSoSucKhoe\HTQuanLyHoSoSucKhoe
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/DangKyThamKham/Index.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/DangKyThamKham/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuZ0t5VGhhbUtoYW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Home/Index.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Home/Privacy.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/Index.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9Tb1N1Y0tob2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/LichSuDatLichKham.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/LichSuDatLichKham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9Tb1N1Y0tob2VcTGljaFN1RGF0TGljaEtoYW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/LichSuDatLichTiemPhong.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/LichSuDatLichTiemPhong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9Tb1N1Y0tob2VcTGljaFN1RGF0TGljaFRpZW1QaG9uZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/LichSuKeThuoc.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/LichSuKeThuoc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9Tb1N1Y0tob2VcTGljaFN1S2VUaHVvYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/LichSuKhamBenh.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/LichSuKhamBenh.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9Tb1N1Y0tob2VcTGljaFN1S2hhbUJlbmguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/LichSuTiemPhong.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/HoSoSucKhoe/LichSuTiemPhong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9Tb1N1Y0tob2VcTGljaFN1VGllbVBob25nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/QuanLyBenhVien/CaiDatTaiKhoan.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/QuanLyBenhVien/CaiDatTaiKhoan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5QmVuaFZpZW5cQ2FpRGF0VGFpS2hvYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/QuanLyBenhVien/ChiTietQuanLyDatKham.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/QuanLyBenhVien/ChiTietQuanLyDatKham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5QmVuaFZpZW5cQ2hpVGlldFF1YW5MeURhdEtoYW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/QuanLyBenhVien/ChiTietQuanLyHoSoBenhNhan.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/QuanLyBenhVien/ChiTietQuanLyHoSoBenhNhan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5QmVuaFZpZW5cQ2hpVGlldFF1YW5MeUhvU29CZW5oTmhhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/QuanLyBenhVien/Index.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/QuanLyBenhVien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5QmVuaFZpZW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/QuanLyBenhVien/QuanLyDatKham.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/QuanLyBenhVien/QuanLyDatKham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5QmVuaFZpZW5cUXVhbkx5RGF0S2hhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Shared/Components/UserInfo/Default.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Shared/Components/UserInfo/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlckluZm9cRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Shared/Error.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Users/Login.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Users/CaiDatTaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ2FpRGF0VGFpS2hvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Users/Register.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Users/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/_ViewImports.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/_ViewStart.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anktu/OneDrive/Máy tính/Đồ Án Chuyên Ngành/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Shared/_Layout.cshtml]
+[C:/Users/anktu/OneDrive/Máy tính/doan/HTQuanLyHoSoSucKhoe/HTQuanLyHoSoSucKhoe/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-580tmwcznf

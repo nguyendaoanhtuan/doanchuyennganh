@@ -1,587 +1,563 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HTQuanLyHoSoSucKhoe.bundle.scp.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HTQuanLyHoSoSucKhoe.bundle.scp.css",
       "PackagePath": "staticwebassets\\HTQuanLyHoSoSucKhoe.jhxfi0b2ze.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap-theme.min.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap-theme.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-theme.min.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\checkbox3.min.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\checkbox3.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\checkbox3.min.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\custom-styles.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\custom-styles.css",
       "PackagePath": "staticwebassets\\assets\\css\\custom-styles.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\font-awesome.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\assets\\css\\font-awesome.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\select2.min.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\select2.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\select2.min.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.eot",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.eot",
       "PackagePath": "staticwebassets\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.eot"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.svg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.svg",
       "PackagePath": "staticwebassets\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.svg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.ttf",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.ttf",
       "PackagePath": "staticwebassets\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.ttf"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.woff",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.woff",
       "PackagePath": "staticwebassets\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.woff"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
       "PackagePath": "staticwebassets\\assets\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\fonts\\glyphicons-halflings-regulard41d.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regulard41d.eot"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\img\\bg-img.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\img\\bg-img.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\bg-img.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\README.md",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\README.md",
       "PackagePath": "staticwebassets\\assets\\js\\Lightweight-Chart\\README.md"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\chart.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\chart.js",
       "PackagePath": "staticwebassets\\assets\\js\\Lightweight-Chart\\chart.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\cssCharts.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\cssCharts.css",
       "PackagePath": "staticwebassets\\assets\\js\\Lightweight-Chart\\cssCharts.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\index - Copy.html",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\index - Copy.html",
       "PackagePath": "staticwebassets\\assets\\js\\Lightweight-Chart\\index - Copy.html"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\index.html",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\index.html",
       "PackagePath": "staticwebassets\\assets\\js\\Lightweight-Chart\\index.html"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\jquery.chart.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\jquery.chart.js",
       "PackagePath": "staticwebassets\\assets\\js\\Lightweight-Chart\\jquery.chart.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\jquery.chart.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\Lightweight-Chart\\jquery.chart.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\Lightweight-Chart\\jquery.chart.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart-data.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart-data.js",
       "PackagePath": "staticwebassets\\assets\\js\\chart-data.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chart.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\chart.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chartjs.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\chartjs.js",
       "PackagePath": "staticwebassets\\assets\\js\\chartjs.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom-scripts.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom-scripts.js",
       "PackagePath": "staticwebassets\\assets\\js\\custom-scripts.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom.js",
       "PackagePath": "staticwebassets\\assets\\js\\custom.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\dataTables.bootstrap.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\dataTables.bootstrap.css",
       "PackagePath": "staticwebassets\\assets\\js\\dataTables\\dataTables.bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\dataTables.bootstrap.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\dataTables.bootstrap.js",
       "PackagePath": "staticwebassets\\assets\\js\\dataTables\\dataTables.bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\jquery.dataTables.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\jquery.dataTables.js",
       "PackagePath": "staticwebassets\\assets\\js\\dataTables\\jquery.dataTables.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart-data.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart-data.js",
       "PackagePath": "staticwebassets\\assets\\js\\easypiechart-data.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\easypiechart.js",
       "PackagePath": "staticwebassets\\assets\\js\\easypiechart.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\jquery-1.10.2.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\jquery-1.10.2.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery-1.10.2.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\jquery.metisMenu.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\jquery.metisMenu.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.metisMenu.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris-0.4.3.min.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris-0.4.3.min.css",
       "PackagePath": "staticwebassets\\assets\\js\\morris\\morris-0.4.3.min.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\morris.js",
       "PackagePath": "staticwebassets\\assets\\js\\morris\\morris.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\raphael-2.1.0.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\morris\\raphael-2.1.0.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\morris\\raphael-2.1.0.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\select2.full.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\select2.full.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\select2.full.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\animate.min.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\animate.min.css",
       "PackagePath": "staticwebassets\\css\\animate.min.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\dangky.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\dangky.css",
       "PackagePath": "staticwebassets\\css\\dangky.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\dangnhap.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\dangnhap.css",
       "PackagePath": "staticwebassets\\css\\dangnhap.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\datepicker.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\datepicker.css",
       "PackagePath": "staticwebassets\\css\\datepicker.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\icofont.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\icofont.css",
       "PackagePath": "staticwebassets\\css\\icofont.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\magnific-popup.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\css\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\nice-select.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\nice-select.css",
       "PackagePath": "staticwebassets\\css\\nice-select.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\normalize.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\normalize.css",
       "PackagePath": "staticwebassets\\css\\normalize.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\owl-carousel.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\owl-carousel.css",
       "PackagePath": "staticwebassets\\css\\owl-carousel.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\responsive.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\slicknav.min.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\css\\slicknav.min.css",
       "PackagePath": "staticwebassets\\css\\slicknav.min.css"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\icofont.eot",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\icofont.eot",
       "PackagePath": "staticwebassets\\fonts\\icofont.eot"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\icofont.svg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\icofont.svg",
       "PackagePath": "staticwebassets\\fonts\\icofont.svg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\icofont.ttf",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\icofont.ttf",
       "PackagePath": "staticwebassets\\fonts\\icofont.ttf"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\icofont.woff",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\icofont.woff",
       "PackagePath": "staticwebassets\\fonts\\icofont.woff"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\icofont.woff2",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\fonts\\icofont.woff2",
       "PackagePath": "staticwebassets\\fonts\\icofont.woff2"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\Logo_BenhViens\\Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg",
-      "PackagePath": "staticwebassets\\img\\Logo_BenhViens\\Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg"
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\Logo_User\\logo-benh-vien-cho-ray.png",
+      "PackagePath": "staticwebassets\\img\\Logo_User\\logo-benh-vien-cho-ray.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\Logo_BenhViens\\logo-benh-vien-cho-ray.png",
-      "PackagePath": "staticwebassets\\img\\Logo_BenhViens\\logo-benh-vien-cho-ray.png"
-    },
-    {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\Logo_BenhViens\\logo-benh-vien-dai-hoc-y-duoc.png",
-      "PackagePath": "staticwebassets\\img\\Logo_BenhViens\\logo-benh-vien-dai-hoc-y-duoc.png"
-    },
-    {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\Logo_BenhViens\\logo-benh-vien-kham-măt.jpg",
-      "PackagePath": "staticwebassets\\img\\Logo_BenhViens\\logo-benh-vien-kham-măt.jpg"
-    },
-    {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\Logo_BenhViens\\logo-benh-vien-nhidong1.jpg",
-      "PackagePath": "staticwebassets\\img\\Logo_BenhViens\\logo-benh-vien-nhidong1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\Logo_BenhViens\\logo-benh-vien-quan-y.png",
-      "PackagePath": "staticwebassets\\img\\Logo_BenhViens\\logo-benh-vien-quan-y.png"
-    },
-    {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\Logo_BenhViens\\logo-benh-vien-tu-du-tphcm.png",
-      "PackagePath": "staticwebassets\\img\\Logo_BenhViens\\logo-benh-vien-tu-du-tphcm.png"
-    },
-    {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\about-img.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\about-img.jpg",
       "PackagePath": "staticwebassets\\img\\about-img.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\author1.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\author1.jpg",
       "PackagePath": "staticwebassets\\img\\author1.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\author2.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\author2.jpg",
       "PackagePath": "staticwebassets\\img\\author2.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\author3.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\author3.jpg",
       "PackagePath": "staticwebassets\\img\\author3.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\banner1.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\banner1.jpg",
       "PackagePath": "staticwebassets\\img\\banner1.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blockqoute-bg.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blockqoute-bg.jpg",
       "PackagePath": "staticwebassets\\img\\blockqoute-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar1.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar1.jpg",
       "PackagePath": "staticwebassets\\img\\blog-sidebar1.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar2.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar2.jpg",
       "PackagePath": "staticwebassets\\img\\blog-sidebar2.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar3.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog-sidebar3.jpg",
       "PackagePath": "staticwebassets\\img\\blog-sidebar3.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog1.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog1.jpg",
       "PackagePath": "staticwebassets\\img\\blog1.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog2.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog2.jpg",
       "PackagePath": "staticwebassets\\img\\blog2.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog3.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\blog3.jpg",
       "PackagePath": "staticwebassets\\img\\blog3.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\bread-bg.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\bread-bg.jpg",
       "PackagePath": "staticwebassets\\img\\bread-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\call-bg.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\call-bg.jpg",
       "PackagePath": "staticwebassets\\img\\call-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\cccd.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\cccd.png",
       "PackagePath": "staticwebassets\\img\\cccd.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client-bg.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client-bg.jpg",
       "PackagePath": "staticwebassets\\img\\client-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client1.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client1.png",
       "PackagePath": "staticwebassets\\img\\client1.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client2.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client2.png",
       "PackagePath": "staticwebassets\\img\\client2.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client3.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client3.png",
       "PackagePath": "staticwebassets\\img\\client3.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client4.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client4.png",
       "PackagePath": "staticwebassets\\img\\client4.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client5.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\client5.png",
       "PackagePath": "staticwebassets\\img\\client5.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\contact-img.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\contact-img.png",
       "PackagePath": "staticwebassets\\img\\contact-img.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\fac.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\fac.png",
       "PackagePath": "staticwebassets\\img\\fac.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\favicon.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\favicon.png",
       "PackagePath": "staticwebassets\\img\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\fun-bg.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\fun-bg.jpg",
       "PackagePath": "staticwebassets\\img\\fun-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\l.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\l.png",
       "PackagePath": "staticwebassets\\img\\l.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\logo.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\m.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\m.png",
       "PackagePath": "staticwebassets\\img\\m.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\mail.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\mail.png",
       "PackagePath": "staticwebassets\\img\\mail.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\map-marker.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\map-marker.png",
       "PackagePath": "staticwebassets\\img\\map-marker.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\mission-img.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\mission-img.jpg",
       "PackagePath": "staticwebassets\\img\\mission-img.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\mk.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\mk.png",
       "PackagePath": "staticwebassets\\img\\mk.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\pf1.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\pf1.jpg",
       "PackagePath": "staticwebassets\\img\\pf1.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\pf2.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\pf2.jpg",
       "PackagePath": "staticwebassets\\img\\pf2.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\pf3.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\pf3.jpg",
       "PackagePath": "staticwebassets\\img\\pf3.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\pf4.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\pf4.jpg",
       "PackagePath": "staticwebassets\\img\\pf4.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\phone.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\phone.png",
       "PackagePath": "staticwebassets\\img\\phone.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\section-img.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\section-img.png",
       "PackagePath": "staticwebassets\\img\\section-img.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\signup-bg.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\signup-bg.jpg",
       "PackagePath": "staticwebassets\\img\\signup-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\slider.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\slider.jpg",
       "PackagePath": "staticwebassets\\img\\slider.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\slider2.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\slider2.jpg",
       "PackagePath": "staticwebassets\\img\\slider2.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\slider3.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\slider3.jpg",
       "PackagePath": "staticwebassets\\img\\slider3.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\testi-bg.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\testi-bg.jpg",
       "PackagePath": "staticwebassets\\img\\testi-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\tick.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\tick.png",
       "PackagePath": "staticwebassets\\img\\tick.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\twitter.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\twitter.png",
       "PackagePath": "staticwebassets\\img\\twitter.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\user.png",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\user.png",
       "PackagePath": "staticwebassets\\img\\user.png"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\video-bg.jpg",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\img\\video-bg.jpg",
       "PackagePath": "staticwebassets\\img\\video-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap-datepicker.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap-datepicker.js",
       "PackagePath": "staticwebassets\\js\\bootstrap-datepicker.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\colors.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\colors.js",
       "PackagePath": "staticwebassets\\js\\colors.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\easing.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\easing.js",
       "PackagePath": "staticwebassets\\js\\easing.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\gmaps.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\gmaps.min.js",
       "PackagePath": "staticwebassets\\js\\gmaps.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk.js",
       "PackagePath": "staticwebassets\\js\\hienthimk.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk_confirm.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\hienthimk_confirm.js",
       "PackagePath": "staticwebassets\\js\\hienthimk_confirm.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-migrate-3.0.0.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-migrate-3.0.0.js",
       "PackagePath": "staticwebassets\\js\\jquery-migrate-3.0.0.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-ui.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery-ui.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.counterup.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.counterup.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.magnific-popup.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.min.dangnhap.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.min.dangnhap.js",
       "PackagePath": "staticwebassets\\js\\jquery.min.dangnhap.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.nav.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.nav.js",
       "PackagePath": "staticwebassets\\js\\jquery.nav.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\jquery.scrollUp.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.scrollUp.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\main.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\map-active.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\map-active.js",
       "PackagePath": "staticwebassets\\js\\map-active.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\niceselect.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\niceselect.js",
       "PackagePath": "staticwebassets\\js\\niceselect.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\owl-carousel.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\owl-carousel.js",
       "PackagePath": "staticwebassets\\js\\owl-carousel.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\popper.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\slicknav.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\slicknav.min.js",
       "PackagePath": "staticwebassets\\js\\slicknav.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\steller.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\steller.js",
       "PackagePath": "staticwebassets\\js\\steller.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\tilt.jquery.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\tilt.jquery.min.js",
       "PackagePath": "staticwebassets\\js\\tilt.jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\wow.min.js",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\js\\wow.min.js",
       "PackagePath": "staticwebassets\\js\\wow.min.js"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\mail\\mail.php",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\mail\\mail.php",
       "PackagePath": "staticwebassets\\mail\\mail.php"
     },
     {
-      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\style.css",
+      "Id": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\style.css",
       "PackagePath": "staticwebassets\\style.css"
     },
     {

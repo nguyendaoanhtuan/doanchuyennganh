@@ -36,17 +36,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iqynu0fyc4"},{"Name":"integrity","Value":"sha256-ml2EwNd\u002Bfw0xbgWQAzTog7JCKdWh\u002BCVBbb2hhHK9JAM="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/assets/css/checkbox3.min.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7551"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ml2EwNd\u002Bfw0xbgWQAzTog7JCKdWh\u002BCVBbb2hhHK9JAM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/assets/css/custom-styles.9ri8bqhta1.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\custom-styles.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9ri8bqhta1"},{"Name":"integrity","Value":"sha256-9fM/JZlQvqkj6fVhdLJRe1aBsQk4Nw\u002Br84q/Teri2jY="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/assets/css/custom-styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13947"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229fM/JZlQvqkj6fVhdLJRe1aBsQk4Nw\u002Br84q/Teri2jY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Dec 2024 07:50:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/assets/css/custom-styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\custom-styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9fM/JZlQvqkj6fVhdLJRe1aBsQk4Nw\u002Br84q/Teri2jY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13947"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229fM/JZlQvqkj6fVhdLJRe1aBsQk4Nw\u002Br84q/Teri2jY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Dec 2024 07:50:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm\u002BdjY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13904"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm\u002BdjY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Dec 2024 15:58:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/assets/css/custom-styles.hujs1axgqj.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\custom-styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hujs1axgqj"},{"Name":"integrity","Value":"sha256-h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm\u002BdjY="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/assets/css/custom-styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13904"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022h5OMAAWwXPrISw7BflycTiB/bZd7GdBr02AebMm\u002BdjY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Dec 2024 15:58:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/assets/css/font-awesome.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\font-awesome.css'))</AssetFile>
@@ -1116,89 +1116,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y\u002BE="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2016"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y\u002BE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-cho-ray.avc8g0ehr0.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-cho-ray.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_User/logo-benh-vien-cho-ray.avc8g0ehr0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_User\logo-benh-vien-cho-ray.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"avc8g0ehr0"},{"Name":"integrity","Value":"sha256-JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-cho-ray.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"217881"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"avc8g0ehr0"},{"Name":"integrity","Value":"sha256-JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_User/logo-benh-vien-cho-ray.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"217881"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Dec 2024 20:25:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-cho-ray.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-cho-ray.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_User/logo-benh-vien-cho-ray.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_User\logo-benh-vien-cho-ray.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"217881"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-dai-hoc-y-duoc.axj7lda4lq.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-dai-hoc-y-duoc.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"axj7lda4lq"},{"Name":"integrity","Value":"sha256-YnaJ/icbxZ/qJ0sZ0vQiNVEq4Yx4hhIBcKNhTgMTGgc="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-dai-hoc-y-duoc.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4129"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YnaJ/icbxZ/qJ0sZ0vQiNVEq4Yx4hhIBcKNhTgMTGgc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-dai-hoc-y-duoc.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-dai-hoc-y-duoc.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YnaJ/icbxZ/qJ0sZ0vQiNVEq4Yx4hhIBcKNhTgMTGgc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4129"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YnaJ/icbxZ/qJ0sZ0vQiNVEq4Yx4hhIBcKNhTgMTGgc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-kham-măt.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-kham-măt.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BowNuSmmWX2jXJeiCz4\u002BBw0FESkCiX5wJS2a2QQyQMU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"34007"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022\u002BowNuSmmWX2jXJeiCz4\u002BBw0FESkCiX5wJS2a2QQyQMU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-kham-măt.qz82hmtdpr.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-kham-măt.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qz82hmtdpr"},{"Name":"integrity","Value":"sha256-\u002BowNuSmmWX2jXJeiCz4\u002BBw0FESkCiX5wJS2a2QQyQMU="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-kham-m\u0103t.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"34007"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022\u002BowNuSmmWX2jXJeiCz4\u002BBw0FESkCiX5wJS2a2QQyQMU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.25bc9ie6n8.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"25bc9ie6n8"},{"Name":"integrity","Value":"sha256-mquRZQSx0V\u002BVESlIMnsFN96N9lz7z2G4mYDtM8ITXos="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"27661"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mquRZQSx0V\u002BVESlIMnsFN96N9lz7z2G4mYDtM8ITXos=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mquRZQSx0V\u002BVESlIMnsFN96N9lz7z2G4mYDtM8ITXos="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"27661"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mquRZQSx0V\u002BVESlIMnsFN96N9lz7z2G4mYDtM8ITXos=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-nhidong1.a0r175kvzo.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-nhidong1.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a0r175kvzo"},{"Name":"integrity","Value":"sha256-Bib8W5BJf5mpfk\u002BfHYWsWDDHUXLgp0tUTeGzXHMvchQ="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-nhidong1.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"168368"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Bib8W5BJf5mpfk\u002BfHYWsWDDHUXLgp0tUTeGzXHMvchQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-nhidong1.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-nhidong1.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Bib8W5BJf5mpfk\u002BfHYWsWDDHUXLgp0tUTeGzXHMvchQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"168368"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Bib8W5BJf5mpfk\u002BfHYWsWDDHUXLgp0tUTeGzXHMvchQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-quan-y.cp805bazab.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-quan-y.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cp805bazab"},{"Name":"integrity","Value":"sha256-EL20Uq4zqN4NwO86InjNcTm9Wv4\u002BWF4B3WRYvl4F\u002Bsw="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-quan-y.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"90570"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EL20Uq4zqN4NwO86InjNcTm9Wv4\u002BWF4B3WRYvl4F\u002Bsw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-quan-y.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-quan-y.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EL20Uq4zqN4NwO86InjNcTm9Wv4\u002BWF4B3WRYvl4F\u002Bsw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"90570"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EL20Uq4zqN4NwO86InjNcTm9Wv4\u002BWF4B3WRYvl4F\u002Bsw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-tu-du-tphcm.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-tu-du-tphcm.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-C0lf4xSaKaJhEdZtSVJ9M2Jg8bQhIGByakcU48Wa3tk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"38822"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022C0lf4xSaKaJhEdZtSVJ9M2Jg8bQhIGByakcU48Wa3tk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-tu-du-tphcm.vvld9covcs.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-tu-du-tphcm.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vvld9covcs"},{"Name":"integrity","Value":"sha256-C0lf4xSaKaJhEdZtSVJ9M2Jg8bQhIGByakcU48Wa3tk="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-tu-du-tphcm.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"38822"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022C0lf4xSaKaJhEdZtSVJ9M2Jg8bQhIGByakcU48Wa3tk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"217881"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Dec 2024 20:25:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/m.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\m.png'))</AssetFile>

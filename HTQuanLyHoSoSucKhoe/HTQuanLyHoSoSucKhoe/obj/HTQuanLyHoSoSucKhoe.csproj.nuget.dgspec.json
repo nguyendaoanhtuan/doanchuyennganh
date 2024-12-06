@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj": {}
+    "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj": {
+    "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj",
+        "projectUniqueName": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj",
         "projectName": "HTQuanLyHoSoSucKhoe",
-        "projectPath": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj",
+        "projectPath": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj",
         "packagesPath": "C:\\Users\\anktu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anktu\\OneDrive\\Máy tính\\Đồ Án Chuyên Ngành\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\obj\\",
+        "outputPath": "C:\\Users\\anktu\\OneDrive\\Máy tính\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,7 @@
           "dependencies": {
             "BCrypt.Net-Next": {
               "target": "Package",
-              "version": "[4.0.3, )"
+              "version": "[4.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",

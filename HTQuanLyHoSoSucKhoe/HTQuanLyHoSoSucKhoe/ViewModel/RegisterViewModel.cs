@@ -10,6 +10,7 @@ namespace HTQuanLyHoSoSucKhoe.ViewModels
         public string Ten { get; set; }
         public string Cccd { get; set; }
         public string Address { get; set; }
+        public string Image_Path { get; set; }
 
         [Required]
         public string password { get; set; }
