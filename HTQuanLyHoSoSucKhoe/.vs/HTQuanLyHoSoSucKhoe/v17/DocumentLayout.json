@@ -3,12 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\controllers\\quanlybacsicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\controllers\\quanlybacsicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\controllers\\quanlychuyenkhoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\controllers\\quanlychuyenkhoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\controllers\\quanlybenhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\controllers\\quanlybenhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\controllers\\quanlybacsicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\controllers\\quanlybacsicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlybacsi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlybacsi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlychuyenkhoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlychuyenkhoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlybacsi\\chitietthongtinbacsi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlybacsi\\chitietthongtinbacsi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\viewmodel\\hosobenhanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\viewmodel\\hosobenhanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlybenhvien\\chitietquanlydatkham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlybenhvien\\chitietquanlydatkham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\controllers\\dangkythamkhamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\controllers\\dangkythamkhamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\controllers\\hososuckhoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\controllers\\hososuckhoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\viewmodel\\thongtinbacsiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\viewmodel\\thongtinbacsiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\viewmodel\\thongtinbenhvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\viewmodel\\thongtinbenhvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\viewmodel\\thongtinchuyenkhoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\viewmodel\\thongtinchuyenkhoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\users\\caidattaikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\users\\caidattaikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\models\\bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\models\\bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,76 +75,28 @@
       "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlybacsi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlybacsi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlybacsi\\chitietthongtinbacsi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlybacsi\\chitietthongtinbacsi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\viewmodel\\thongtinbacsiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\viewmodel\\thongtinbacsiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlybenhvien\\caidattaikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlybenhvien\\caidattaikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\controllers\\quanlychuyenkhoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\controllers\\quanlychuyenkhoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\controllers\\hososuckhoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\controllers\\hososuckhoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlychuyenkhoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlychuyenkhoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlybenhvien\\quanlydatkham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlybenhvien\\quanlydatkham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlybenhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlybenhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\viewmodel\\thongtinnguoidungviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\viewmodel\\thongtinnguoidungviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\models\\bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\models\\bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\viewmodel\\thongtinbenhvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\viewmodel\\thongtinbenhvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\controllers\\userinfoviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\controllers\\userinfoviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\dangkythamkham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\dangkythamkham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\viewmodel\\hosobenhanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\viewmodel\\hosobenhanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\models\\chuyenkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\models\\chuyenkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\controllers\\dangkythamkhamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\controllers\\dangkythamkhamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\wwwroot\\assets\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -97,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\viewmodel\\thongtinchuyenkhoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\viewmodel\\thongtinchuyenkhoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\hososuckhoe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -113,14 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlybenhvien\\chitietquanlyhosobenhnhan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlybenhvien\\chitietquanlyhosobenhnhan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\quanlybenhvien\\chitietquanlydatkham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\quanlybenhvien\\chitietquanlydatkham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\views\\users\\caidattaikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|solutionrelative:htquanlyhososuckhoe\\views\\users\\caidattaikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6250F91-1856-4059-AC50-972FB241C790}|HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj|c:\\users\\anktu\\onedrive\\m\u00E1y t\u00EDnh\\doan\\htquanlyhososuckhoe\\htquanlyhososuckhoe\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -296,8 +292,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLyBacSiController.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyBacSiController.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyBacSiController.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyBacSiController.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyBacSiController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:48:52.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBacSi\\Index.cshtml",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBacSi\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBacSi\\Index.cshtml",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBacSi\\Index.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T17:42:22.003Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -306,61 +328,35 @@
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyBenhVienController.cs",
               "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyBenhVienController.cs",
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyBenhVienController.cs",
-              "ViewState": "AgIAAA4BAAAAAAAAAAAAwL8AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAAAvwL0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T16:37:56.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAAG4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:04:04.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "QuanLyBacSiController.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyBacSiController.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyBacSiController.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyBacSiController.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyBacSiController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAwHEAAAAeAAAAAAAAAA==",
+              "Title": "QuanLyChuyenKhoaController.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyChuyenKhoaController.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyChuyenKhoaController.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyChuyenKhoaController.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyChuyenKhoaController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwDoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T07:48:52.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T17:27:24.052Z",
+              "WhenOpened": "2024-12-06T07:48:32.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBacSi\\Index.cshtml",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBacSi\\Index.cshtml",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBacSi\\Index.cshtml",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBacSi\\Index.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAAEYAAABEAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyChuyenKhoa\\Index.cshtml",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyChuyenKhoa\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyChuyenKhoa\\Index.cshtml",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyChuyenKhoa\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFQAAACUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T07:49:55.897Z",
+              "WhenOpened": "2024-12-06T07:50:33.842Z",
               "EditorCaption": ""
             },
             {
@@ -371,48 +367,35 @@
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBacSi\\ChiTietThongTinBacSi.cshtml",
               "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBacSi\\ChiTietThongTinBacSi.cshtml",
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBacSi\\ChiTietThongTinBacSi.cshtml",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAABUAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAGYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T21:44:09.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ThongTinBacSiViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBacSiViewModel.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBacSiViewModel.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBacSiViewModel.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBacSiViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T11:30:52.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CaiDatTaiKhoan.cshtml",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\CaiDatTaiKhoan.cshtml",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\CaiDatTaiKhoan.cshtml",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\CaiDatTaiKhoan.cshtml",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\CaiDatTaiKhoan.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T07:58:02.188Z",
+              "WhenOpened": "2024-12-10T18:07:04.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "QuanLyChuyenKhoaController.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyChuyenKhoaController.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyChuyenKhoaController.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyChuyenKhoaController.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\QuanLyChuyenKhoaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAPAAAAAAAAAA==",
+              "Title": "DangKyThamKhamController.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\DangKyThamKhamController.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\DangKyThamKhamController.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\DangKyThamKhamController.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\DangKyThamKhamController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T07:48:32.229Z",
+              "WhenOpened": "2024-11-14T17:16:19.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HoSoBenhAnViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\HoSoBenhAnViewModel.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\HoSoBenhAnViewModel.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\HoSoBenhAnViewModel.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\HoSoBenhAnViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:50:44.22Z",
               "EditorCaption": ""
             },
             {
@@ -431,240 +414,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyChuyenKhoa\\Index.cshtml",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyChuyenKhoa\\Index.cshtml",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyChuyenKhoa\\Index.cshtml",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyChuyenKhoa\\Index.cshtml",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFIAAACGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T07:50:33.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "QuanLyDatKham.cshtml",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\QuanLyDatKham.cshtml",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\QuanLyDatKham.cshtml",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\QuanLyDatKham.cshtml",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\QuanLyDatKham.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T07:20:35.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\Index.cshtml",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\Index.cshtml",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\Index.cshtml",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\Index.cshtml",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T18:27:54.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ThongTinNguoiDungViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinNguoiDungViewModel.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinNguoiDungViewModel.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinNguoiDungViewModel.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinNguoiDungViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T20:02:33.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BacSi.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\BacSi.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\BacSi.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\BacSi.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Models\\BacSi.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T08:26:56.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ThongTinBenhVienViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBenhVienViewModel.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBenhVienViewModel.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBenhVienViewModel.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBenhVienViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:18:46.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserInfoViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\UserInfoViewComponent.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\UserInfoViewComponent.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\UserInfoViewComponent.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\UserInfoViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:19:10.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Program.cs",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Program.cs",
               "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Program.cs",
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Program.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T16:57:57.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HoSoBenhAnViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\HoSoBenhAnViewModel.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\HoSoBenhAnViewModel.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\HoSoBenhAnViewModel.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\HoSoBenhAnViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:50:44.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ChuyenKhoa.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\ChuyenKhoa.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\ChuyenKhoa.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\ChuyenKhoa.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Models\\ChuyenKhoa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:55:06.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\DangKyThamKham\\Index.cshtml",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\DangKyThamKham\\Index.cshtml",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\DangKyThamKham\\Index.cshtml",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\DangKyThamKham\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T17:28:46.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
-              "ViewState": "AgIAAPgMAAAAAAAAAAAuwOIMAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-06T14:47:08.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DangKyThamKhamController.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\DangKyThamKhamController.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\DangKyThamKhamController.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\DangKyThamKhamController.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\DangKyThamKhamController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:16:19.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T17:18:52.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ThongTinChuyenKhoaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinChuyenKhoaViewModel.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinChuyenKhoaViewModel.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinChuyenKhoaViewModel.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinChuyenKhoaViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T11:40:17.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\Index.cshtml",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\Index.cshtml",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\Index.cshtml",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T18:01:15.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AppointmentViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\AppointmentViewModel.cs",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\AppointmentViewModel.cs",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\AppointmentViewModel.cs",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\AppointmentViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T16:14:14.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ChiTietQuanLyHoSoBenhNhan.cshtml",
-              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\ChiTietQuanLyHoSoBenhNhan.cshtml",
-              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\ChiTietQuanLyHoSoBenhNhan.cshtml",
-              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\ChiTietQuanLyHoSoBenhNhan.cshtml",
-              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\ChiTietQuanLyHoSoBenhNhan.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T18:18:59.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 7,
               "Title": "ChiTietQuanLyDatKham.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\ChiTietQuanLyDatKham.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\ChiTietQuanLyDatKham.cshtml",
@@ -677,20 +439,228 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 11,
+              "Title": "ThongTinBacSiViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBacSiViewModel.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBacSiViewModel.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBacSiViewModel.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBacSiViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:30:52.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ThongTinBenhVienViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBenhVienViewModel.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBenhVienViewModel.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBenhVienViewModel.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinBenhVienViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:18:46.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ThongTinChuyenKhoaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinChuyenKhoaViewModel.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinChuyenKhoaViewModel.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinChuyenKhoaViewModel.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinChuyenKhoaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:40:17.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CaiDatTaiKhoan.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Users\\CaiDatTaiKhoan.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Users\\CaiDatTaiKhoan.cshtml",
               "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Users\\CaiDatTaiKhoan.cshtml",
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\Users\\CaiDatTaiKhoan.cshtml",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-05T19:35:06.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 15,
+              "Title": "BacSi.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\BacSi.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\BacSi.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\BacSi.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Models\\BacSi.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T08:26:56.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:27:24.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAG4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:04:04.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CaiDatTaiKhoan.cshtml",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\CaiDatTaiKhoan.cshtml",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\CaiDatTaiKhoan.cshtml",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\CaiDatTaiKhoan.cshtml",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\CaiDatTaiKhoan.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T07:58:02.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QuanLyDatKham.cshtml",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\QuanLyDatKham.cshtml",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\QuanLyDatKham.cshtml",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\QuanLyDatKham.cshtml",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\QuanLyDatKham.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T07:20:35.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ThongTinNguoiDungViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinNguoiDungViewModel.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinNguoiDungViewModel.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinNguoiDungViewModel.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\ThongTinNguoiDungViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:02:33.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserInfoViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\UserInfoViewComponent.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Controllers\\UserInfoViewComponent.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Controllers\\UserInfoViewComponent.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Controllers\\UserInfoViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:19:10.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ChuyenKhoa.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\ChuyenKhoa.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\ChuyenKhoa.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\ChuyenKhoa.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Models\\ChuyenKhoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:55:06.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\DangKyThamKham\\Index.cshtml",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\DangKyThamKham\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\DangKyThamKham\\Index.cshtml",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\DangKyThamKham\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T17:28:46.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\bootstrap.css",
+              "ViewState": "AgIAAPgMAAAAAAAAAAAuwOIMAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-06T14:47:08.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T17:18:52.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\Index.cshtml",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\Index.cshtml",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:01:15.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppointmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\AppointmentViewModel.cs",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\AppointmentViewModel.cs",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\AppointmentViewModel.cs",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\ViewModel\\AppointmentViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:14:14.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ChiTietQuanLyHoSoBenhNhan.cshtml",
+              "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\ChiTietQuanLyHoSoBenhNhan.cshtml",
+              "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\ChiTietQuanLyHoSoBenhNhan.cshtml",
+              "ToolTip": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\ChiTietQuanLyHoSoBenhNhan.cshtml",
+              "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\QuanLyBenhVien\\ChiTietQuanLyHoSoBenhNhan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T18:18:59.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\ApplicationDbContext.cs",
@@ -698,12 +668,11 @@
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Models\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:04:07.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T17:04:07.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\Error.cshtml",
@@ -711,12 +680,11 @@
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T17:18:51.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T17:18:51.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Users\\Login.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Users\\Login.cshtml",
@@ -724,12 +692,11 @@
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\Users\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAiwBUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T18:22:52.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T18:22:52.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Users\\Register.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Users\\Register.cshtml",
@@ -737,12 +704,11 @@
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\Users\\Register.cshtml",
               "ViewState": "AgIAAD0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T19:56:56.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T19:56:56.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "HoSoBenhAn.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\HoSoBenhAn.cs",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\HoSoBenhAn.cs",
@@ -750,12 +716,11 @@
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Models\\HoSoBenhAn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:09:20.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:09:20.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\_AdminLayout.cshtml",
@@ -763,12 +728,11 @@
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AgIAALsAAAAAAAAAAAAcwEUBAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T17:03:01.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T17:03:01.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\_Layout.cshtml",
@@ -776,12 +740,11 @@
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACkBAAAAAAAAAAAAAEMBAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T16:14:17.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T16:14:17.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\_Layout.cshtml.css",
@@ -789,12 +752,11 @@
               "RelativeToolTip": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\_Layout.cshtml.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-06T12:32:37.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:32:37.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "BenhVien.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\BenhVien.cs",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\BenhVien.cs",
@@ -806,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Home\\Index.cshtml",
@@ -818,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\User.cs",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\User.cs",
@@ -830,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "HTQuanLyHoSoSucKhoe.csproj",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe.csproj",
@@ -842,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\ViewModel\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\ViewModel\\RegisterViewModel.cs",
@@ -854,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 72,
               "Title": "20241205194216_AddImagePathToUser.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241205194216_AddImagePathToUser.cs",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Migrations\\20241205194216_AddImagePathToUser.cs",
@@ -866,7 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "TaiKhoan.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\TaiKhoan.cs",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\TaiKhoan.cs",
@@ -878,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\Appointment.cs",
@@ -890,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "custom-styles.css",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\custom-styles.css",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\css\\custom-styles.css",
@@ -902,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\Role.cs",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\Role.cs",
@@ -914,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 69,
               "Title": "20241204161916_UpdateDatabaseSchema.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241204161916_UpdateDatabaseSchema.cs",
               "RelativeDocumentMoniker": "..\\..\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241204161916_UpdateDatabaseSchema.cs",
@@ -925,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 70,
               "Title": "TKBenhVien.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\TKBenhVien.cs",
               "RelativeDocumentMoniker": "..\\..\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\TKBenhVien.cs",
@@ -936,7 +898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Models\\ErrorViewModel.cs",
@@ -948,7 +910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Home\\Privacy.cshtml",
@@ -960,7 +922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\appsettings.json",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\appsettings.json",
@@ -972,7 +934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\Shared\\Components\\UserInfo\\Default.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\Shared\\Components\\UserInfo\\Default.cshtml",
@@ -984,7 +946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "custom-scripts.js",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom-scripts.js",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\custom-scripts.js",
@@ -996,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "LichSuDatLichKham.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\LichSuDatLichKham.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\LichSuDatLichKham.cshtml",
@@ -1008,7 +970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 71,
               "Title": "20241115182655_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241115182655_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241115182655_InitialCreate.cs",
@@ -1019,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "LichSuTiemPhong.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\LichSuTiemPhong.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\LichSuTiemPhong.cshtml",
@@ -1031,7 +993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "LichSuKhamBenh.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\LichSuKhamBenh.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\LichSuKhamBenh.cshtml",
@@ -1043,7 +1005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "LichSuKeThuoc.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\LichSuKeThuoc.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\LichSuKeThuoc.cshtml",
@@ -1055,7 +1017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 55,
               "Title": "LichSuDatLichTiemPhong.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\LichSuDatLichTiemPhong.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\HoSoSucKhoe\\LichSuDatLichTiemPhong.cshtml",
@@ -1067,7 +1029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 58,
               "Title": "dataTables.bootstrap.css",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\dataTables.bootstrap.css",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\dataTables.bootstrap.css",
@@ -1079,7 +1041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 57,
               "Title": "dataTables.bootstrap.js",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\dataTables.bootstrap.js",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\dataTables.bootstrap.js",
@@ -1091,7 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 56,
               "Title": "jquery.dataTables.js",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\jquery.dataTables.js",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\wwwroot\\assets\\js\\dataTables\\jquery.dataTables.js",
@@ -1103,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 59,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\_ViewStart.cshtml",
@@ -1115,7 +1077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 60,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Views\\_ViewImports.cshtml",
@@ -1127,7 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 67,
               "Title": "20241017025404_AddChuyenKhoaTable.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241017025404_AddChuyenKhoaTable.cs",
               "RelativeDocumentMoniker": "..\\..\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241017025404_AddChuyenKhoaTable.cs",
@@ -1138,7 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 61,
               "Title": "20241114184530_MakeBenhVienIdNullable.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241114184530_MakeBenhVienIdNullable.cs",
               "RelativeDocumentMoniker": "..\\..\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241114184530_MakeBenhVienIdNullable.cs",
@@ -1149,7 +1111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 66,
               "Title": "20241114171536_AddTKBenhVienTable.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241114171536_AddTKBenhVienTable.cs",
               "RelativeDocumentMoniker": "..\\..\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241114171536_AddTKBenhVienTable.cs",
@@ -1160,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 68,
               "Title": "20241017012207_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241017012207_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\\u0110\u1ED3 \u00C1n Chuy\u00EAn Ng\u00E0nh\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Migrations\\20241017012207_InitialCreate.cs",
@@ -1171,7 +1133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 62,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\anktu\\OneDrive\\M\u00E1y t\u00EDnh\\doan\\HTQuanLyHoSoSucKhoe\\HTQuanLyHoSoSucKhoe\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "HTQuanLyHoSoSucKhoe\\Properties\\launchSettings.json",
@@ -1183,7 +1145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 63,
               "Title": "dbo.appointments.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/MSI/HTQuanLyHoSoSucKhoe/True/SqlTable/dbo.appointments.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/MSI/HTQuanLyHoSoSucKhoe/True/SqlTable/dbo.appointments.sql",
@@ -1192,7 +1154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 64,
               "Title": "dbo.users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/MSI/HTQuanLyHoSoSucKhoe/True/SqlTable/dbo.users.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/MSI/HTQuanLyHoSoSucKhoe/True/SqlTable/dbo.users.sql",
@@ -1201,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 65,
               "Title": "dbo.benhvien.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/MSI/HTQuanLyHoSoSucKhoe/True/SqlTable/dbo.benhvien.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/MSI/HTQuanLyHoSoSucKhoe/True/SqlTable/dbo.benhvien.sql",

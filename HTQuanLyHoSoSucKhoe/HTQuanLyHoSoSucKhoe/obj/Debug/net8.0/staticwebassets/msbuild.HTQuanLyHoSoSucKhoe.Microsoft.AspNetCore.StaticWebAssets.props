@@ -1674,6 +1674,132 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-cho-ray.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HTQuanLyHoSoSucKhoe</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HTQuanLyHoSoSucKhoe</BasePath>
+      <RelativePath>img/Logo_BacSi/logo-benh-vien-cho-ray.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>avc8g0ehr0</Fingerprint>
+      <Integrity>JiOwilB+RmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-cho-ray.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-dai-hoc-y-duoc.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HTQuanLyHoSoSucKhoe</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HTQuanLyHoSoSucKhoe</BasePath>
+      <RelativePath>img/Logo_BacSi/logo-benh-vien-dai-hoc-y-duoc.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>axj7lda4lq</Fingerprint>
+      <Integrity>YnaJ/icbxZ/qJ0sZ0vQiNVEq4Yx4hhIBcKNhTgMTGgc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-dai-hoc-y-duoc.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-kham-măt.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HTQuanLyHoSoSucKhoe</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HTQuanLyHoSoSucKhoe</BasePath>
+      <RelativePath>img/Logo_BacSi/logo-benh-vien-kham-măt.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qz82hmtdpr</Fingerprint>
+      <Integrity>+owNuSmmWX2jXJeiCz4+Bw0FESkCiX5wJS2a2QQyQMU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-kham-măt.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HTQuanLyHoSoSucKhoe</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HTQuanLyHoSoSucKhoe</BasePath>
+      <RelativePath>img/Logo_BacSi/Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>25bc9ie6n8</Fingerprint>
+      <Integrity>mquRZQSx0V+VESlIMnsFN96N9lz7z2G4mYDtM8ITXos=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-nhidong1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HTQuanLyHoSoSucKhoe</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HTQuanLyHoSoSucKhoe</BasePath>
+      <RelativePath>img/Logo_BacSi/logo-benh-vien-nhidong1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a0r175kvzo</Fingerprint>
+      <Integrity>Bib8W5BJf5mpfk+fHYWsWDDHUXLgp0tUTeGzXHMvchQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-nhidong1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-quan-y.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HTQuanLyHoSoSucKhoe</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HTQuanLyHoSoSucKhoe</BasePath>
+      <RelativePath>img/Logo_BacSi/logo-benh-vien-quan-y.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cp805bazab</Fingerprint>
+      <Integrity>EL20Uq4zqN4NwO86InjNcTm9Wv4+WF4B3WRYvl4F+sw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-quan-y.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-tu-du-tphcm.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HTQuanLyHoSoSucKhoe</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HTQuanLyHoSoSucKhoe</BasePath>
+      <RelativePath>img/Logo_BacSi/logo-benh-vien-tu-du-tphcm.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vvld9covcs</Fingerprint>
+      <Integrity>C0lf4xSaKaJhEdZtSVJ9M2Jg8bQhIGByakcU48Wa3tk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-tu-du-tphcm.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-cho-ray.png'))">
       <SourceType>Package</SourceType>
       <SourceId>HTQuanLyHoSoSucKhoe</SourceId>

@@ -1116,17 +1116,101 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y\u002BE="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2016"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022jDggw0iN8vJprjaiXGEI0bFGZF9iAZIJ9R95fuB5y\u002BE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Nov 2024 13:55:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-cho-ray.avc8g0ehr0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-cho-ray.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"avc8g0ehr0"},{"Name":"integrity","Value":"sha256-JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-cho-ray.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"217881"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:17:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-cho-ray.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-cho-ray.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"217881"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:17:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-dai-hoc-y-duoc.axj7lda4lq.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-dai-hoc-y-duoc.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"axj7lda4lq"},{"Name":"integrity","Value":"sha256-YnaJ/icbxZ/qJ0sZ0vQiNVEq4Yx4hhIBcKNhTgMTGgc="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-dai-hoc-y-duoc.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4129"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YnaJ/icbxZ/qJ0sZ0vQiNVEq4Yx4hhIBcKNhTgMTGgc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:26:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-dai-hoc-y-duoc.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-dai-hoc-y-duoc.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YnaJ/icbxZ/qJ0sZ0vQiNVEq4Yx4hhIBcKNhTgMTGgc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4129"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YnaJ/icbxZ/qJ0sZ0vQiNVEq4Yx4hhIBcKNhTgMTGgc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:26:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-kham-măt.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-kham-măt.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BowNuSmmWX2jXJeiCz4\u002BBw0FESkCiX5wJS2a2QQyQMU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"34007"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022\u002BowNuSmmWX2jXJeiCz4\u002BBw0FESkCiX5wJS2a2QQyQMU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:20:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-kham-măt.qz82hmtdpr.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-kham-măt.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qz82hmtdpr"},{"Name":"integrity","Value":"sha256-\u002BowNuSmmWX2jXJeiCz4\u002BBw0FESkCiX5wJS2a2QQyQMU="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-kham-m\u0103t.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"34007"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022\u002BowNuSmmWX2jXJeiCz4\u002BBw0FESkCiX5wJS2a2QQyQMU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:20:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.25bc9ie6n8.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"25bc9ie6n8"},{"Name":"integrity","Value":"sha256-mquRZQSx0V\u002BVESlIMnsFN96N9lz7z2G4mYDtM8ITXos="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"27661"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mquRZQSx0V\u002BVESlIMnsFN96N9lz7z2G4mYDtM8ITXos=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 17:51:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\Logo-Benh-Vien-Nhan-Dan-Gia-Dinh.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mquRZQSx0V\u002BVESlIMnsFN96N9lz7z2G4mYDtM8ITXos="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"27661"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mquRZQSx0V\u002BVESlIMnsFN96N9lz7z2G4mYDtM8ITXos=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 17:51:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-nhidong1.a0r175kvzo.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-nhidong1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a0r175kvzo"},{"Name":"integrity","Value":"sha256-Bib8W5BJf5mpfk\u002BfHYWsWDDHUXLgp0tUTeGzXHMvchQ="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-nhidong1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"168368"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Bib8W5BJf5mpfk\u002BfHYWsWDDHUXLgp0tUTeGzXHMvchQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:26:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-nhidong1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-nhidong1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Bib8W5BJf5mpfk\u002BfHYWsWDDHUXLgp0tUTeGzXHMvchQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"168368"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Bib8W5BJf5mpfk\u002BfHYWsWDDHUXLgp0tUTeGzXHMvchQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:26:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-quan-y.cp805bazab.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-quan-y.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cp805bazab"},{"Name":"integrity","Value":"sha256-EL20Uq4zqN4NwO86InjNcTm9Wv4\u002BWF4B3WRYvl4F\u002Bsw="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-quan-y.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"90570"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EL20Uq4zqN4NwO86InjNcTm9Wv4\u002BWF4B3WRYvl4F\u002Bsw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:35:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-quan-y.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-quan-y.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EL20Uq4zqN4NwO86InjNcTm9Wv4\u002BWF4B3WRYvl4F\u002Bsw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"90570"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EL20Uq4zqN4NwO86InjNcTm9Wv4\u002BWF4B3WRYvl4F\u002Bsw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:35:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-tu-du-tphcm.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-tu-du-tphcm.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-C0lf4xSaKaJhEdZtSVJ9M2Jg8bQhIGByakcU48Wa3tk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"38822"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022C0lf4xSaKaJhEdZtSVJ9M2Jg8bQhIGByakcU48Wa3tk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 17:36:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-tu-du-tphcm.vvld9covcs.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BacSi\logo-benh-vien-tu-du-tphcm.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vvld9covcs"},{"Name":"integrity","Value":"sha256-C0lf4xSaKaJhEdZtSVJ9M2Jg8bQhIGByakcU48Wa3tk="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BacSi/logo-benh-vien-tu-du-tphcm.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"38822"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022C0lf4xSaKaJhEdZtSVJ9M2Jg8bQhIGByakcU48Wa3tk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 17:36:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-cho-ray.avc8g0ehr0.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-cho-ray.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"avc8g0ehr0"},{"Name":"integrity","Value":"sha256-JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg="},{"Name":"label","Value":"_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-cho-ray.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"217881"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Dec 2024 07:42:32 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"217881"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:40:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_BenhViens/logo-benh-vien-cho-ray.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_BenhViens\logo-benh-vien-cho-ray.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"217881"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Dec 2024 07:42:32 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"217881"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JiOwilB\u002BRmAWETrwZJnir25IGGmtXNCAs20nCmzoBRg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 18:40:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTQuanLyHoSoSucKhoe/img/Logo_User/logo-benh-vien-cho-ray.avc8g0ehr0.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Logo_User\logo-benh-vien-cho-ray.png'))</AssetFile>
