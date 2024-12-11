@@ -7,7 +7,7 @@
 <div id="page-wrapper">
     <div class="header">
         <h1 class="page-header">
-            Quản lý hồ sơ sức khỏe bệnh nhân
+            QUẢN LÝ PHIẾU KHÁM BỆNH
         </h1>
         <ol class="breadcrumb">
             <li class="active">Trang chủ</li>
@@ -19,9 +19,8 @@
                 <!-- Advanced Tables -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        Bảng thông tin hồ sơ bệnh nhân:
                         <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                            Tạo hồ sơ bệnh nhân
+                            Tạo phiếu kết quả
                         </button>
                         <!-- Modal -->
                         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -29,33 +28,60 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                        <h4 class="modal-title" id="myModalLabel">Tạo thông tin hồ sơ</h4>
+                                        <h3 style="text-align: center" class="modal-title" id="myModalLabel">Tạo thông tin hồ sơ</h3>
                                     </div>
                                     <form asp-action="CreateHoSoBenhAn" asp-controller="QuanLyBenhVien" method="post">
                                         <div class="modal-body">
                                             <div class="form-group">
-                                                <label for="CCCD">CCCD:</label>
+                                                <label for="CCCD">Số căn cước công dân bệnh nhân:</label>
                                                 <input type="text" id="CCCD" name="CCCD" class="form-control" required />
                                             </div>
                                             <div class="form-group">
-                                                <label for="TrieuChung">Triệu chứng:</label>
-                                                <textarea id="TrieuChung" name="TrieuChung" class="form-control" required></textarea>
+                                                <label for="ChuyenKhoaId">Chuyên khoa:</label>
+                                                <select id="ChuyenKhoaId" name="ChuyenKhoaId" class="form-control wide" required>
+                                                    <option value="" disabled selected>Chọn chuyên khoa</option>
+                                                    @foreach (var chuyenKhoa in ViewBag.ChuyenKhoaList)
+                                                    {
+                                                        <option value="@chuyenKhoa.Id">@chuyenKhoa.Name</option>
+                                                    }
+                                                </select>
                                             </div>
                                             <div class="form-group">
-                                                <label for="ChanDoan">Chẩn đoán:</label>
-                                                <textarea id="ChanDoan" name="ChanDoan" class="form-control"></textarea>
+                                                @* <label for="BacSiId">Bác sĩ:</label>
+                                                <select id="BacSiId" name="BacSiId" class="form-control wide" required>
+                                                    <option value="" disabled selected>Chọn Bác sĩ</option>
+                                                    
+                                                </select> *@
+                                                <label for="BacSiId">Chuyên khoa:</label>
+                                                <select id="BacSiId" name="BacSiId" class="form-control wide" required>
+                                                    <option value="" disabled selected>Chọn chuyên khoa</option>
+                                                    @foreach (var chuyenKhoa in ViewBag.BacSiList)
+                                                    {
+                                                        <option value="@chuyenKhoa.Id">@chuyenKhoa.hoTen</option>
+                                                    }
+                                                </select>
                                             </div>
                                             <div class="form-group">
-                                                <label for="ThuocDuocKe">Thuốc được kê:</label>
+                                                <label for="LoaiPhieu">Loại phiếu:</label>
+                                                <select id="LoaiPhieu" name="LoaiPhieuId" class="form-control wide" required>
+                                                    <option value="" disabled selected>Chọn loại phiếu</option>
+                                                    @foreach (var loaiPhieu in ViewBag.LoaiPhieuList)
+                                                    {
+                                                        <option value="@loaiPhieu.Id">@loaiPhieu.TenLoai</option>
+                                                    }
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="phieu">Tải phiếu lên:</label>
+                                                <input type="file" id="phieu" name="DuongDanPhieu" class="form-control" required></input>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="ThuocDuocKe">Đơn thuốc:</label>
                                                 <input type="file" id="ThuocDuocKe" name="ThuocDuocKe" class="form-control"></input>
                                             </div>
                                             <div class="form-group">
                                                 <label for="GhiChu">Ghi chú:</label>
                                                 <textarea id="GhiChu" name="GhiChu" class="form-control"></textarea>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="HinhAnh">Hình ảnh (nếu có):</label>
-                                                <input type="file" id="HinhAnh" name="HinhAnh" class="form-control" accept="image/*" />
                                             </div>
                                         </div>
                                         <div class="modal-footer">
@@ -86,10 +112,11 @@
                                 <thead>
                                     <tr>
                                         <th>STT</th>
-                                        <th>Tên</th>
-                                        <th>CCCD</th>
-                                        <th>Ngày tạo hồ sơ</th>
-                                        <th>Chức năng</th>
+                                        <th>Mã phiếu</th>
+                                        <th>Tên phiếu</th>
+                                        <th>Chuyên khoa</th>
+                                        <th>Bác sĩ</th>
+                                        <th>Ngày tạo</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -100,8 +127,10 @@
                                     {
                                         <tr class="odd gradeX">
                                             <td>@index</td>
-                                            <td>@(item?.UserName ?? "Không có dữ liệu")</td>
-                                            <td>@(item?.Cccd ?? "Không có dữ liệu")</td>
+                                            <td>@(item?.PhieuId.ToString() ?? "Không có dữ liệu")</td>
+                                            <td>@(item?.TenPhieu ?? "Không có dữ liệu")</td>
+                                            <td>@(item?.TenChuyenKhoa ?? "Không có dữ liệu")</td>
+                                            <td>@(item?.TenBacSi ?? "Không có dữ liệu")</td>
                                             <td>@(item?.NgayTao.ToString("dd/MM/yyyy") ?? "Không có dữ liệu")</td>
                                             <td><a asp-action="chiTietQuanLyHoSoBenhNhan" asp-controller="QuanLyBenhVien" class="btn btn-info btn-sm">Xem chi tiết</a></td>
                                         </tr>
@@ -120,9 +149,40 @@
 @section Scripts {
     <script src="~/assets/js/dataTables/jquery.dataTables.js"></script>
     <script src="~/assets/js/dataTables/dataTables.bootstrap.js"></script>
+    
     <script>
         $(document).ready(function() {
             $('#dataTables-example').dataTable();
+        });
+    
+        $(document).ready(function () {
+            var doctors = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.BacSiList));
+
+            if (!doctors || doctors.length === 0) {
+                console.error("Danh sách Bác Sĩ không khả dụng.");
+                return;
+            }
+
+            // Xử lý khi Chuyên Khoa được chọn
+            $('#ChuyenKhoaId').on('change', function () {
+                var selectedChuyenKhoaId = parseInt($(this).val(), 10); // Lấy ID Chuyên Khoa và chuyển sang số nguyên
+                $('#BacSiId').empty(); // Xóa danh sách Bác Sĩ cũ
+
+                if (!isNaN(selectedChuyenKhoaId) && selectedChuyenKhoaId > 0) {
+                    // Thêm tùy chọn mặc định
+                    $('#BacSiId').append('<option value="" disabled selected>Chọn Bác sĩ</option>');
+
+                    // Lọc danh sách Bác Sĩ phù hợp với Chuyên Khoa đã chọn
+                    $.each(doctors, function (index, doctor) {
+                        if (doctor.ChuyenKhoaId == selectedChuyenKhoaId) {
+                            $('#BacSiId').append('<option value="' + doctor.Id + '">' + doctor.hoTen + '</option>');
+                        }
+                    });
+                } else {
+                    // Nếu không có Chuyên Khoa nào được chọn
+                    $('#BacSiId').append('<option value="" disabled selected>Chọn Bác sĩ</option>');
+                }
+            });
         });
     </script>
 }

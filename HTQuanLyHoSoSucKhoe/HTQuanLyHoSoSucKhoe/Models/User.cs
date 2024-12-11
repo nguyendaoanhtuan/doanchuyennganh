@@ -35,6 +35,7 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public virtual ICollection<Appointment> Appointments { get; set; }  // Một User có thể có nhiều Appointment
 
         public virtual ICollection<HoSoBenhAn> HoSoBenhAns { get; set; }
+        public virtual ICollection<PhieuKetQua> PhieuKetQuas { get; set; }
 
         public virtual TaiKhoan TaiKhoan { get; set; }
 

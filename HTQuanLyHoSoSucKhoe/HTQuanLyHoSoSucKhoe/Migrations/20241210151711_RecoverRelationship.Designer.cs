@@ -4,6 +4,7 @@ using HTQuanLyHoSoSucKhoe.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HTQuanLyHoSoSucKhoe.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241210151711_RecoverRelationship")]
+    partial class RecoverRelationship
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -257,41 +260,18 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     b.Property<int>("BacSiId")
                         .HasColumnType("int");
 
-                    b.Property<int>("BenhVienId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("DonThuoc")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("DuongDanPhieu")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("GhiChu")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("LoaiPhieuId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<DateTime>("NgayCapNhat")
-                        .HasColumnType("datetime2");
-
                     b.Property<DateTime>("NgayTao")
                         .HasColumnType("datetime2");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("BacSiId");
 
-                    b.HasIndex("BenhVienId");
-
                     b.HasIndex("LoaiPhieuId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("PhieuKetQuas");
                 });
@@ -469,7 +449,7 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     b.HasOne("HTQuanLyHoSoSucKhoe.Models.BenhVien", "BenhVien")
                         .WithMany("HoSoBenhAns")
                         .HasForeignKey("BenhVienId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("HTQuanLyHoSoSucKhoe.Models.User", "User")
@@ -491,31 +471,15 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HTQuanLyHoSoSucKhoe.Models.BenhVien", "BenhVien")
-                        .WithMany("PhieuKetQuas")
-                        .HasForeignKey("BenhVienId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
                     b.HasOne("HTQuanLyHoSoSucKhoe.Models.LoaiPhieu", "LoaiPhieu")
                         .WithMany("PhieuKetQuas")
                         .HasForeignKey("LoaiPhieuId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HTQuanLyHoSoSucKhoe.Models.User", "User")
-                        .WithMany("PhieuKetQuas")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
                     b.Navigation("BacSi");
 
-                    b.Navigation("BenhVien");
-
                     b.Navigation("LoaiPhieu");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.TaiKhoan", b =>
@@ -559,8 +523,6 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
 
                     b.Navigation("HoSoBenhAns");
 
-                    b.Navigation("PhieuKetQuas");
-
                     b.Navigation("TaiKhoan")
                         .IsRequired();
                 });
@@ -587,8 +549,6 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     b.Navigation("Appointments");
 
                     b.Navigation("HoSoBenhAns");
-
-                    b.Navigation("PhieuKetQuas");
 
                     b.Navigation("TaiKhoan")
                         .IsRequired();

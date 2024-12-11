@@ -4,6 +4,7 @@ using HTQuanLyHoSoSucKhoe.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 
 namespace HTQuanLyHoSoSucKhoe.Controllers
 {
@@ -19,41 +20,43 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
  
            public IActionResult Index()
         {
+            ViewBag.ChuyenKhoaList = _context.ChuyenKhoas.ToList();
+            ViewBag.BacSiList = _context.BacSis.Select(d => new { d.Id,d.hoTen, d.ChuyenKhoaId }).ToList(); // Bao gồm SpecialtyId để lọc
+            ViewBag.LoaiPhieuList = _context.LoaiPhieus.ToList();
             List<HoSoBenhAnViewModel> models = new List<HoSoBenhAnViewModel>();
 
             // Lấy tất cả hồ sơ bệnh án từ cơ sở dữ liệu
-            var hoSoBenhAns = _context.HoSoBenhAns.Include(h => h.User).ToList();
+            var hoSoBenhAns = _context.PhieuKetQuas.Include(h => h.User).ToList();
 
             foreach (var hoSo in hoSoBenhAns)
             {
                 models.Add(new HoSoBenhAnViewModel
                 {
-                    UserId = hoSo.UserId,
-                    UserName = hoSo.User.Ho + " " + hoSo.User.Ten,
-                    Cccd = hoSo.User.Cccd,
-                    PhoneNumber = hoSo.User.Phone_Number,
-                    Email = hoSo.User.Email,
-                    BenhVienId = hoSo.BenhVienId,
-                    TrieuChung = hoSo.trieuChung,
-                    ChanDoan = hoSo.chanDoan,
-                    ThuocDuocKe = hoSo.thuocDuocKe,
-                    GhiChu = hoSo.GhiChu,
-                    HinhAnh = hoSo.hinhAnh,
-                    NgayTao = hoSo.ngayTao
-                });
+                    //UserId = hoSo.UserId,
+                   // Cccd = hoSo.User.Cccd,
+                    //PhoneNumber = hoSo.User.Phone_Number,
+                    //Email = hoSo.User.Email,
+                    //BenhVienId = hoSo.BenhVienId,
+                    //ThuocDuocKe = hoSo.DonThuoc?? "",
+                    PhieuId = hoSo.Id,
+                    //DuongDanPhieu = hoSo.DuongDanPhieu,
+                   // GhiChu = hoSo.GhiChu ?? "",
+                    NgayTao = hoSo.NgayTao,
+                    TenBacSi = _context.BacSis.FirstOrDefault(w => w.Id == hoSo.BacSiId).hoTen,
+                    TenPhieu = _context.LoaiPhieus.FirstOrDefault(i => i.Id == hoSo.LoaiPhieuId).TenLoai,
+                    TenChuyenKhoa = _context.ChuyenKhoas.FirstOrDefault(i => i.Id == _context.BacSis.FirstOrDefault(w => w.Id == hoSo.BacSiId).ChuyenKhoaId).Name,
+                }); ;
             }
 
             return View(models);  // Truyền danh sách các hồ sơ bệnh án đã lấy
         }
-        
-
-
 
         // POST: QuanLyBenhVien/CreateHoSoBenhAn
         [HttpPost]
         public async Task<IActionResult> CreateHoSoBenhAn(HoSoBenhAnViewModel model)
         {
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Cccd == model.Cccd);
+
             if (user == null)
             {
                 TempData["ErrorMessage"] = "Không tìm thấy tài khoản với CCCD này!";
@@ -86,21 +89,21 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             var benhVien = _context.BenhVien.FirstOrDefault(bv => bv.Id == parsedBenhVienId);
 
             // Tạo hồ sơ bệnh án từ model truyền vào
-            var hoSoBenhAn = new HoSoBenhAn
+            var hoSoBenhAn = new PhieuKetQua
                 {
                     UserId = user.Id,
                     BenhVienId = benhVien.Id,
-                    trieuChung = model.TrieuChung,
-                    chanDoan = model.ChanDoan,
-                    thuocDuocKe = model.ThuocDuocKe,
                     GhiChu = model.GhiChu,
-                    hinhAnh = model.HinhAnh,
-                    ngayTao = DateTime.Now,
-                    ngayCapNhat = DateTime.Now
+                    NgayTao = DateTime.Now,
+                    NgayCapNhat = DateTime.Now,
+                    LoaiPhieuId = model.LoaiPhieuId,
+                    BacSiId = model.BacSiId,
+                    DonThuoc = model.ThuocDuocKe,
+                    DuongDanPhieu = model.DuongDanPhieu,
                 };
 
                 // Lưu hồ sơ bệnh án vào cơ sở dữ liệu
-                _context.HoSoBenhAns.Add(hoSoBenhAn);
+                _context.PhieuKetQuas.Add(hoSoBenhAn);
                 await _context.SaveChangesAsync();
 
 
@@ -108,7 +111,6 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             TempData["UserId"] = user.Id;
             // Thông báo thành công
             TempData["SuccessMessage"] = "Hồ sơ bệnh án đã được tạo thành công!";
-
 
             // Quay lại trang Index sau khi lưu thành công và truyền UserId để lấy thông tin người dùng
             return RedirectToAction("Index");

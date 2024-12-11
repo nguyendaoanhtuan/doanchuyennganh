@@ -9,7 +9,6 @@ namespace HTQuanLyHoSoSucKhoe.Models
     {
         public int Id { get; set; }
 
-    
         public int BenhVienId { get; set; }
 
         [Required]
