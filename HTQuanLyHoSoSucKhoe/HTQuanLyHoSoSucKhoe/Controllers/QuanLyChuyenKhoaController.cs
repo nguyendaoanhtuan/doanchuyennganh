@@ -20,7 +20,16 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
         // GET: QuanLyChuyenKhoa
         public IActionResult Index()
         {
-            var chuyenKhoaList = _context.ChuyenKhoas.Select(c => new ThongTinChuyenKhoaViewModel
+            var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
+            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
+            {
+                return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
+            }
+            var chuyenKhoaList = _context.ChuyenKhoas
+             .Where(c => c.BenhVienId == parsedBenhVienId)
+             .Select(c => new ThongTinChuyenKhoaViewModel
             {
                 chuyenKhoaId = c.Id,
                 tenChuyenKhoa = c.Name,
@@ -39,16 +48,10 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Lấy ID bệnh viện từ claims (tương tự như bạn làm trong phương thức CreateBacSi)
             var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID bệnh viện từ claims
 
-            // Kiểm tra xem benhVienId có tồn tại trong claims không
-            if (string.IsNullOrEmpty(benhVienId))
+            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
+            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không có benhVienId, điều hướng về trang login
-            }
-
-            // Chuyển đổi benhVienId thành kiểu int (giả sử Id là kiểu int)
-            if (!int.TryParse(benhVienId, out var parsedBenhVienId))
-            {
-                return RedirectToAction("Login", "Users"); // Nếu không thể chuyển đổi ID, điều hướng về trang login
+                return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
             }
 
             // Tạo chuyên khoa từ model truyền vào
@@ -76,14 +79,10 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Lấy ID bệnh viện từ claims
             var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            if (string.IsNullOrEmpty(benhVienId))
+            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
+            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
             {
-                return RedirectToAction("Login", "Users");
-            }
-
-            if (!int.TryParse(benhVienId, out var parsedBenhVienId))
-            {
-                return RedirectToAction("Login", "Users");
+                return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
             }
 
             // Kiểm tra xem chuyên khoa có tồn tại không
@@ -114,16 +113,10 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Lấy ID bệnh viện từ claims
             var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            // Kiểm tra xem benhVienId có tồn tại trong claims không
-            if (string.IsNullOrEmpty(benhVienId))
+            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
+            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không có benhVienId, điều hướng về trang login
-            }
-
-            // Chuyển đổi benhVienId thành kiểu int
-            if (!int.TryParse(benhVienId, out var parsedBenhVienId))
-            {
-                return RedirectToAction("Login", "Users"); // Nếu không thể chuyển đổi ID, điều hướng về trang login
+                return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
             }
 
             // Tìm chuyên khoa cần xóa

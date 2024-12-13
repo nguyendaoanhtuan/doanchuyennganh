@@ -64,16 +64,10 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             }
             var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của bệnh viện từ claims
 
-            // Kiểm tra xem benhVienId có tồn tại trong claims không
-            if (string.IsNullOrEmpty(benhVienId))
+            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
+            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không có benhVienId, điều hướng về trang login
-            }
-
-            // Chuyển đổi benhVienId thành kiểu int (giả sử Id là kiểu int)
-            if (!int.TryParse(benhVienId, out var parsedBenhVienId))
-            {
-                return RedirectToAction("Login", "Users"); // Nếu không thể chuyển đổi ID, điều hướng về trang login
+                return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
             }
 
             // Tìm tài khoản bệnh viện hiện tại dựa trên benhVienId
@@ -184,16 +178,10 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
         {
             var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của bệnh viện từ claims
 
-            // Kiểm tra xem benhVienId có tồn tại trong claims không
-            if (string.IsNullOrEmpty(benhVienId))
+            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
+            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không có benhVienId, điều hướng về trang login
-            }
-
-            // Chuyển đổi benhVienId thành kiểu int (giả sử Id là kiểu int)
-            if (!int.TryParse(benhVienId, out var parsedBenhVienId))
-            {
-                return RedirectToAction("Login", "Users"); // Nếu không thể chuyển đổi ID, điều hướng về trang login
+                return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
             }
 
             // Tìm tài khoản bệnh viện hiện tại dựa trên benhVienId
@@ -234,16 +222,10 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
         {
             var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của bệnh viện từ claims
 
-            // Kiểm tra xem benhVienId có tồn tại trong claims không
-            if (string.IsNullOrEmpty(benhVienId))
+            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
+            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không có benhVienId, điều hướng về trang login
-            }
-
-            // Chuyển đổi benhVienId thành kiểu int (giả sử Id là kiểu int)
-            if (!int.TryParse(benhVienId, out var parsedBenhVienId))
-            {
-                return RedirectToAction("Login", "Users"); // Nếu không thể chuyển đổi ID, điều hướng về trang login
+                return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
             }
 
             // Tìm tài khoản bệnh viện hiện tại dựa trên benhVienId
@@ -281,15 +263,10 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
           
             var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID bệnh viện từ claims
 
-            if (string.IsNullOrEmpty(benhVienId))
+            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
+            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không có benhVienId, điều hướng đến trang login
-            }
-
-            // Chuyển đổi benhVienId thành kiểu int
-            if (!int.TryParse(benhVienId, out var parsedBenhVienId))
-            {
-                return RedirectToAction("Login", "Users");
+                return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
             }
 
             // Lấy tài khoản bệnh viện
