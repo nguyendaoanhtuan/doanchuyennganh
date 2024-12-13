@@ -13,7 +13,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
     {
 
         private readonly ApplicationDbContext _context;
-
+        //VO DANG HUY
         public QuanLyBacSiController(ApplicationDbContext context)
         {
             _context = context;
