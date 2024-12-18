@@ -48,7 +48,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         <li>
-                            <a asp-action="CaiDatTaiKhoan" asp-controller="QuanLyBenhVien"><i class="fa fa-user fa-fw"></i> Thông tin cá nhân</a>
+                            <a asp-action="CaiDatTaiKhoan" asp-controller="QuanLyLamSan"><i class="fa fa-user fa-fw"></i> Thông tin cá nhân</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
@@ -69,25 +69,11 @@
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a asp-action="Index" asp-controller="QuanLyBenhVien" class="active-menu"><i class="fa fa-dashboard"></i> Quản lý hồ sơ bệnh nhân</a>
-                    </li>
-                    <li>
-                        <a asp-action="quanLyDatKham" asp-controller="QuanLyBenhVien"><i class="fa fa-desktop"></i> Quản lý đặt khám</a>
+                        <a asp-action="Index" asp-controller="QuanLyLamSang" class="active-menu"><i class="fa fa-dashboard"></i> Quản lý hồ sơ bệnh nhân</a>
                     </li>
 
                     <li>
-                        <a href="#"><i class="fa fa-sitemap"></i> Quản lý bệnh viện<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a asp-action="index" asp-controller="QuanLyChuyenKhoa">Quản lý chuyên khoa</a>
-                            </li>
-                            <li>
-                                <a asp-action="index" asp-controller="QuanLyBacSi">Quản lý bác sĩ</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a asp-action="CaiDatTaiKhoan" asp-controller="QuanLyBenhVien"><i class="fa fa-fw fa-file"></i> Cài đặt tài khoản </a>
+                        <a asp-action="CaiDatTaiKhoan" asp-controller="QuanLyLamSang"><i class="fa fa-fw fa-file"></i> Cài đặt tài khoản </a>
                     </li>
                 </ul>
 

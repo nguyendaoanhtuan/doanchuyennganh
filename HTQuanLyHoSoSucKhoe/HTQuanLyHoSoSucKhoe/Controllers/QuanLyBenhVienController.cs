@@ -266,7 +266,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
             if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
             {
-                return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
+                return RedirectToAction("Login", "TaiKhoan"); // Điều hướng về trang login nếu không hợp lệ
             }
 
             // Lấy tài khoản bệnh viện

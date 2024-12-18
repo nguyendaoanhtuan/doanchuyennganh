@@ -148,7 +148,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Kiểm tra xem userId có tồn tại trong claims không
             if (string.IsNullOrEmpty(userId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không có userId, điều hướng về trang login
+                return RedirectToAction("Login", "TaiKhoan"); // Nếu không có userId, điều hướng về trang login
             }
 
             // Tìm tài khoản bệnh viện hiện tại dựa trên userId
@@ -184,13 +184,13 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Kiểm tra xem userId có tồn tại trong claims không
             if (string.IsNullOrEmpty(userId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không có userId, điều hướng về trang login
+                return RedirectToAction("Login", "TaiKhoan"); // Nếu không có userId, điều hướng về trang login
             }
 
             // Chuyển đổi userId thành kiểu int (giả sử Id là kiểu int)
             if (!int.TryParse(userId, out var parseduserId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không thể chuyển đổi ID, điều hướng về trang login
+                return RedirectToAction("Login", "TaiKhoan"); // Nếu không thể chuyển đổi ID, điều hướng về trang login
             }
 
             // Tìm tài khoản user hiện tại dựa trên userId
@@ -234,13 +234,13 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Kiểm tra xem userId có tồn tại trong claims không
             if (string.IsNullOrEmpty(userId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không có userId, điều hướng về trang login
+                return RedirectToAction("Login", "TaiKhoan"); // Nếu không có userId, điều hướng về trang login
             }
 
             // Chuyển đổi userId thành kiểu int (giả sử Id là kiểu int)
             if (!int.TryParse(userId, out var parseduserId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không thể chuyển đổi ID, điều hướng về trang login
+                return RedirectToAction("Login", "TaiKhoan"); // Nếu không thể chuyển đổi ID, điều hướng về trang login
             }
 
             // Tìm tài khoản user hiện tại dựa trên userId
@@ -283,13 +283,13 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
 
             if (string.IsNullOrEmpty(userId))
             {
-                return RedirectToAction("Login", "Users"); // Nếu không có userId, điều hướng đến trang login
+                return RedirectToAction("Login", "TaiKhoan"); // Nếu không có userId, điều hướng đến trang login
             }
 
             // Chuyển đổi userId thành kiểu int
             if (!int.TryParse(userId, out var parsedUserId))
             {
-                return RedirectToAction("Login", "Users");
+                return RedirectToAction("Login", "TaiKhoan");
             }
 
             // Lấy tài khoản user
