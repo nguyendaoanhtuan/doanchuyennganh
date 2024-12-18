@@ -136,89 +136,10 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             await _context.SaveChangesAsync();
 
             // Redirect hoặc trả về thông báo thành công
-            return RedirectToAction("Login");
+            return RedirectToAction("Login","TaiKhoan");
         }
 
 
-        [HttpGet]
-        public IActionResult Login()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> LoginAsync(string phone_number, string password)
-        {
-            // Kiểm tra số điện thoại trong bảng User
-            var user = await _context.Users.Include(u => u.Role)
-                                           .Include(u => u.TaiKhoan)
-                                           .SingleOrDefaultAsync(u => u.Phone_Number == phone_number);
-
-            // Nếu không tìm thấy trong bảng User, kiểm tra bảng BenhVien
-            var benhVien = await _context.BenhVien.Include(bv => bv.Role)
-                                                  .Include(u => u.TaiKhoan)
-                                                  .SingleOrDefaultAsync(bv => bv.Phone_Number == phone_number);
-
-            if (user != null && user.TaiKhoan != null && user.Role != null &&
-                    (BCrypt.Net.BCrypt.Verify(password, user.TaiKhoan.passWord) || password == user.TaiKhoan.passWord))
-            {
-                return await AuthenticateAndRedirect(user.Id, user.Ho, user.Ten, user.Role.Vaitro);
-            }
-
-            // Xử lý đăng nhập cho Bệnh viện
-            if (benhVien != null && benhVien.TaiKhoan != null && benhVien.Role != null && password == benhVien.TaiKhoan.passWord)
-            {
-                return await AuthenticateAndRedirect(benhVien.Id, benhVien.Name, benhVien.Role.Vaitro);
-            }
-
-            ModelState.AddModelError("", "Số điện thoại hoặc mật khẩu không đúng.");
-            return View();
-        }
-
-
-        // dành cho user để lấy thông tin vào claim
-        private async Task<IActionResult> AuthenticateAndRedirect(int id, string ho, string ten, string role)
-        {
-            var fullName = $"{ho} {ten}"; // Kết hợp họ và tên
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.NameIdentifier, id.ToString()),
-                new Claim(ClaimTypes.Name, fullName),
-                new Claim(ClaimTypes.Role, role)
-            };
-            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-            var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
-
-            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
-
-            return RedirectToAction("Index", "Home");
-        }
-
-        //dành cho bệnh viện để lấy thông tin vào claim
-        private async Task<IActionResult> AuthenticateAndRedirect(int id, string fullName, string role)
-        {
-
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.NameIdentifier, id.ToString()),
-                new Claim(ClaimTypes.Name, fullName),
-                new Claim(ClaimTypes.Role, role)
-            };
-            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-            var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
-
-            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
-
-            return RedirectToAction("Index", "Home");
-        }
-
-
-        public IActionResult Logout()
-        {
-            HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index", "Home");
-        }
 
         public IActionResult caiDatTaiKhoan()
         {

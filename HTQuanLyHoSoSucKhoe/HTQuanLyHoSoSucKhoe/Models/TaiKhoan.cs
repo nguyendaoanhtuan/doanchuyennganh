@@ -20,5 +20,8 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public int? BenhVienId { get; set; }
         public virtual BenhVien BenhVien { get; set; }
 
+        public int? ChuyenKhoaId { get; set; }
+        public virtual ChuyenKhoa ChuyenKhoa { get; set; }
+
     }
 }

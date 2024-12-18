@@ -3285,7 +3285,7 @@ select[multiple].form-group-lg .form-control, textarea.form-group-lg .form-contr
 @media (min-width:768px) {
     .form-inline .form-group {
         display: inline-block;
-        margin-bottom: 0;
+        margin-bottom: 16px;
         vertical-align: middle
     }
 

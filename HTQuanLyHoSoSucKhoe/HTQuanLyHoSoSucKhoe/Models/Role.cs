@@ -7,5 +7,7 @@
 
         public virtual ICollection<User> Users { get; set; }
         public virtual ICollection<BenhVien> BenhViens { get; set; }
+
+        public virtual ICollection<ChuyenKhoa> ChuyenKhoas { get; set; }
     }
 }

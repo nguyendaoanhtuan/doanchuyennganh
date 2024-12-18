@@ -17,6 +17,8 @@ builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
     options.AddPolicy("User", policy => policy.RequireRole("User"));
+    options.AddPolicy("LamSang", policy => policy.RequireRole("LamSang"));
+    options.AddPolicy("CanLamSang", policy => policy.RequireRole("CanLamSang"));
 });
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -67,6 +69,18 @@ app.Use(async (context, next) =>
             return;
         }
 
+        if (context.User.IsInRole("LamSang"))
+        {
+            context.Response.Redirect("/QuanLyLamSang/Index");
+            return;
+        }
+
+        if (context.User.IsInRole("CanLamSang"))
+        {
+            context.Response.Redirect("/QuanLyCanLamSang/Index");
+            return;
+        }
+
         // Nếu không có role, quay lại trang đăng nhập
         context.Response.Redirect("/DangNhap");
         return;
@@ -90,6 +104,6 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "login",
     pattern: "DangNhap",
-    defaults: new { controller = "Users", action = "Login" });
+    defaults: new { controller = "TaiKhoan", action = "Login" });
 
 app.Run();

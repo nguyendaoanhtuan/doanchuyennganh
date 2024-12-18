@@ -35,6 +35,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
                 tenChuyenKhoa = c.Name,
                 BenhVienId = c.BenhVienId,
                 tenBenhVien = c.BenhVien.Name, 
+                soTaiKhoan = c.phoneNumber,
                
             }).ToList();
 
@@ -57,13 +58,24 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Tạo chuyên khoa từ model truyền vào
             var chuyenKhoa = new ChuyenKhoa
             {
+                RoleId = 3,
                 Name = model.tenChuyenKhoa,
                 BenhVienId = parsedBenhVienId, // Lưu ID bệnh viện lấy từ claims vào ChuyenKhoa
-               
+                phoneNumber = model.soTaiKhoan,
+                
             };
 
             // Lưu chuyên khoa vào cơ sở dữ liệu
             _context.ChuyenKhoas.Add(chuyenKhoa);
+            await _context.SaveChangesAsync();
+
+            var taiKhoan = new TaiKhoan
+            {
+                passWord = model.matKhau,
+                ChuyenKhoaId = chuyenKhoa.Id,
+            };
+
+            _context.TaiKhoans.Add(taiKhoan);
             await _context.SaveChangesAsync();
 
             // Thông báo thành công
@@ -97,6 +109,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
 
             // Cập nhật thông tin chuyên khoa
             chuyenKhoa.Name = model.tenChuyenKhoa;
+            chuyenKhoa.phoneNumber = model.soTaiKhoan;
 
             _context.ChuyenKhoas.Update(chuyenKhoa);
             await _context.SaveChangesAsync();
