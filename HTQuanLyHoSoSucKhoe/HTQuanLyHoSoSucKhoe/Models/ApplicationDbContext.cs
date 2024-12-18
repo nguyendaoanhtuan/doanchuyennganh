@@ -60,6 +60,11 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<TaiKhoan>()
             .HasIndex(t => t.BenhVienId)
             .IsUnique();
+        // Cấu hình mối quan hệ một-một
+        modelBuilder.Entity<TaiKhoan>()
+            .HasOne(t => t.ChuyenKhoa)
+            .WithOne(c => c.TaiKhoan)
+            .HasForeignKey<TaiKhoan>(t => t.ChuyenKhoaId);
 
         // Cấu hình mối quan hệ một-một
         modelBuilder.Entity<TaiKhoan>()
@@ -100,6 +105,12 @@ public class ApplicationDbContext : DbContext
             .HasForeignKey(a => a.BenhVienId)  // Khóa ngoại từ Appointment đến BenhVien
             .OnDelete(DeleteBehavior.NoAction); // Không thực hiện Cascade khi BenhVien bị xóa
 
+        // Cấu hình mối quan hệ Role - ChuyenKhoa (1-nhiều)
+        modelBuilder.Entity<Role>()
+            .HasMany(r => r.ChuyenKhoas)
+            .WithOne(ck => ck.Role)
+            .HasForeignKey(ck => ck.RoleId)
+            .OnDelete(DeleteBehavior.Cascade); // Xóa Role thì xóa các ChuyenKhoa liên quan
         // Cấu hình mối quan hệ User - Role
         modelBuilder.Entity<User>()
             .HasOne(u => u.Role)

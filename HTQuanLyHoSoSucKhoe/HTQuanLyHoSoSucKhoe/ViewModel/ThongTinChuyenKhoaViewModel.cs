@@ -9,6 +9,9 @@
 
         public string tenBenhVien {  get; set; }
 
+        public string soTaiKhoan { get; set; }
+
+        public string matKhau {  get; set; } 
     
     }
 }

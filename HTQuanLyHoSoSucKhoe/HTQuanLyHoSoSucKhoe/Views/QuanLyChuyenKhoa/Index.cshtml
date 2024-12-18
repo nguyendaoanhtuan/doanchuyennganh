@@ -36,9 +36,34 @@
                                         <div class="modal-body">
                                             <div class="form-group">
                                                 <label for="tenChuyenKhoa">Tên chuyên khoa:</label>
-                                                <input type="text" id="tenChuyenKhoa" name="tenChuyenKhoa" class="form-control" required />
-                                            </div>     
-                                        <div class="modal-footer">
+                                                <select id="tenChuyenKhoa" name="tenChuyenKhoa" class="form-control" required>
+                                                    <option value="Khoa Cơ - Xương - Khớp">Khoa Cơ - Xương - Khớp</option>
+                                                    <option value="Khoa Da liễu">Khoa Da liễu</option>
+                                                    <option value="Khoa Hô hấp">Khoa Hô hấp</option>
+                                                    <option value="Khoa Huyết học - Truyền máu">Khoa Huyết học - Truyền máu</option>
+                                                    <option value="Khoa Nhãn khoa">Khoa Nhãn khoa</option>
+                                                    <option value="Khoa Nhi">Khoa Nhi</option>
+                                                    <option value="Khoa Nội tiết">Khoa Nội tiết</option>
+                                                    <option value="Khoa Răng - Hàm - Mặt">Khoa Răng - Hàm - Mặt</option>
+                                                    <option value="Khoa Tai - Mũi - Họng">Khoa Tai - Mũi - Họng</option>
+                                                    <option value="Khoa Thận - Tiết niệu">Khoa Thận - Tiết niệu</option>
+                                                    <option value="Khoa Thần kinh">Khoa Thần kinh</option>
+                                                    <option value="Khoa Tiêu hóa - Gan mật">Khoa Tiêu hóa - Gan mật</option>
+                                                    <option value="Khoa Tim mạch">Khoa Tim mạch</option>
+                                                    <option value="Khoa Truyền nhiễm">Khoa Truyền nhiễm</option>
+                                                    <option value="Khoa Vật lý trị liệu - Phục hồi chức năng">Khoa Vật lý trị liệu - Phục hồi chức năng</option>
+                                                    <option value="Khoa Xét nghiệm">Khoa Xét nghiệm</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="soTaiKhoan">Số tài khoản:</label>
+                                                <input type="text" id="soTaiKhoana" name="soTaiKhoan" class="form-control" required />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="matKhau">Mật khẩu:</label>
+                                                <input type="password" id="matKhau" name="matKhau" class="form-control" required />
+                                            </div>
+                                            <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Tắt</button>
                                             <button type="submit" class="btn btn-primary">Lưu chuyên khoa</button>
                                         </div>
@@ -67,6 +92,7 @@
                                     <tr>
                                         <th>STT</th>
                                         <th>Tên chuyên khoa</th>
+                                        <th>Số tài khoản</th>
                                         <th>Tên bệnh viện</th>
                                         <th>Chức năng</th>
                                     </tr>
@@ -80,6 +106,7 @@
                                         <tr class="odd gradeX">
                                             <td>@index</td>
                                             <td>@(item?.tenChuyenKhoa ?? "Không có dữ liệu")</td>
+                                            <td>@(item?.soTaiKhoan ?? "Không có dữ liệu")</td>
                                             <td>@(item?.tenBenhVien ?? "Không có dữ liệu")</td>                                       
                                             <td>
                                                 <button class="btn btn-primary" data-toggle="modal" data-target="#editInfoModal_@item.chuyenKhoaId">
@@ -101,9 +128,34 @@
                                                                 <input type="hidden" name="chuyenKhoaId" value="@item.chuyenKhoaId" />
                                                                     <div class="modal-body">
                                                                         <div class="form-group">
-                                                                            <label for="tenChuyenKhoa">Nhập chuyên khoa mới:</label>
-                                                                            <input type="text" id="tenChuyenKhoa" name="tenChuyenKhoa" class="form-control" value="@item.tenChuyenKhoa" required />
+                                                                            <label for="tenChuyenKhoa">Tên chuyên khoa cũ:</label>
+                                                                            <input type="text" class="form-control" value="@item.tenChuyenKhoa" readonly />
                                                                         </div>
+                                                                        <div class="form-group">                                                                         
+                                                                            <label for="tenChuyenKhoa">Nhập chuyên khoa mới:</label>
+                                                                            <select id="tenChuyenKhoa" name="tenChuyenKhoa" class="form-control" required>
+                                                                                <option value="Khoa Cơ - Xương - Khớp">Khoa Cơ - Xương - Khớp</option>
+                                                                                <option value="Khoa Da liễu">Khoa Da liễu</option>
+                                                                                <option value="Khoa Hô hấp">Khoa Hô hấp</option>
+                                                                                <option value="Khoa Huyết học - Truyền máu">Khoa Huyết học - Truyền máu</option>
+                                                                                <option value="Khoa Nhãn khoa">Khoa Nhãn khoa</option>
+                                                                                <option value="Khoa Nhi">Khoa Nhi</option>
+                                                                                <option value="Khoa Nội tiết">Khoa Nội tiết</option>
+                                                                                <option value="Khoa Răng - Hàm - Mặt">Khoa Răng - Hàm - Mặt</option>
+                                                                                <option value="Khoa Tai - Mũi - Họng">Khoa Tai - Mũi - Họng</option>
+                                                                                <option value="Khoa Thận - Tiết niệu">Khoa Thận - Tiết niệu</option>
+                                                                                <option value="Khoa Thần kinh">Khoa Thần kinh</option>
+                                                                                <option value="Khoa Tiêu hóa - Gan mật">Khoa Tiêu hóa - Gan mật</option>
+                                                                                <option value="Khoa Tim mạch">Khoa Tim mạch</option>
+                                                                                <option value="Khoa Truyền nhiễm">Khoa Truyền nhiễm</option>
+                                                                                <option value="Khoa Vật lý trị liệu - Phục hồi chức năng">Khoa Vật lý trị liệu - Phục hồi chức năng</option>
+                                                                                <option value="Khoa Xét nghiệm">Khoa Xét nghiệm</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    <div class="form-group">
+                                                                        <label for="soTaiKhoan">Nhập số tài khoản mới:</label>
+                                                                        <input type="text" id="soTaiKhoan" name="soTaiKhoan" class="form-control" value="@item.soTaiKhoan" required />
+                                                                    </div>
                                                                         <div class="modal-footer">
                                                                             <button type="button" class="btn btn-default" data-dismiss="modal">Tắt</button>
                                                                             <button type="submit" class="btn btn-primary">Lưu chỉnh sửa</button>
