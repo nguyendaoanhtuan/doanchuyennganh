@@ -4,3 +4,109 @@
     Layout = "~/Views/Shared/_CanLamSangLayout.cshtml";
 }
 
+<div id="page-wrapper">
+    <div class="header">
+        <h1 class="page-header">Cài đặt tài khoản</h1>
+        <ol class="breadcrumb">
+            <li><a asp-action="Index" asp-controller="QuanLyCanLamSang">Trang chủ</a></li>
+            <li class="active">Cài đặt tài khoản</li>
+        </ol>
+    </div>
+
+    <div id="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Bảng thông tin tài khoản</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <!-- Khu vực hiển thị bảng thông tin -->
+                            <div class="col-md-6">
+                                <table class="detail-table">
+                                    <tr>
+                                        <th>Tên chuyên khoa:</th>
+                                        <td><input class="form-control" type="text" value="@Model.tenChuyenKhoa" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Số tài khoản:</th>
+                                        <td><input class="form-control" type="text" value="@Model.soTaiKhoan" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Mật khẩu:</th>
+                                        <td><input class="form-control" type="text" value="@Model.matKhau" readonly></td>
+                                    </tr>
+                                </table>
+                                <div class="btn-container-form">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target="#editInfoModal"><i class="fa fa-edit"></i> Chỉnh sửa</button>
+                                </div>
+                                <!-- Modal chỉnh sửa thông tin -->
+                                <div class="modal fade" id="editInfoModal" tabindex="-1" role="dialog" aria-labelledby="editInfoModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <form asp-action="chinhSuaThongTin" asp-controller="QuanLyCanLamSang" method="post">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="editInfoModalLabel">Chỉnh sửa thông tin</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="detail-table">
+
+                                                        <tr>
+                                                            <th>Số điện thoại:</th>
+                                                            <td><input class="form-control" asp-for="soTaiKhoan" type="text" value="@Model.soTaiKhoan"></td>
+                                                        </tr>
+
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Thoát</button>
+                                                    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="btn-container-form">
+                                    <button class="btn btn-warning" data-toggle="modal" data-target="#changePasswordModal"><i class="fa fa-key"></i> Thay đổi mật khẩu</button>
+                                </div>
+                                <!-- Modal thay đổi mật khẩu -->
+                                <div class="modal fade" id="changePasswordModal" tabindex="-1" role="dialog" aria-labelledby="changePasswordModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <form asp-action="thayDoiMatKhau" asp-controller="QuanLyCanLamSang" method="post">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="changePasswordModalLabel">Thay đổi mật khẩu</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="detail-table">
+                                                        <tr>
+                                                            <th>Nhập mật khẩu cũ:</th>
+                                                            <td><input class="form-control" asp-for="matKhauCu" type="password" required></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Nhập mật khẩu mới:</th>
+                                                            <td><input class="form-control" asp-for="matKhauMoi" type="password" required></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Nhập lại mật khẩu mới:</th>
+                                                            <td><input class="form-control" asp-for="nhapLaiMatKhau" type="password" required></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Thoát</button>
+                                                    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

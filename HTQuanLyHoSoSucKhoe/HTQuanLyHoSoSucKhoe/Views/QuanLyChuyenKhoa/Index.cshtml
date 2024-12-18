@@ -20,57 +20,105 @@
                 <!-- Advanced Tables -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        Bảng thông tin các chuyên khoa:
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                            Tạo chuyên khoa
-                        </button>
-                        <!-- Modal -->
-                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                        <h4 class="modal-title" id="myModalLabel">Tạo thông tin hồ sơ</h4>
-                                    </div>
-                                    <form asp-action="createChuyenKhoa" asp-controller="QuanLyChuyenKhoa" method="post">
-                                        <div class="modal-body">
-                                            <div class="form-group">
-                                                <label for="tenChuyenKhoa">Tên chuyên khoa:</label>
-                                                <select id="tenChuyenKhoa" name="tenChuyenKhoa" class="form-control" required>
-                                                    <option value="Khoa Cơ - Xương - Khớp">Khoa Cơ - Xương - Khớp</option>
-                                                    <option value="Khoa Da liễu">Khoa Da liễu</option>
-                                                    <option value="Khoa Hô hấp">Khoa Hô hấp</option>
-                                                    <option value="Khoa Huyết học - Truyền máu">Khoa Huyết học - Truyền máu</option>
-                                                    <option value="Khoa Nhãn khoa">Khoa Nhãn khoa</option>
-                                                    <option value="Khoa Nhi">Khoa Nhi</option>
-                                                    <option value="Khoa Nội tiết">Khoa Nội tiết</option>
-                                                    <option value="Khoa Răng - Hàm - Mặt">Khoa Răng - Hàm - Mặt</option>
-                                                    <option value="Khoa Tai - Mũi - Họng">Khoa Tai - Mũi - Họng</option>
-                                                    <option value="Khoa Thận - Tiết niệu">Khoa Thận - Tiết niệu</option>
-                                                    <option value="Khoa Thần kinh">Khoa Thần kinh</option>
-                                                    <option value="Khoa Tiêu hóa - Gan mật">Khoa Tiêu hóa - Gan mật</option>
-                                                    <option value="Khoa Tim mạch">Khoa Tim mạch</option>
-                                                    <option value="Khoa Truyền nhiễm">Khoa Truyền nhiễm</option>
-                                                    <option value="Khoa Vật lý trị liệu - Phục hồi chức năng">Khoa Vật lý trị liệu - Phục hồi chức năng</option>
-                                                    <option value="Khoa Xét nghiệm">Khoa Xét nghiệm</option>
-                                                </select>
+                        Bảng thông tin các chuyên khoa
+                        <div class="settingbtn">
+                            <div>
+                                <button class="btn btn-success" data-toggle="modal" data-target="#myModalLamSang">
+                                    Tạo chuyên khoa lâm sàng
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModalLamSang" tabindex="-1" role="dialog" aria-labelledby="myModalLabelLamSang" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title" id="myModalLabelLamSang">Tạo thông tin chuyên khoa lâm sàng</h4>
                                             </div>
-                                            <div class="form-group">
-                                                <label for="soTaiKhoan">Số tài khoản:</label>
-                                                <input type="text" id="soTaiKhoana" name="soTaiKhoan" class="form-control" required />
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="matKhau">Mật khẩu:</label>
-                                                <input type="password" id="matKhau" name="matKhau" class="form-control" required />
-                                            </div>
-                                            <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Tắt</button>
-                                            <button type="submit" class="btn btn-primary">Lưu chuyên khoa</button>
+                                            <form asp-action="createChuyenKhoaLamSang" asp-controller="QuanLyChuyenKhoa" method="post">
+                                                <div class="modal-body">
+                                                    <div class="form-group">
+                                                        <label for="tenChuyenKhoaLamSang">Tên chuyên khoa:</label>
+                                                        <select id="tenChuyenKhoaLamSang" name="tenChuyenKhoa" class="form-control" required>
+                                                            <option value="Khoa Cơ - Xương - Khớp">Khoa Cơ - Xương - Khớp</option>
+                                                            <option value="Khoa Da liễu">Khoa Da liễu</option>
+                                                            <option value="Khoa Hô hấp">Khoa Hô hấp</option>
+                                                            <option value="Khoa Huyết học - Truyền máu">Khoa Huyết học - Truyền máu</option>
+                                                            <option value="Khoa Nhãn khoa">Khoa Nhãn khoa</option>
+                                                            <option value="Khoa Nhi">Khoa Nhi</option>
+                                                            <option value="Khoa Nội tiết">Khoa Nội tiết</option>
+                                                            <option value="Khoa Răng - Hàm - Mặt">Khoa Răng - Hàm - Mặt</option>
+                                                            <option value="Khoa Tai - Mũi - Họng">Khoa Tai - Mũi - Họng</option>
+                                                            <option value="Khoa Thận - Tiết niệu">Khoa Thận - Tiết niệu</option>
+                                                            <option value="Khoa Thần kinh">Khoa Thần kinh</option>
+                                                            <option value="Khoa Tiêu hóa - Gan mật">Khoa Tiêu hóa - Gan mật</option>
+                                                            <option value="Khoa Tim mạch">Khoa Tim mạch</option>
+                                                            <option value="Khoa Truyền nhiễm">Khoa Truyền nhiễm</option>
+                                                            <option value="Khoa Vật lý trị liệu - Phục hồi chức năng">Khoa Vật lý trị liệu - Phục hồi chức năng</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="soTaiKhoanLamSang">Số tài khoản:</label>
+                                                        <input type="text" id="soTaiKhoanLamSang" name="soTaiKhoan" class="form-control" required />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="matKhauLamSang">Mật khẩu:</label>
+                                                        <input type="password" id="matKhauLamSang" name="matKhau" class="form-control" required />
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Tắt</button>
+                                                    <button type="submit" class="btn btn-primary">Lưu chuyên khoa</button>
+                                                </div>
+                                            </form>
                                         </div>
-                                    </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <button class="btn btn-success" data-toggle="modal" data-target="#myModalCanLamSang">
+                                    Tạo chuyên khoa cận lâm sàng
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModalCanLamSang" tabindex="-1" role="dialog" aria-labelledby="myModalLabelCanLamSang" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title" id="myModalLabelCanLamSang">Tạo thông tin chuyên khoa cận lâm sàng</h4>
+                                            </div>
+                                            <form asp-action="createChuyenKhoaCanLamSang" asp-controller="QuanLyChuyenKhoa" method="post">
+                                                <div class="modal-body">
+                                                    <div class="form-group">
+                                                        <label for="tenChuyenKhoaCanLamSang">Tên chuyên khoa:</label>
+                                                        <select id="tenChuyenKhoaCanLamSang" name="tenChuyenKhoa" class="form-control" required>
+                                                            <option value="Khoa Xét nghiệm">Khoa Xét nghiệm</option>
+                                                            <option value="Khoa Chẩn đoán hình ảnh">Khoa Chẩn đoán hình ảnh</option>
+                                                            <option value="Khoa Giải phẫu bệnh lý">Khoa Giải phẫu bệnh lý</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="soTaiKhoanCanLamSang">Số tài khoản:</label>
+                                                        <input type="text" id="soTaiKhoanCanLamSang" name="soTaiKhoan" class="form-control" required />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="matKhauCanLamSang">Mật khẩu:</label>
+                                                        <input type="password" id="matKhauCanLamSang" name="matKhau" class="form-control" required />
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Tắt</button>
+                                                    <button type="submit" class="btn btn-primary">Lưu chuyên khoa</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
+
+
                     </div>
                     <div class="panel-body">
                         <!-- Hiển thị thông báo thành công hoặc lỗi từ TempData -->
@@ -86,6 +134,7 @@
                                 @TempData["ErrorMessage"]
                             </div>
                         }
+
                         <div class="table-responsive">
                             <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                 <thead>
@@ -107,32 +156,32 @@
                                             <td>@index</td>
                                             <td>@(item?.tenChuyenKhoa ?? "Không có dữ liệu")</td>
                                             <td>@(item?.soTaiKhoan ?? "Không có dữ liệu")</td>
-                                            <td>@(item?.tenBenhVien ?? "Không có dữ liệu")</td>                                       
+                                            <td>@(item?.tenBenhVien ?? "Không có dữ liệu")</td>
                                             <td>
                                                 <button class="btn btn-primary" data-toggle="modal" data-target="#editInfoModal_@item.chuyenKhoaId">
-                                                        Chỉnh sửa
-                                                    </button>
-                                                    <form asp-action="XoaThongTin" asp-controller="QuanLyChuyenKhoa" method="post">
-                                                        <input type="hidden" name="chuyenKhoaId" value="@item.chuyenKhoaId" />
-                                                        <button type="submit" class="btn btn-danger">Xóa</button>
-                                                        </form>
-                                                    <!-- Modal -->
+                                                    Chỉnh sửa
+                                                </button>
+                                                <form asp-action="XoaThongTin" asp-controller="QuanLyChuyenKhoa" method="post">
+                                                    <input type="hidden" name="chuyenKhoaId" value="@item.chuyenKhoaId" />
+                                                    <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa?')">Xóa</button>
+                                                </form>
+                                                <!-- Modal -->
                                                 <div class="modal fade" id="editInfoModal_@item.chuyenKhoaId" tabindex="-1" role="dialog" aria-labelledby="editInfoModalLabel_@item.chuyenKhoaId" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                                                 <h4 class="modal-title" id="editInfoModalLabel_@item.chuyenKhoaId">Chỉnh sửa thông tin</h4>
-                                                                </div>
-                                                                <form asp-action="ChinhSuaThongTin" asp-controller="QuanLyChuyenKhoa" method="post">
+                                                            </div>
+                                                            <form asp-action="ChinhSuaThongTin" asp-controller="QuanLyChuyenKhoa" method="post">
                                                                 <input type="hidden" name="chuyenKhoaId" value="@item.chuyenKhoaId" />
-                                                                    <div class="modal-body">
+                                                                <div class="modal-body">
                                                                         <div class="form-group">
                                                                             <label for="tenChuyenKhoa">Tên chuyên khoa cũ:</label>
                                                                             <input type="text" class="form-control" value="@item.tenChuyenKhoa" readonly />
                                                                         </div>
-                                                                        <div class="form-group">                                                                         
-                                                                            <label for="tenChuyenKhoa">Nhập chuyên khoa mới:</label>
+                                                                        <div class="form-group">
+                                                                            <label for="tenChuyenKhoa">Chọn chuyên khoa mới:</label>
                                                                             <select id="tenChuyenKhoa" name="tenChuyenKhoa" class="form-control" required>
                                                                                 <option value="Khoa Cơ - Xương - Khớp">Khoa Cơ - Xương - Khớp</option>
                                                                                 <option value="Khoa Da liễu">Khoa Da liễu</option>
@@ -152,18 +201,20 @@
                                                                                 <option value="Khoa Xét nghiệm">Khoa Xét nghiệm</option>
                                                                             </select>
                                                                         </div>
-                                                                    <div class="form-group">
-                                                                        <label for="soTaiKhoan">Nhập số tài khoản mới:</label>
-                                                                        <input type="text" id="soTaiKhoan" name="soTaiKhoan" class="form-control" value="@item.soTaiKhoan" required />
-                                                                    </div>
+                                                                        <div class="form-group">
+                                                                            <label for="soTaiKhoan">Nhập số tài khoản mới:</label>
+                                                                            <input type="text" id="soTaiKhoan" name="soTaiKhoan" class="form-control" value="@item.soTaiKhoan" required />
+                                                                        </div>
+                                                                </div>
                                                                         <div class="modal-footer">
                                                                             <button type="button" class="btn btn-default" data-dismiss="modal">Tắt</button>
                                                                             <button type="submit" class="btn btn-primary">Lưu chỉnh sửa</button>
                                                                         </div>
-                                                                </form>
-                                                            </div>
+                                                                 
+                                                            </form>
                                                         </div>
-                                                    </div>                                              
+                                                    </div>
+                                                </div>
                                             </td>
                                         </tr>
                                         index++;
@@ -182,7 +233,7 @@
     <script src="~/assets/js/dataTables/jquery.dataTables.js"></script>
     <script src="~/assets/js/dataTables/dataTables.bootstrap.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('#dataTables-example').dataTable();
         });
     </script>

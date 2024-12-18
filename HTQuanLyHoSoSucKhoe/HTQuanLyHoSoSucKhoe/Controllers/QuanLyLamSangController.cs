@@ -20,27 +20,26 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
         {
             return View();
         }
-        [HttpGet]
         public IActionResult CaiDatTaiKhoan()
         {
-            var chuyenKhoaId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của bệnh viện từ claims
+            var chuyenKhoaId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của chuyên khoa từ claims
 
             // Kiểm tra xem chuyenKhoaId có tồn tại trong claims không
-            if (string.IsNullOrEmpty(chuyenKhoaId))
+            if (string.IsNullOrEmpty(chuyenKhoaId) || !int.TryParse(chuyenKhoaId, out var parsedchuyenKhoaId))
             {
-                return RedirectToAction("Login", "TaiKhoan"); // Nếu không có benhVienId, điều hướng về trang login
+                return RedirectToAction("Login", "TaiKhoan"); // Nếu không có chuyenkhoaId, điều hướng về trang login
             }
 
-            // Tìm tài khoản bệnh viện hiện tại dựa trên benhVienId
-            var taiKhoan = _context.TaiKhoans.Include(t => t.ChuyenKhoa) // Include BenhVien để lấy thông tin bệnh viện
-                                               .FirstOrDefault(t => t.ChuyenKhoa.Id.ToString() == chuyenKhoaId);
+            // Tìm tài khoản chuyên khoa hiện tại dựa trên chuyenkhoaId
+            var taiKhoan = _context.TaiKhoans.Include(t => t.ChuyenKhoa) // Include ChuyenKhoa để lấy thông tin chuyên khoa
+                                               .FirstOrDefault(t => t.ChuyenKhoa.Id == parsedchuyenKhoaId);
 
             if (taiKhoan == null)
             {
-                return NotFound(); // Nếu không tìm thấy tài khoản bệnh viện, trả về lỗi
+                return NotFound(); // Nếu không tìm thấy tài khoản chuyên khoa, trả về lỗi
             }
 
-            var chuyenKhoa = taiKhoan.ChuyenKhoa;  // Lấy thông tin bệnh viện từ tài khoản
+            var chuyenKhoa = taiKhoan.ChuyenKhoa;  // Lấy thông tin chuyên khoa từ tài khoản
 
             // Tạo ViewModel và gán dữ liệu từ ChuyenKhoa
             var viewModel = new ThongTinChuyenKhoaViewModel
@@ -56,27 +55,27 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
         [HttpPost]
         public IActionResult chinhSuaThongTin(int chuyenKhoaId ,ThongTinChuyenKhoaViewModel model)
         {
-            var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của bệnh viện từ claims
+            var ChuyenKhoaId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của Chuyên khoa từ claims
 
-            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
-            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
+            // Kiểm tra nếu không tìm thấy thông tin Chuyên khoa trong Claims
+            if (string.IsNullOrEmpty(ChuyenKhoaId) || !int.TryParse(ChuyenKhoaId, out var parsedChuyenKhoaId))
             {
                 return RedirectToAction("Login", "TaiKhoan"); // Điều hướng về trang login nếu không hợp lệ
             }
 
-            // Tìm tài khoản bệnh viện hiện tại dựa trên benhVienId
-            var taiKhoan = _context.TaiKhoans.Include(t => t.ChuyenKhoa) // Include BenhVien để lấy thông tin bệnh viện
-                                              .FirstOrDefault(t => t.ChuyenKhoa.Id == parsedBenhVienId);
+            // Tìm tài khoản Chuyên khoa hiện tại dựa trên ChuyenKhoaId
+            var taiKhoan = _context.TaiKhoans.Include(t => t.ChuyenKhoa) // Include ChuyenKhoa để lấy thông tin Chuyên khoa
+                                              .FirstOrDefault(t => t.ChuyenKhoa.Id == parsedChuyenKhoaId);
 
             if (taiKhoan == null)
             {
-                return NotFound(); // Nếu không tìm thấy tài khoản bệnh viện, trả về lỗi
+                return NotFound(); // Nếu không tìm thấy tài khoản Chuyên khoa, trả về lỗi
             }
 
 
 
-            // Lấy bệnh viện của tài khoản bệnh viện hiện tại
-            var chuyenKhoa = _context.ChuyenKhoas.FirstOrDefault(ck => ck.Id == chuyenKhoaId && ck.BenhVienId == parsedBenhVienId);
+            // Lấy Chuyên khoa của tài khoản Chuyên khoa hiện tại
+            var chuyenKhoa = _context.ChuyenKhoas.FirstOrDefault(ck => ck.Id == parsedChuyenKhoaId);
             if (chuyenKhoa == null)
             {
                 return NotFound(); // Nếu không tìm thấy chuyên khoa ,bệnh viện, trả về lỗi
@@ -90,7 +89,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Lưu thay đổi vào cơ sở dữ liệu
             _context.SaveChanges();
 
-            return RedirectToAction("caiDatTaiKhoan"); // Điều hướng về trang chính sau khi cập nhật thành công
+            return RedirectToAction("CaiDatTaiKhoan"); // Điều hướng về trang chính sau khi cập nhật thành công
 
         }
 
@@ -98,21 +97,21 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
         public async Task<IActionResult> thayDoiMatKhau(ThongTinChuyenKhoaViewModel model)
         {
 
-            var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID bệnh viện từ claims
-
-            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
-            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
+            var chuyenKhoaId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của chuyên khoa từ claims
+            Console.WriteLine($"chuyenKhoaId: {chuyenKhoaId}");
+            // Kiểm tra xem chuyenKhoaId có tồn tại trong claims không
+            if (string.IsNullOrEmpty(chuyenKhoaId) || !int.TryParse(chuyenKhoaId, out var parsedchuyenKhoaId))
             {
-                return RedirectToAction("Login", "TaiKhoan"); // Điều hướng về trang login nếu không hợp lệ
+                return RedirectToAction("Login", "TaiKhoan"); // Nếu không có chuyenkhoaId, điều hướng về trang login
             }
 
-            // Lấy tài khoản bệnh viện
-            var taiKhoan = await _context.TaiKhoans.Include(t => t.BenhVien)
-                                                     .FirstOrDefaultAsync(t => t.BenhVien.Id == parsedBenhVienId);
+            // Tìm tài khoản chuyên khoa hiện tại dựa trên chuyenkhoaId
+            var taiKhoan = _context.TaiKhoans.Include(t => t.ChuyenKhoa) // Include ChuyenKhoa để lấy thông tin chuyên khoa
+                                               .FirstOrDefault(t => t.ChuyenKhoa.Id == parsedchuyenKhoaId);
 
             if (taiKhoan == null)
             {
-                return NotFound(); // Nếu không tìm thấy tài khoản, trả về lỗi
+                return NotFound(); // Nếu không tìm thấy tài khoản chuyên khoa, trả về lỗi
             }
 
             // Kiểm tra mật khẩu cũ
@@ -134,7 +133,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             _context.Update(taiKhoan);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("caiDatTaiKhoan"); // Điều hướng về trang chính sau khi cập nhật
+            return RedirectToAction("CaiDatTaiKhoan"); // Điều hướng về trang chính sau khi cập nhật
         }
     }
 }

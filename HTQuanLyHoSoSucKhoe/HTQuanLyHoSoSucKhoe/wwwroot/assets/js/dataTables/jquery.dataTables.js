@@ -10525,7 +10525,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sNext": "Next",
+				"sNext": "Trang sau",
 	
 	
 				/**
@@ -10548,7 +10548,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sPrevious": "Previous"
+				"sPrevious": "Trang trước"
 			},
 	
 			/**
@@ -10589,7 +10589,7 @@
 			 * * `\_PAGES\_` - Total number of pages of data in the table
 			 *
 			 *  @type string
-			 *  @default Showing _START_ to _END_ of _TOTAL_ entries
+			 *  @default Từ _START_ đến _END_ giới hạn _TOTAL_/1 trang
 			 *
 			 *  @dtopt Language
 			 *  @name DataTable.defaults.language.info
@@ -10603,7 +10603,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+			"sInfo": "Từ _START_ đến _END_ giới hạn _TOTAL_/1 trang",
 	
 	
 			/**
@@ -10899,7 +10899,7 @@
 		 * get a data source for multiple levels of nesting.
 		 *  @type string
 		 *  @default data
-		 *
+		 *a
 		 *  @dtopt Options
 		 *  @dtopt Server-side
 		 *  @name DataTable.defaults.ajaxDataProp

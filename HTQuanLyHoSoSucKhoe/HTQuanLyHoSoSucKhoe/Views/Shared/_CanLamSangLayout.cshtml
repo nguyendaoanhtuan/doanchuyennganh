@@ -34,7 +34,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><strong><i class="icon fa fa-plane"></i> @await Component.InvokeAsync("UserInfo")</strong></a>
+                <a class="navbar-brand" href="index.html">
+                    <strong>
+                        <i class="icon fa fa-user-md">
+                            @await Component.InvokeAsync("UserInfo")
+                        </i>
+                    </strong>
+                </a>
 
                 <div id="sideNav" href="">
                     <i class="fa fa-bars icon"></i>
@@ -48,7 +54,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         <li>
-                            <a asp-action="CaiDatTaiKhoan" asp-controller="QuanLyBenhVien"><i class="fa fa-user fa-fw"></i> Thông tin cá nhân</a>
+                            <a asp-action="CaiDatTaiKhoan" asp-controller="QuanLyCanLamSang"><i class="fa fa-user fa-fw"></i> Thông tin cá nhân</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
@@ -69,11 +75,11 @@
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a asp-action="Index" asp-controller="QuanLyBenhVien" class="active-menu"><i class="fa fa-dashboard"></i> Quản lý phiếu chỉ định</a>
+                        <a asp-action="Index" asp-controller="QuanLyCanLamSang" class="active-menu"><i class="fa fa-dashboard"></i> Quản lý phiếu chỉ định</a>
                     </li>
 
                     <li>
-                        <a asp-action="CaiDatTaiKhoan" asp-controller="QuanLyBenhVien"><i class="fa fa-fw fa-file"></i> Cài đặt tài khoản </a>
+                        <a asp-action="CaiDatTaiKhoan" asp-controller="QuanLyCanLamSang"><i class="fa fa-fw fa-file"></i> Cài đặt tài khoản </a>
                     </li>
                 </ul>
 
