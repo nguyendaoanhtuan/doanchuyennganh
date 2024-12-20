@@ -5733,7 +5733,7 @@ a.list-group-item-danger {
 }
 
 .panel-body {
-    padding: 15px
+    padding: 6px
 }
 
 .panel-heading {
@@ -6224,7 +6224,7 @@ button.close {
 }
 
     .modal-footer .btn + .btn {
-        margin-bottom: 0;
+        margin-bottom: 6px;
         margin-left: 5px
     }
 

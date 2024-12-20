@@ -44,7 +44,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
 
         // POST: QuanLyChuyenKhoa/Create
         [HttpPost]
-        public async Task<IActionResult> CreateChuyenKhoa(ThongTinChuyenKhoaViewModel model)
+        public async Task<IActionResult> CreateChuyenKhoaLamSang(ThongTinChuyenKhoaViewModel model)
         {
             // Lấy ID bệnh viện từ claims (tương tự như bạn làm trong phương thức CreateBacSi)
             var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID bệnh viện từ claims
@@ -63,6 +63,48 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
                 BenhVienId = parsedBenhVienId, // Lưu ID bệnh viện lấy từ claims vào ChuyenKhoa
                 phoneNumber = model.soTaiKhoan,
                 
+            };
+
+            // Lưu chuyên khoa vào cơ sở dữ liệu
+            _context.ChuyenKhoas.Add(chuyenKhoa);
+            await _context.SaveChangesAsync();
+
+            var taiKhoan = new TaiKhoan
+            {
+                passWord = model.matKhau,
+                ChuyenKhoaId = chuyenKhoa.Id,
+            };
+
+            _context.TaiKhoans.Add(taiKhoan);
+            await _context.SaveChangesAsync();
+
+            // Thông báo thành công
+            TempData["SuccessMessage"] = "Chuyên khoa đã được tạo thành công!";
+
+            // Quay lại trang Index sau khi lưu thành công
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateChuyenKhoaCanLamSang(ThongTinChuyenKhoaViewModel model)
+        {
+            // Lấy ID bệnh viện từ claims (tương tự như bạn làm trong phương thức CreateBacSi)
+            var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID bệnh viện từ claims
+
+            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
+            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
+            {
+                return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
+            }
+
+            // Tạo chuyên khoa từ model truyền vào
+            var chuyenKhoa = new ChuyenKhoa
+            {
+                RoleId = 4,
+                Name = model.tenChuyenKhoa,
+                BenhVienId = parsedBenhVienId, // Lưu ID bệnh viện lấy từ claims vào ChuyenKhoa
+                phoneNumber = model.soTaiKhoan,
+
             };
 
             // Lưu chuyên khoa vào cơ sở dữ liệu

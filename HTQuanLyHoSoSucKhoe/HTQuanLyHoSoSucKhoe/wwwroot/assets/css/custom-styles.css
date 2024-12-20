@@ -701,3 +701,16 @@ font-size: 19px;
     color: #333;
     cursor: not-allowed; /* Hiệu ứng con trỏ để chỉ rõ không chỉnh sửa */
 }
+
+/*thêm settingbtn*/
+
+.settingbtn {
+    margin-top: 10px;
+    display: flex; /* Đặt các phần tử con nằm ngang */
+    gap: 20px; /* Tạo khoảng cách giữa các nút */
+}
+
+    .settingbtn .btn {
+        flex: 1; /* Tùy chọn: Điều chỉnh kích thước nút để đều nhau */
+        text-align: center; /* Căn giữa chữ trong nút */
+    }
