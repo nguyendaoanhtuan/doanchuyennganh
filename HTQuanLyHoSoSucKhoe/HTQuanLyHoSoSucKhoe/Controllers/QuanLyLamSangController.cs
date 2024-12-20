@@ -1,4 +1,5 @@
 ﻿using HTQuanLyHoSoSucKhoe.Models;
+using HTQuanLyHoSoSucKhoe.ViewModel;
 using HTQuanLyHoSoSucKhoe.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -136,5 +137,45 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
 
             return RedirectToAction("caiDatTaiKhoan"); // Điều hướng về trang chính sau khi cập nhật
         }
+        public IActionResult QuanLyHoSoBenhAn() {
+
+            List<QuanLyBenhNhanViewModel> model = new List<QuanLyBenhNhanViewModel>();
+            var benhNhans = _context.Users.ToList();
+            foreach(var i in benhNhans)
+            {
+                model.Add(new QuanLyBenhNhanViewModel
+                {
+                    id = i.Id,
+                    hoTen = i.Ho+" "+i.Ten,
+                    cccd = i.Cccd,
+                    sdt = i.Phone_Number,
+                });
+            }
+            return View(model);
+        }
+        public IActionResult ChiTietBenhAn(int id)
+        {
+            var benhNhan = _context.Users.Where(i => i.Id == id).Select(i => new ChiTietBenhAnViewModel
+            {   
+                ho = i.Ho,
+                ten = i.Ten,
+                cccd = i.Cccd,
+                email = i.Email,
+                diaChi = i.Address,
+                sdt = i.Phone_Number,
+                hinhAnh = i.Image_Path ?? "",
+            }).FirstOrDefault();
+            if (benhNhan == null)
+            {
+                return NotFound("Không tìm thấy thông tin bác sĩ.");
+            }
+            return View(benhNhan);
+        }
+        //public IActionResult DanhSachHenKham()
+        //{
+        //    List<var> model = new List<var>();
+        //    var 
+        //    return View();
+        //}
     }
 }

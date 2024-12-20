@@ -1,0 +1,43 @@
+﻿@model HTQuanLyHoSoSucKhoe.ViewModel.ChiTietBenhAnViewModel
+@{
+    Layout = "~/Views/Shared/_LamSangLayout.cshtml";
+}
+<div id="page-wrapper">
+    <div id="page-inner">
+        <div class="container mt-5 ms-5">
+         <div class="row">
+            <div class="col-md-3" style="border-right: solid 3px black">
+                    <div class="form-group d-flex" style="text-align:center">
+                        <img style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" src="~/img/about-img.jpg" />
+                    </div>
+                    <div class="form-group">
+                        <label>Họ:</label>
+                        <input class="form-control" type="text" value="@Model.ho" disabled />
+                </div>
+                    <div class="form-group">
+                        <label>Tên:</label>
+                        <input class="form-control" type="text" value="@Model.ten" disabled />
+                    </div>
+                    <div class="form-group">
+                        <label>Căn cước công dân:</label>
+                        <input class="form-control" type="text" value="@Model.cccd" disabled />
+                    </div>
+                    <div class="form-group">
+                        <label>Số điện thoại:</label>
+                        <input class="form-control" type="text" value="@Model.sdt" disabled />
+                    </div>
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input class="form-control" type="text" value="@Model.email" disabled />
+                    </div>
+            </div>
+            <div class="col-md-9">
+                <h3>Danh sách bệnh án</h3>
+                <table class="table-hover">
+
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
