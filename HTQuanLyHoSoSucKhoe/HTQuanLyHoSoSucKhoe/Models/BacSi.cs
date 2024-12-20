@@ -28,5 +28,11 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public virtual BenhVien BenhVien { get; set; }
         public ICollection<PhieuKetQua> PhieuKetQuas { get; set; }
 
+        public ICollection<DonThuoc> DonThuocs { get; set; }
+
+        public ICollection<PhieuChiDinh> PhieuChiDinhs { get; set; }
+
+        public ICollection<HoSoBenhAn> HoSoBenhAns { get; set; }
+
     }
 }

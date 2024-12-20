@@ -19,6 +19,14 @@ public class ApplicationDbContext : DbContext
     public DbSet<PhieuKetQua> PhieuKetQuas { get; set; }
     public DbSet<LoaiPhieu> LoaiPhieus { get; set; }
 
+    public DbSet<LoaiDichVuKham> LoaiDichVuThamKhams { get; set; }
+
+    public DbSet<LoaiDichVuChuyenKhoa> LoaiDichVuChuyenKhoa { get; set; }
+
+    public DbSet<DonThuoc> DonThuocs { get; set; }
+
+    public DbSet<PhieuChiDinh> PhieuChiDinhs { get; set; }
+
     // Cấu hình bảng, ánh xạ cột và khóa
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -31,6 +39,95 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<TaiKhoan>().ToTable("tai_khoan");
         modelBuilder.Entity<Role>().ToTable("roles");
         modelBuilder.Entity<BacSi>().ToTable("bac_sis");
+        modelBuilder.Entity<DonThuoc>().ToTable("don_thuocs");
+        modelBuilder.Entity<PhieuChiDinh>().ToTable("phieu_chi_dinhs");
+        modelBuilder.Entity<LoaiDichVuKham>().ToTable("loai_dich_vu_khams");
+        modelBuilder.Entity<LoaiDichVuChuyenKhoa>().ToTable("loai_dich_vu_chuyen_khoas");
+        modelBuilder.Entity<LoaiPhieu>().ToTable("loai_phieus");
+
+
+
+
+
+        // Mối quan hệ giữa HoSoBenhAn và DonThuoc
+        modelBuilder.Entity<BacSi>()
+           .HasMany(cd => cd.DonThuocs)
+           .WithOne(bs => bs.BacSi)
+           .HasForeignKey(bs => bs.bacSiId);
+        modelBuilder.Entity<DonThuoc>()
+           .HasOne(bv => bv.BacSi)
+           .WithMany(bs => bs.DonThuocs)
+           .HasForeignKey(bs => bs.bacSiId);
+
+        // Mối quan hệ giữa PhieuChiDinh và ChuyenKhoa
+        modelBuilder.Entity<ChuyenKhoa>()
+           .HasMany(cd => cd.PhieuChiDinhs)
+           .WithOne(bs => bs.ChuyenKhoa)
+           .HasForeignKey(bs => bs.chuyenKhoaId);
+        modelBuilder.Entity<PhieuChiDinh>()
+           .HasOne(bv => bv.ChuyenKhoa)
+           .WithMany(bs => bs.PhieuChiDinhs)
+           .HasForeignKey(bs => bs.chuyenKhoaId);
+
+        // Mối quan hệ giữa HoSoBenhAn và DonThuoc
+        modelBuilder.Entity<HoSoBenhAn>()
+           .HasMany(cd => cd.DonThuocs)
+           .WithOne(bs => bs.HoSoBenhAn)
+           .HasForeignKey(bs => bs.hoSoBenhAnId);
+        modelBuilder.Entity<DonThuoc>()
+           .HasOne(bv => bv.HoSoBenhAn)
+           .WithMany(bs => bs.DonThuocs)
+           .HasForeignKey(bs => bs.hoSoBenhAnId);
+
+        // Mối quan hệ giữa HoSoBenhAn và BacSi
+        modelBuilder.Entity<BacSi>()
+           .HasMany(cd => cd.HoSoBenhAns)
+           .WithOne(bs => bs.BacSi)
+           .HasForeignKey(bs => bs.bacSiId);
+        modelBuilder.Entity<HoSoBenhAn>()
+           .HasOne(bv => bv.BacSi)
+           .WithMany(bs => bs.HoSoBenhAns)
+           .HasForeignKey(bs => bs.bacSiId);
+
+        // Mối quan hệ giữa HoSoBenhAn và ChuyenKhoa
+        modelBuilder.Entity<ChuyenKhoa>()
+           .HasMany(cd => cd.HoSoBenhAns)
+           .WithOne(bs => bs.ChuyenKhoa)
+           .HasForeignKey(bs => bs.chuyenKhoaId);
+        modelBuilder.Entity<HoSoBenhAn>()
+           .HasOne(bv => bv.ChuyenKhoa)
+           .WithMany(bs => bs.HoSoBenhAns)
+           .HasForeignKey(bs => bs.chuyenKhoaId);
+
+        // Mối quan hệ giữa HoSoBenhAn và PhieuChiDinh
+        modelBuilder.Entity<HoSoBenhAn>()
+           .HasMany(cd => cd.PhieuChiDinhs)
+           .WithOne(bs => bs.HoSoBenhAn)
+           .HasForeignKey(bs => bs.HoSoBenhAnId);
+        modelBuilder.Entity<PhieuChiDinh>()
+           .HasOne(bv => bv.HoSoBenhAn)
+           .WithMany(bs => bs.PhieuChiDinhs)
+           .HasForeignKey(bs => bs.HoSoBenhAnId);
+      
+        // Mối quan hệ giữa LoaiDichVuChuyenKhoa và LoaiDichVuKham
+        modelBuilder.Entity<LoaiDichVuChuyenKhoa>()
+            .HasOne(ldv => ldv.LoaiDichVuKham)  // Mỗi LoaiDichVuChuyenKhoa có một LoaiDichVuKham
+            .WithMany(ldvK => ldvK.LoaiDichVuChuyenKhoas)  // Mỗi LoaiDichVuKham có thể có nhiều LoaiDichVuChuyenKhoa
+            .HasForeignKey(ldv => ldv.LoaiDichVuId);  // Chỉ định khóa ngoại
+        // Mối quan hệ giữa ChuyenKhoa và LoaiDichVuChuyenKhoa
+        modelBuilder.Entity<LoaiDichVuChuyenKhoa>()
+            .HasOne(ldv => ldv.ChuyenKhoa)  // Mỗi LoaiDichVuChuyenKhoa có một ChuyenKhoa
+            .WithMany(c => c.LoaiDichVuChuyenKhoas)  // Mỗi ChuyenKhoa có nhiều LoaiDichVuChuyenKhoa
+            .HasForeignKey(ldv => ldv.ChuyenKhoaId);  // Chỉ định khóa ngoại
+        modelBuilder.Entity<Appointment>()
+           .HasOne(a => a.ChuyenKhoa) // Một Appointment có một ChuyenKhoa
+           .WithMany(c => c.Appointments) // Một ChuyenKhoa có nhiều Appointment
+           .HasForeignKey(a => a.ChuyenKhoaId); // Chỉ định khóa ngoại trong Appointment
+        // Appointment - LoaiDichVuKham: 1:N
+        modelBuilder.Entity<Appointment>()
+            .HasOne(a => a.LoaiDichVuKham) // Mỗi Appointment có một LoaiDichVuKham
+            .WithMany(ldv => ldv.Appointments) // Một LoaiDichVuKham có nhiều Appointment
+            .HasForeignKey(a => a.LoaiDichVuId); // Khóa ngoại LoaiDichVuId trong Appointment
 
         // Cấu hình quan hệ BenhVien - ChuyenKhoa (1-nhiều)
         modelBuilder.Entity<BenhVien>()

@@ -11,6 +11,8 @@ namespace HTQuanLyHoSoSucKhoe.Models
 
         public int BenhVienId { get; set; }
 
+
+
         [Required]
         [StringLength(100)]
         public string Name { get; set; }
@@ -26,5 +28,14 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public int? RoleId { get; set; }
 
         public virtual Role Role { get; set; }
+
+
+        public ICollection<LoaiDichVuChuyenKhoa> LoaiDichVuChuyenKhoas { get; set; }
+
+        public ICollection<Appointment> Appointments { get; set; }
+
+        public ICollection<PhieuChiDinh>? PhieuChiDinhs { get; set; }
+
+        public ICollection<HoSoBenhAn> HoSoBenhAns { get; set; }
     }
 }
