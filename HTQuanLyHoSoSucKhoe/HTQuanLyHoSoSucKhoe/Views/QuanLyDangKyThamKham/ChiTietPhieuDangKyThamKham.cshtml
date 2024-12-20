@@ -1,5 +1,8 @@
 ﻿@model HTQuanLyHoSoSucKhoe.ViewModels.AppointmentViewModel
 
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
 <div id="page-wrapper">
     <div class="header">
         <h1 class="page-header">Cài đặt tài khoản</h1>
@@ -53,10 +56,6 @@
                                         <td><input class="form-control" type="text" value="@Model.email" readonly></td>
                                     </tr>
                                     <tr>
-                                        <th>Tên bệnh viện:</th>
-                                        <td><input class="form-control" type="text" value="@Model.tenBenhVien" readonly></td>
-                                    </tr>
-                                    <tr>
                                         <th>Tên dịch vụ:</th>
                                         <td><input class="form-control" type="text" value="@Model.TenDichVu" readonly></td>
                                     </tr>
@@ -79,7 +78,7 @@
                                 <!-- Modal chỉnh sửa thông tin -->
                                 <div class="modal fade" id="editInfoModal_@Model.Id" tabindex="-1" role="dialog" aria-labelledby="editInfoModalLabel_@Model.Id" aria-hidden="true">
                                     <div class="modal-dialog">
-                                        <form asp-action="chinhSuaThongTin" asp-controller="DangKyThamKham" method="post">
+                                        <form asp-action="chinhSuaThongTin" asp-controller="QuanLyDangKyThamKham" method="post">
                                             <div class="modal-content">
                                                 <input type="hidden" name="appointmentId" value="@Model.Id" />
                                                 <div class="modal-header">
@@ -91,7 +90,7 @@
                                                         <tr>
                                                             <th>Loại dịch vụ thăm khám:</th>
                                                             <td>
-                                                                <div class="form-group">                                                               
+                                                                <div class="form-group">
                                                                     <select id="LoaiDichVuId" name="LoaiDichVuId" class="form-control" onchange="loadChuyenKhoa()" required>
                                                                         @foreach (var dichVu in ViewBag.LoaiDichVuList ?? new List<LoaiDichVuKham>())
                                                                         {
@@ -105,7 +104,7 @@
                                                             <th>Chọn chuyên khoa cần khám:</th>
                                                             <td>
                                                                 <!-- Chuyên khoa (Sẽ chỉ xuất hiện khi chọn "Khám chuyên khoa") -->
-                                                                <div class="form-group" id="chuyenKhoaDiv" style="display:none;">                                                               
+                                                                <div class="form-group" id="chuyenKhoaDiv" style="display:none;">
                                                                     <select id="ChuyenKhoaId" name="ChuyenKhoaId" class="form-control">
                                                                         <option value="">Chọn chuyên khoa</option>
                                                                         @foreach (var chuyenKhoa in ViewBag.ChuyenKhoaList ?? new List<ChuyenKhoa>())
@@ -117,10 +116,9 @@
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <th>Ngày đăng ký:</th>
+                                                            <th>Ngày đăng ký mới:</th>
                                                             <td> <input type="date" id="Appointment_Date" name="Appointment_Date" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" required /></td>
-                                                        </tr>
-
+                                                        </tr>       
                                                     </table>
                                                 </div>
                                                 <div class="modal-footer">
@@ -130,7 +128,7 @@
                                             </div>
                                         </form>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                         </div>
                     </div>

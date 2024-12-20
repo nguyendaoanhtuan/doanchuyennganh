@@ -1,24 +1,19 @@
-﻿using HTQuanLyHoSoSucKhoe.Models;
+﻿using System.Security.Claims;
+using HTQuanLyHoSoSucKhoe.Models;
+using HTQuanLyHoSoSucKhoe.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
-using System.Linq;
-using HTQuanLyHoSoSucKhoe.ViewModels;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
-
-
-
+using Microsoft.EntityFrameworkCore;
 
 namespace HTQuanLyHoSoSucKhoe.Controllers
 {
-
-    [Authorize(Roles = "User")]
-    public class DangKyThamKhamController : Controller
+    [Authorize(Roles = "Admin")]
+    public class QuanLyDangKyThamKhamController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public DangKyThamKhamController(ApplicationDbContext context)
+        public QuanLyDangKyThamKhamController(ApplicationDbContext context)
         {
 
             _context = context;
@@ -28,14 +23,12 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
         public IActionResult Index()
         {
             // Lấy thông tin người dùng từ claims
-            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-            var fullName = User.FindFirstValue(ClaimTypes.Name);
-            var email = User.FindFirstValue(ClaimTypes.Email);
-            var phoneNumber = User.FindFirstValue("PhoneNumber");
-            var cccd = User.FindFirstValue("Cccd");
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)); // Giữ UserId từ claims
+            var user = _context.Users.FirstOrDefault(u => u.Id == userId); // Lấy thông tin cá nhân từ database
+
             // Lấy tất cả các cuộc hẹn của người dùng hiện tại từ cơ sở dữ liệu
             var appointments = _context.Appointments
-                .Where(a => a.UserId == userId) // Lọc theo UserId của người dùng đăng nhập
+                .Include(a => a.User)
                 .Include(a => a.BenhVien) // Bao gồm thông tin về bệnh viện
                 .Include(a => a.LoaiDichVuKham) // Bao gồm thông tin về loại dịch vụ khám
                 .Include(a => a.ChuyenKhoa) // Bao gồm thông tin về chuyên khoa
@@ -46,24 +39,16 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             var loaiDichVuList = _context.LoaiDichVuThamKhams.ToList();
             var chuyenKhoaList = _context.ChuyenKhoas.ToList();
 
-            // Chuyển đổi dữ liệu người dùng thành đối tượng ViewBag
-            ViewBag.UserInfo = new
-            {
-                Name = fullName,
-                Email = email,
-                PhoneNumber = phoneNumber,
-                CCCD = cccd
-            };
 
             // Chuyển đổi dữ liệu Appointment thành AppointmentViewModel để hiển thị trong View
             var viewModel = appointments.Select(a => new AppointmentViewModel
             {
                 Id = a.Id,
                 BenhVienId = a.BenhVienId,
-                name = fullName, // Tạo tên đầy đủ từ họ và tên
-                email = email,
-                cccd = cccd,
-                phone_Number = phoneNumber,
+                name = a.User.Ho + " " + a.User.Ten, // Tạo tên đầy đủ từ họ và tên
+                email = a.User.Email,
+                cccd = a.User.Cccd,
+                phone_Number = a.User.Phone_Number,
                 tenBenhVien = a.BenhVien.Name, // Tên bệnh viện
                 Appointment_Date = a.Appointment_Date.Date,
                 trangThai = a.trangThaiPhieu, // Trạng thái thăm khám, mặc định là "Đang thăm khám"
@@ -103,68 +88,16 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             return View(model);
         }
 
-
-        [HttpPost]
-        public IActionResult taoPhieuDangKyThamKham(AppointmentViewModel model)
-        {
-            // Lấy UserId từ claim (tương tự như trong caiDatTaiKhoan)
-            var userIdFromClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            // Kiểm tra xem UserId có tồn tại trong claim không
-            if (string.IsNullOrEmpty(userIdFromClaim) || !int.TryParse(userIdFromClaim, out var parseduserId))
-            {
-                ModelState.AddModelError(string.Empty, "Người dùng không tồn tại hoặc chưa đăng nhập.");
-                return RedirectToAction("Login", "TaiKhoan"); // Nếu không có UserId hoặc không thể chuyển đổi, điều hướng về trang đăng nhập
-            }
-            // Tìm người dùng trong cơ sở dữ liệu bằng UserId từ claim
-            var user = _context.Users.FirstOrDefault(u => u.Id.ToString() == userIdFromClaim);
-            if (user == null)
-            {
-                ModelState.AddModelError(string.Empty, "Người dùng không tồn tại.");
-                return RedirectToAction("Index"); // Nếu không tìm thấy người dùng, trả về trang chủ
-            }
-            // Kiểm tra ngày đăng ký thăm khám
-            if (model.Appointment_Date.Date <= DateTime.Now.Date)
-            {
-                ModelState.AddModelError(nameof(model.Appointment_Date), "Ngày đăng ký thăm khám phải là một ngày sau hôm nay.");
-                return View(model); // Trả lại view với thông báo lỗi
-            }
-            // Lấy số thứ tự cho buổi khám
-            int soThuTu = _context.Appointments
-                .Where(a => a.Appointment_Date.Date == model.Appointment_Date.Date)
-                .Count() + 1;
-
-            var appointment = new Appointment
-            {
-                UserId = parseduserId,
-                BenhVienId = model.BenhVienId,
-                LoaiDichVuId = model.LoaiDichVuId,
-                ChuyenKhoaId = model.ChuyenKhoaId,
-                Appointment_Date = model.Appointment_Date.Date,
-                trangThaiPhieu = "Đang chờ xử lý",
-                soThuTu = soThuTu,
-                taoHoSo = model.TaoHoSo,
-            };
-
-            // Thêm buổi khám vào cơ sở dữ liệu
-            _context.Appointments.Add(appointment);
-            _context.SaveChanges();
-            // Thông báo thành công
-            TempData["SuccessMessage"] = "Đăng ký thăm khám đã được tạo thành công!";
-            // Chuyển hướng đến trang Index sau khi thành công
-            return RedirectToAction("Index");
-        }
-
-
-
-        public IActionResult ChiTietPhieuThamKham(int id)
+        public IActionResult ChiTietPhieuDangKyThamKham(int id)
         {
             // Lấy thông tin người dùng từ claims
-            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)); // Giữ UserId từ claims
+            var user = _context.Users.FirstOrDefault(u => u.Id == userId); // Lấy thông tin cá nhân từ database
 
             // Tìm phiếu thăm khám cụ thể dựa trên Id và UserId
             var appointment = _context.Appointments
-                .Where(a => a.Id == id && a.UserId == userId)
+                .Where(a => a.Id == id)
+                .Include(a => a.User)
                 .Include(a => a.BenhVien) // Bao gồm thông tin về bệnh viện
                 .Include(a => a.LoaiDichVuKham) // Bao gồm thông tin về loại dịch vụ khám
                 .Include(a => a.ChuyenKhoa) // Bao gồm thông tin về chuyên khoa
@@ -184,10 +117,10 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             {
                 Id = id,
                 BenhVienId = appointment.BenhVienId,
-                name = User.FindFirstValue(ClaimTypes.Name),
-                email = User.FindFirstValue(ClaimTypes.Email),
-                cccd = User.FindFirstValue("Cccd"),
-                phone_Number = User.FindFirstValue("PhoneNumber"),
+                name = appointment.User.Ho +" "+ appointment.User.Ten,
+                email = appointment.User.Email,
+                cccd = appointment.User.Cccd,
+                phone_Number = appointment.User.Phone_Number,
                 tenBenhVien = appointment.BenhVien.Name,
                 Appointment_Date = appointment.Appointment_Date.Date,
                 trangThai = appointment.trangThaiPhieu,
@@ -225,11 +158,32 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Thông báo thành công
             TempData["SuccessMessage"] = "Chỉnh sửa thông tin phiếu đăng ký thành công!";
             // Chuyển hướng về trang Index sau khi cập nhật thành công
-            return RedirectToAction("ChiTietPhieuThamKham", new { id = appointmentId });
+            return RedirectToAction("ChiTietPhieuDangKyThamKham", new { id = appointmentId });
         }
 
         [HttpPost]
-        public IActionResult huyDangKy(int id)
+        public IActionResult chinhSuaTrangThai(int appointmentId, AppointmentViewModel model)
+        {
+            var appointment = _context.Appointments.FirstOrDefault(a => a.Id == appointmentId);
+            if (appointment == null)
+            {
+                return NotFound("Không tìm thấy phiếu thăm khám."); // Nếu không tìm thấy bệnh viện, trả về lỗi
+            }
+
+            appointment.trangThaiPhieu = model.trangThai;
+
+            // Lưu lại thay đổi vào database
+            _context.Update(appointment);
+            _context.SaveChanges();
+            // Thông báo thành công
+            TempData["SuccessMessage"] = "Chỉnh sửa trạng thái phiếu đăng ký thành công!";
+            // Chuyển hướng về trang Index sau khi cập nhật thành công
+            return RedirectToAction("Index");
+        }
+
+
+        [HttpPost]
+        public IActionResult xoaDangKy(int id)
         {
             // Tìm bản ghi cuộc hẹn cần xóa theo id
             var appointment = _context.Appointments.FirstOrDefault(a => a.Id == id);
@@ -244,10 +198,10 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             _context.Appointments.Remove(appointment);
             _context.SaveChanges(); // Lưu thay đổi vào cơ sở dữ liệu
 
-            TempData["SuccessMessage"] = "Hủy đăng ký thành công!";
+            TempData["SuccessMessage"] = "Xóa phiếu đăng ký thành công!";
+
             // Chuyển hướng về trang danh sách sau khi xóa thành công
             return RedirectToAction("Index");
         }
     }
-
 }

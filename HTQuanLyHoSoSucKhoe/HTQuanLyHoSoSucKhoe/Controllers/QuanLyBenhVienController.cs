@@ -100,19 +100,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Quay lại trang Index sau khi lưu thành công và truyền UserId để lấy thông tin người dùng
             return RedirectToAction("Index");
         }
-        
 
-        // VO DANG HUY
-
-        public IActionResult quanLyDatKham()
-        {
-          return View();
-        }
-
-        public IActionResult chiTietQuanLyDatKham()
-        {
-            return View();
-        }
 
         public IActionResult chiTietQuanLyHoSoBenhNhan()
         {
