@@ -85,15 +85,6 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Tạo hồ sơ bệnh án từ model truyền vào
             var hoSoBenhAn = new PhieuKetQua
                 {
-                    UserId = user.Id,
-                    BenhVienId = benhVien.Id,
-                    GhiChu = model.GhiChu,
-                    NgayTao = DateTime.Now,
-                    NgayCapNhat = DateTime.Now,
-                    LoaiPhieuId = model.LoaiPhieuId,
-                    BacSiId = model.BacSiId,
-                    DonThuoc = model.ThuocDuocKe,
-                    DuongDanPhieu = model.DuongDanPhieu,
                 };
 
                 // Lưu hồ sơ bệnh án vào cơ sở dữ liệu
@@ -115,19 +106,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
 
         public IActionResult quanLyDatKham()
         {
-            // Truy vấn dữ liệu từ database
-            var appointments = _context.Appointments
-                .Include(a => a.User) 
-                .Include(a => a.BenhVien) 
-                .Select(a => new
-                {
-                    Name = a.Name ?? "Không có tên",
-                    PhoneNumber = a.Phone_Number ?? "Không có số điện thoại",
-                    Email = a.Email ?? "Không có email",
-                    AppointmentDate = a.Appointment_Date,
-                })
-                .ToList();
-            return View(appointments);
+          return View();
         }
 
         public IActionResult chiTietQuanLyDatKham()

@@ -53,7 +53,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             if (user != null && user.TaiKhoan != null && user.Role != null &&
                     (BCrypt.Net.BCrypt.Verify(password, user.TaiKhoan.passWord) || password == user.TaiKhoan.passWord))
             {
-                return await AuthenticateAndRedirect(user.Id, user.Ho, user.Ten, user.Role.Vaitro);
+                return await AuthenticateAndRedirect(user.Id, user.Ho, user.Ten, user.Email, user.Phone_Number, user.Cccd, user.Role.Vaitro);
             }
 
             // Xử lý đăng nhập cho Bệnh viện
@@ -73,13 +73,16 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
         }
 
         // dành cho user để lấy thông tin vào claim
-        private async Task<IActionResult> AuthenticateAndRedirect(int id, string ho, string ten, string role)
+        private async Task<IActionResult> AuthenticateAndRedirect(int id, string ho, string ten, string email, string phoneNumber, string cccd, string role)
         {
             var fullName = $"{ho} {ten}"; // Kết hợp họ và tên
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, id.ToString()),
                 new Claim(ClaimTypes.Name, fullName),
+                new Claim(ClaimTypes.Email, email), // Thêm Email vào claim
+                new Claim("PhoneNumber", phoneNumber), // Thêm Phone Number vào claim
+                new Claim("Cccd", cccd), // Thêm Cccd vào claim
                 new Claim(ClaimTypes.Role, role)
             };
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
