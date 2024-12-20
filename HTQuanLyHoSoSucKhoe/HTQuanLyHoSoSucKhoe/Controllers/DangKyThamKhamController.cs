@@ -58,6 +58,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Chuyển đổi dữ liệu Appointment thành AppointmentViewModel để hiển thị trong View
             var viewModel = appointments.Select(a => new AppointmentViewModel
             {
+                Id = a.Id,
                 BenhVienId = a.BenhVienId,
                 name = fullName, // Tạo tên đầy đủ từ họ và tên
                 email = email,
@@ -70,6 +71,8 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
                 LoaiDichVuId = a.LoaiDichVuKham.Id,
                 soThuTu = a.soThuTu,
                 TenDichVu = a.LoaiDichVuKham.TenDichVu,
+                ChuyenKhoaId = a.ChuyenKhoa.Id,
+                tenChuyenKhoa = a.ChuyenKhoa.Name,
             }).ToList();
 
             ViewBag.BenhVienList = benhVienList;
@@ -138,6 +141,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
                 Appointment_Date = model.Appointment_Date,
                 trangThaiPhieu = "Đang chờ xử lý",
                 soThuTu = soThuTu,
+                taoHoSo = model.TaoHoSo,
             };
 
             // Thêm buổi khám vào cơ sở dữ liệu
@@ -147,10 +151,51 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             // Chuyển hướng đến trang Index sau khi thành công
             return RedirectToAction("Index");
         }
-    
 
-     
-      
+
+
+        public IActionResult ChiTietPhieuThamKham(int id)
+        {
+            // Lấy thông tin người dùng từ claims
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            // Tìm phiếu thăm khám cụ thể dựa trên Id và UserId
+            var appointment = _context.Appointments
+                .Where(a => a.Id == id && a.UserId == userId)
+                .Include(a => a.BenhVien) // Bao gồm thông tin về bệnh viện
+                .Include(a => a.LoaiDichVuKham) // Bao gồm thông tin về loại dịch vụ khám
+                .Include(a => a.ChuyenKhoa) // Bao gồm thông tin về chuyên khoa
+                .FirstOrDefault();
+
+            if (appointment == null)
+            {
+                return NotFound("Không tìm thấy phiếu thăm khám.");
+            }
+
+            // Tạo ViewModel để truyền dữ liệu sang View
+            var viewModel = new AppointmentViewModel
+            {
+                BenhVienId = appointment.BenhVienId,
+                name = User.FindFirstValue(ClaimTypes.Name),
+                email = User.FindFirstValue(ClaimTypes.Email),
+                cccd = User.FindFirstValue("Cccd"),
+                phone_Number = User.FindFirstValue("PhoneNumber"),
+                tenBenhVien = appointment.BenhVien.Name,
+                Appointment_Date = appointment.Appointment_Date,
+                Appointment_Time = appointment.Appointment_Date.TimeOfDay,
+                trangThai = appointment.trangThaiPhieu,
+                LoaiDichVuId = appointment.LoaiDichVuKham.Id,
+                soThuTu = appointment.soThuTu,
+                TenDichVu = appointment.LoaiDichVuKham.TenDichVu,
+                ChuyenKhoaId = appointment.ChuyenKhoa.Id,
+                tenChuyenKhoa = appointment.ChuyenKhoa.Name,
+            };
+
+            // Trả về View với ViewModel chi tiết
+            return View(viewModel);
+        }
+
+
     }
-    
+
 }

@@ -142,7 +142,7 @@
                                             <td>@(item?.Appointment_Date.ToString("dd/MM/yyyy") ?? "Không có dữ liệu")</td>
                                             <td>@(item?.trangThai?? "Không có dữ liệu")</td>
                                             <td>
-                                                <a asp-action="Details" asp-controller="DangKyThamKham" asp-route-id="@item.Id" class="btn btn-info btn-sm">Xem chi tiết</a>
+                                                <a asp-action="ChiTietPhieuThamKham" asp-controller="DangKyThamKham" asp-route-id="@item.Id" class="btn btn-info btn-sm">Xem chi tiết</a>
                                             </td>
                                         </tr>
                                         index++;

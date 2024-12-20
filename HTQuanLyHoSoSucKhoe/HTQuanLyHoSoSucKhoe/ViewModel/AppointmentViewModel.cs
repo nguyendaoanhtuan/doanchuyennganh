@@ -6,7 +6,7 @@ namespace HTQuanLyHoSoSucKhoe.ViewModels
 {
     public class AppointmentViewModel
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public int BenhVienId { get; set; }  // ID bệnh viện
 
         public int UserId { get; set; }
@@ -34,6 +34,10 @@ namespace HTQuanLyHoSoSucKhoe.ViewModels
 
         public int LoaiDichVuId { get; set; }
         public string TenDichVu {  get; set; }
+
+        public string tenChuyenKhoa { get; set; }
+
+        public bool TaoHoSo { get; set; } = false;
 
         // Các thuộc tính cho việc chọn loại dịch vụ thăm khám và chuyên khoa
         public int? ChuyenKhoaId { get; set; } // ID chuyên khoa (chỉ dùng khi chọn khám chuyên khoa)
