@@ -12,7 +12,6 @@ namespace HTQuanLyHoSoSucKhoe.Models
 
         // Quan hệ với PhieuChiDinh
         public virtual ICollection<PhieuChiDinh> PhieuChiDinhs { get; set; }
-        public ICollection<PhieuKetQua> PhieuKetQuas { get; set; }
 
     }
 }

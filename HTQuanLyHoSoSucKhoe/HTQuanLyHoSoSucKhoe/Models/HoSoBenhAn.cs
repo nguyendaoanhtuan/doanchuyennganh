@@ -20,7 +20,6 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public int bacSiId { get; set; }
         public virtual BacSi BacSi { get; set; }
 
-        public int AppointmentId { get; set; }
         public string? GhiChu { get; set; } // Ghi chú của bác sĩ
 
         public DateTime ngayTao { get; set; } = DateTime.Now; // Ngày tạo
@@ -29,14 +28,12 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public virtual User User { get; set; }
         public virtual BenhVien BenhVien { get; set; }
 
-        public virtual ICollection<Appointment> Appointments { get; set; }
 
         // Thông tin về đơn thuốc
-        public virtual ICollection<DonThuoc> DonThuocs { get; set; }
+        public virtual ICollection<DonThuoc>? DonThuocs { get; set; }
 
         // Các thông tin khác về bệnh án (lịch sử thăm khám, kết quả xét nghiệm, ...)
-        public virtual ICollection<PhieuKetQua> PhieuKetQuas { get; set; }
 
-        public virtual ICollection<PhieuChiDinh> PhieuChiDinhs { get; set; }
+        public virtual ICollection<PhieuChiDinh>? PhieuChiDinhs { get; set; }
     }
 }

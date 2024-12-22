@@ -1,4 +1,4 @@
-﻿@model List<HTQuanLyHoSoSucKhoe.ViewModel.QuanLyBenhNhanViewModel>
+﻿@model List<HTQuanLyHoSoSucKhoe.ViewModel.DanhSachHenKhamViewModel>
 @{
     Layout = "~/Views/Shared/_LamSangLayout.cshtml";
 }
@@ -15,7 +15,7 @@
                 <!-- Advanced Tables -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        Bảng danh sách bệnh nhân:
+                        Bảng danh sách hẹn khám:
                     </div>
                     <div class="panel-body">
                         <!-- Hiển thị thông báo thành công hoặc lỗi từ TempData -->
@@ -35,10 +35,11 @@
                             <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                 <thead>
                                     <tr>
-                                        <th>STT</th>
-                                        <th>Căn cước công dân</th>
-                                        <th>Họ và tên</th>
-                                        <th>Số điện thoại</th>
+                                        <th>STT khám</th>
+                                        <th>Số CCCD</th>
+                                        <th>Họ và tên bệnh nhân</th>
+                                        <th>Thời gian tạo</th>
+                                        <th>Trạng thái</th>
                                         <th>Chức năng</th>
                                     </tr>
                                 </thead>
@@ -46,16 +47,25 @@
                                     @{
                                         int index = 1;
                                     }
-                                    @foreach (var item in Model ?? new List<HTQuanLyHoSoSucKhoe.ViewModel.QuanLyBenhNhanViewModel>())
+                                    @foreach (var item in Model ?? new List<HTQuanLyHoSoSucKhoe.ViewModel.DanhSachHenKhamViewModel>())
                                     {
                                         <tr class="odd gradeX">
-                                            <td>@index</td>
-                                            <td>@(item?.hoTen ?? "Không có dữ liệu")</td>
-                                            <td>@(item?.cccd ?? "Không có dữ liệu")</td>
-                                            <td>@(item?.sdt ?? "Không có dữ liệu")</td>
+                                            <td>@item.soThuTu</td>
+                                            <td name="cccd">@(item?.cccd ?? "Không có dữ liệu")</td>
+                                            <td>@(item?.tenBenhNhan ?? "Không có dữ liệu")</td>
+                                            <td>@(item?.thoiGianTao.ToString() ?? "Không có dữ liệu")</td>
+                                            <td>@(item?.trangThai ?? "Không có dữ liệu")</td>
                                             <td>
-                                                <a asp-action="ChiTietBenhAn" asp-controller="QuanLyLamSang" asp-route-id="@item.id" class="btn btn-info btn-sm">Xem chi tiết</a>
-
+                                                @{
+                                                    if(item.trangThai == "Chưa tạo hồ sơ")
+                                                    {
+                                                        <a asp-action="TaoHoSo" asp-controller="QuanLyLamSang" asp-route-id="@item.id" class="btn btn-info btn-sm">Tạo hồ sơ</a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a asp-action="ChiTietHoSo" asp-controller="QuanLyLamSang" asp-route-id="@item.id" class="btn btn-info btn-sm">Xem hồ sơ</a>
+                                                    }
+                                                }
                                             </td>
                                         </tr>
                                         index++;

@@ -1,7 +1,10 @@
-﻿namespace HTQuanLyHoSoSucKhoe.ViewModel
+﻿using HTQuanLyHoSoSucKhoe.Models;
+
+namespace HTQuanLyHoSoSucKhoe.ViewModel
 {
     public class ChiTietBenhAnViewModel
     {
+        public int id { get; set; }
         public string ho { get; set; }
         public string ten { get; set; }
         public string sdt { get; set; }
@@ -9,6 +12,7 @@
         public string diaChi { get; set; }
         public string email { get; set; }
         public string hinhAnh { get; set; }
+        public List<HoSoBenhAn> hoSoBenhAns { get; set; }
 
     }
 }
