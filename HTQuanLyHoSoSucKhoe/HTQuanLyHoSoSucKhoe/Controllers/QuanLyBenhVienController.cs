@@ -112,6 +112,7 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             return View();
         }
 
+
         public IActionResult chiTietQuanLyHoSoBenhNhan()
         {
             return View();

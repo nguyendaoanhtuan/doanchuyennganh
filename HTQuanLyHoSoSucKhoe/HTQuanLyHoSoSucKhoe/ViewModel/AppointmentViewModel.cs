@@ -25,7 +25,6 @@ namespace HTQuanLyHoSoSucKhoe.ViewModels
         public DateTime Appointment_Date { get; set; }  // Ngày hẹn khám
 
     
-        public TimeSpan Appointment_Time { get; set; }  // Giờ hẹn khám
 
         public string trangThai { get; set; } = "Đang thăm khám";  // Trạng thái (Pending, Completed, Cancelled)
 

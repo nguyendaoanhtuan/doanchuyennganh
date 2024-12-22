@@ -119,8 +119,9 @@
                                             <td>@(item?.tenChuyenKhoa ?? "Không có dữ liệu")</td>
                                             <td>@(item?.tenBenhVien ?? "Không có dữ liệu")</td>
                                             <td>@(item?.ngayTaoBacSi.ToString("dd/MM/yyyy") ?? "Không có dữ liệu")</td>
-                                            <td><a asp-action="ChiTietThongTinBacSi" asp-controller="QuanLyBacSi" asp-route-id="@item.bacSiId"  class="btn btn-info btn-sm">Xem chi tiết</a>
-                                            <form asp-action="XoaThongTin" asp-controller="QuanLyBacSi" method="post">
+                                            <td>
+                                                <a asp-action="ChiTietThongTinBacSi" asp-controller="QuanLyBacSi" asp-route-id="@item.bacSiId"  class="btn btn-info btn-sm">Xem chi tiết</a>
+                                                <form asp-action="XoaThongTin" asp-controller="QuanLyBacSi" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa cuộc hẹn này không?');">
                                                         <input type="hidden" name="bacSiId" value="@item.bacSiId" />
                                                         <button type="submit" class="btn btn-danger">Xóa</button>
                                                         </form>    

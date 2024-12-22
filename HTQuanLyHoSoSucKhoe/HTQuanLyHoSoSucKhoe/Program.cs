@@ -1,4 +1,6 @@
-﻿using HTQuanLyHoSoSucKhoe.Models;
+﻿using HTQuanLyHoSoSucKhoe.Controllers;
+using HTQuanLyHoSoSucKhoe.Models;
+using HTQuanLyHoSoSucKhoe.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -26,7 +28,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Thêm Background Service
+builder.Services.AddSingleton<TrangThaiUpdaterService>();
 
+builder.Services.AddHostedService<TrangThaiHostedService>();
 
 var app = builder.Build();
 
