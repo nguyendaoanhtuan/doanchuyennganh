@@ -15,7 +15,6 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public virtual HoSoBenhAn HoSoBenhAn { get; set; }
 
         // Khóa ngoại liên kết đến Phiếu Kết Quả
-        public int PhieuKetQuaId { get; set; }
 
         // Đường dẫn tới tài liệu hình ảnh hoặc file PDF của đơn thuốc
         public string? DuongDanDonThuoc { get; set; }
@@ -24,7 +23,6 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public string? TrangThai { get; set; }
 
         // Điều hướng đến bảng Phiếu Kết Quả
-        public virtual PhieuKetQua PhieuKetQua { get; set; }
 
 
     }

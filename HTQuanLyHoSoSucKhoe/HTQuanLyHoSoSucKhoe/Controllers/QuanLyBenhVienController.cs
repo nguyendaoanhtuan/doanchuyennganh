@@ -25,80 +25,91 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             ViewBag.LoaiPhieuList = _context.LoaiPhieus.ToList();
             List<HoSoBenhAnViewModel> models = new List<HoSoBenhAnViewModel>();
 
-            // Lấy tất cả hồ sơ bệnh án từ cơ sở dữ liệu
-            var hoSoBenhAns = _context.PhieuKetQuas.Include(h => h.User).ToList();
+           
 
-            foreach (var hoSo in hoSoBenhAns)
-            {
-                models.Add(new HoSoBenhAnViewModel
-                {
-                    //UserId = hoSo.UserId,
-                   // Cccd = hoSo.User.Cccd,
-                    //PhoneNumber = hoSo.User.Phone_Number,
-                    //Email = hoSo.User.Email,
-                    //BenhVienId = hoSo.BenhVienId,
-                    //ThuocDuocKe = hoSo.DonThuoc?? "",
-                    PhieuId = hoSo.Id,
-                    //DuongDanPhieu = hoSo.DuongDanPhieu,
-                   // GhiChu = hoSo.GhiChu ?? "",
-                    NgayTao = hoSo.NgayTao,
-                    TenBacSi = _context.BacSis.FirstOrDefault(w => w.Id == hoSo.BacSiId).hoTen,
-                    TenPhieu = _context.LoaiPhieus.FirstOrDefault(i => i.Id == hoSo.LoaiPhieuId).TenLoai,
-                    TenChuyenKhoa = _context.ChuyenKhoas.FirstOrDefault(i => i.Id == _context.BacSis.FirstOrDefault(w => w.Id == hoSo.BacSiId).ChuyenKhoaId).Name,
-                }); ;
-            }
+            //foreach (var hoSo in hoSoBenhAns)
+            //{
+            //    models.Add(new HoSoBenhAnViewModel
+            //    {
+            //        //UserId = hoSo.UserId,
+            //       // Cccd = hoSo.User.Cccd,
+            //        //PhoneNumber = hoSo.User.Phone_Number,
+            //        //Email = hoSo.User.Email,
+            //        //BenhVienId = hoSo.BenhVienId,
+            //        //ThuocDuocKe = hoSo.DonThuoc?? "",
+            //        PhieuId = hoSo.Id,
+            //        //DuongDanPhieu = hoSo.DuongDanPhieu,
+            //       // GhiChu = hoSo.GhiChu ?? "",
+            //        NgayTao = hoSo.NgayTao,
+            //        TenBacSi = _context.BacSis.FirstOrDefault(w => w.Id == hoSo.BacSiId).hoTen,
+            //        TenPhieu = _context.LoaiPhieus.FirstOrDefault(i => i.Id == hoSo.LoaiPhieuId).TenLoai,
+            //        TenChuyenKhoa = _context.ChuyenKhoas.FirstOrDefault(i => i.Id == _context.BacSis.FirstOrDefault(w => w.Id == hoSo.BacSiId).ChuyenKhoaId).Name,
+            //    }); ;
+            //}
 
             return View(models);  // Truyền danh sách các hồ sơ bệnh án đã lấy
         }
 
         // POST: QuanLyBenhVien/CreateHoSoBenhAn
-        [HttpPost]
-        public async Task<IActionResult> CreateHoSoBenhAn(HoSoBenhAnViewModel model)
+        //[HttpPost]
+        //public async Task<IActionResult> CreateHoSoBenhAn(HoSoBenhAnViewModel model)
+        //{
+        //    var user = await _context.Users.FirstOrDefaultAsync(u => u.Cccd == model.Cccd);
+
+        //    if (user == null)
+        //    {
+        //        TempData["ErrorMessage"] = "Không tìm thấy tài khoản với CCCD này!";
+        //        return RedirectToAction("Index");
+        //    }
+        //    var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của bệnh viện từ claims
+
+        //    // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
+        //    if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
+        //    {
+        //        return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
+        //    }
+
+        //    // Tìm tài khoản bệnh viện hiện tại dựa trên benhVienId
+        //    var taiKhoan = _context.TaiKhoans.Include(t => t.BenhVien) // Include BenhVien để lấy thông tin bệnh viện
+        //                                      .FirstOrDefault(t => t.BenhVien.Id == parsedBenhVienId);
+
+        //    if (taiKhoan == null)
+        //    {
+        //        return NotFound(); // Nếu không tìm thấy tài khoản bệnh viện, trả về lỗi
+        //    }
+
+        //    // Lấy bệnh viện của tài khoản bệnh viện hiện tại
+        //    var benhVien = _context.BenhVien.FirstOrDefault(bv => bv.Id == parsedBenhVienId);
+
+        //    // Tạo hồ sơ bệnh án từ model truyền vào
+        //    var hoSoBenhAn = new PhieuKetQua
+        //        {
+        //        };
+
+        //        // Lưu hồ sơ bệnh án vào cơ sở dữ liệu
+        //        _context.PhieuKetQuas.Add(hoSoBenhAn);
+        //        await _context.SaveChangesAsync();
+
+
+        //    // Lưu UserId vào TempData để truyền sang trang Index
+        //    TempData["UserId"] = user.Id;
+        //    // Thông báo thành công
+        //    TempData["SuccessMessage"] = "Hồ sơ bệnh án đã được tạo thành công!";
+
+        //    // Quay lại trang Index sau khi lưu thành công và truyền UserId để lấy thông tin người dùng
+        //    return RedirectToAction("Index");
+        //}
+        
+
+
+        public IActionResult quanLyDatKham()
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Cccd == model.Cccd);
+          return View();
+        }
 
-            if (user == null)
-            {
-                TempData["ErrorMessage"] = "Không tìm thấy tài khoản với CCCD này!";
-                return RedirectToAction("Index");
-            }
-            var benhVienId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của bệnh viện từ claims
-
-            // Kiểm tra nếu không tìm thấy thông tin bệnh viện trong Claims
-            if (string.IsNullOrEmpty(benhVienId) || !int.TryParse(benhVienId, out var parsedBenhVienId))
-            {
-                return RedirectToAction("Login", "Users"); // Điều hướng về trang login nếu không hợp lệ
-            }
-
-            // Tìm tài khoản bệnh viện hiện tại dựa trên benhVienId
-            var taiKhoan = _context.TaiKhoans.Include(t => t.BenhVien) // Include BenhVien để lấy thông tin bệnh viện
-                                              .FirstOrDefault(t => t.BenhVien.Id == parsedBenhVienId);
-
-            if (taiKhoan == null)
-            {
-                return NotFound(); // Nếu không tìm thấy tài khoản bệnh viện, trả về lỗi
-            }
-
-            // Lấy bệnh viện của tài khoản bệnh viện hiện tại
-            var benhVien = _context.BenhVien.FirstOrDefault(bv => bv.Id == parsedBenhVienId);
-
-            // Tạo hồ sơ bệnh án từ model truyền vào
-            var hoSoBenhAn = new PhieuKetQua
-                {
-                };
-
-                // Lưu hồ sơ bệnh án vào cơ sở dữ liệu
-                _context.PhieuKetQuas.Add(hoSoBenhAn);
-                await _context.SaveChangesAsync();
-
-
-            // Lưu UserId vào TempData để truyền sang trang Index
-            TempData["UserId"] = user.Id;
-            // Thông báo thành công
-            TempData["SuccessMessage"] = "Hồ sơ bệnh án đã được tạo thành công!";
-
-            // Quay lại trang Index sau khi lưu thành công và truyền UserId để lấy thông tin người dùng
-            return RedirectToAction("Index");
+        public IActionResult chiTietQuanLyDatKham()
+        {
+            return View();
         }
 
 

@@ -39,7 +39,6 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public virtual ICollection<ChuyenKhoa> ChuyenKhoas { get; set; }  // Một BenhVien có thể có nhiều ChuyenKhoa
 
         public virtual ICollection<HoSoBenhAn> HoSoBenhAns { get; set; } // Một BenhVien có thể có nhiều HoSoBenhAn
-        public virtual ICollection<PhieuKetQua> PhieuKetQuas { get; set; }
 
         public virtual TaiKhoan TaiKhoan { get; set; }
 

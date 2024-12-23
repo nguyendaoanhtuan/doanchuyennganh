@@ -16,7 +16,6 @@ public class ApplicationDbContext : DbContext
     public DbSet<TaiKhoan> TaiKhoans { get; set; }
     public DbSet<Role> Roles { get; set; }
     public DbSet<BacSi> BacSis { get; set; }
-    public DbSet<PhieuKetQua> PhieuKetQuas { get; set; }
     public DbSet<LoaiPhieu> LoaiPhieus { get; set; }
 
     public DbSet<LoaiDichVuKham> LoaiDichVuThamKhams { get; set; }
@@ -181,12 +180,6 @@ public class ApplicationDbContext : DbContext
             .HasForeignKey(h => h.UserId)
             .OnDelete(DeleteBehavior.NoAction); // Thay đổi từ Cascade thành NoAction
 
-        // Cấu hình mối quan hệ BenhVien - HoSoBenhAn
-        modelBuilder.Entity<PhieuKetQua>()
-            .HasOne(h => h.BenhVien)
-            .WithMany(bv => bv.PhieuKetQuas)
-            .HasForeignKey(h => h.BenhVienId)
-            .OnDelete(DeleteBehavior.NoAction); // Thay đổi từ Cascade thành NoAction
 
         // Cấu hình mối quan hệ User - Appointment (Many-to-One)
         modelBuilder.Entity<Appointment>()
@@ -221,24 +214,6 @@ public class ApplicationDbContext : DbContext
             .WithMany(r => r.BenhViens)
             .HasForeignKey(bv => bv.RoleId)
             .OnDelete(DeleteBehavior.Cascade);
-        //Cấu hình mối quan hệ PhieuKetQua - BacSi
-        modelBuilder.Entity<BacSi>()
-            .HasMany(bv => bv.PhieuKetQuas)
-            .WithOne(r => r.BacSi)
-            .HasForeignKey(bv => bv.BacSiId)
-            .OnDelete(DeleteBehavior.Cascade);
-        ////Cấu hình mối quan hệ PhieuKetQua - LoaiPhieu
-        modelBuilder.Entity<LoaiPhieu>()
-            .HasMany(bv => bv.PhieuKetQuas)
-            .WithOne(r => r.LoaiPhieu)
-            .HasForeignKey(bv => bv.LoaiPhieuId)
-            .OnDelete(DeleteBehavior.Cascade);
-        ////Cấu hình mối quan hệ PhieuKetQua - User
-        modelBuilder.Entity<PhieuKetQua>()
-            .HasOne(bv => bv.User)
-            .WithMany(r => r.PhieuKetQuas)
-            .HasForeignKey(bv => bv.UserId)
-            .OnDelete(DeleteBehavior.NoAction);
         // Tạo chỉ mục cho Email và Phone_Number
         modelBuilder.Entity<User>()
             .HasIndex(u => new { u.Email, u.Phone_Number })

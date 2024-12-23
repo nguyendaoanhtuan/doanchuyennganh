@@ -26,7 +26,6 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public DateTime ngayTaoBacSi { get; set; } = DateTime.Now;
         public virtual ChuyenKhoa ChuyenKhoa { get; set; }
         public virtual BenhVien BenhVien { get; set; }
-        public ICollection<PhieuKetQua> PhieuKetQuas { get; set; }
 
         public ICollection<DonThuoc> DonThuocs { get; set; }
 

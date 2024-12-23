@@ -22,6 +22,5 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public DateTime Updated_At { get; set; } // Ngày cập nhật phiếu
 
         // Quan hệ với các kết quả (nếu cần)
-        public virtual ICollection<PhieuKetQua> PhieuKetQuas { get; set; }
     }
 }

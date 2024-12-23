@@ -1,0 +1,96 @@
+﻿@model HTQuanLyHoSoSucKhoe.ViewModel.ChiTietBenhAnViewModel
+@{
+    Layout = "~/Views/Shared/_LamSangLayout.cshtml";
+}
+<div id="page-wrapper">
+
+    <div id="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Advanced Tables -->
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-3" style="border-right: solid 3px black">
+                                <div class="panel-heading" style="font-weight: bold; font-size: 18px; text-align: center">
+                                    Thông tin bệnh nhân
+                                </div>
+                                <div class="form-group d-flex" style="text-align:center">
+                                    <img style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" src="~/img/@Model.hinhAnh" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Họ:</label>
+                                    <input class="form-control" type="text" value="@Model.ho" disabled />
+                                </div>
+                                <div class="form-group">
+                                    <label>Tên:</label>
+                                    <input class="form-control" type="text" value="@Model.ten" disabled />
+                                </div>
+                                <div class="form-group">
+                                    <label>Căn cước công dân:</label>
+                                    <input class="form-control" type="text" value="@Model.cccd" disabled />
+                                </div>
+                                <div class="form-group">
+                                    <label>Số điện thoại:</label>
+                                    <input class="form-control" type="text" value="@Model.sdt" disabled />
+                                </div>
+                                <div class="form-group">
+                                    <label>Email:</label>
+                                    <input class="form-control" type="text" value="@Model.email" disabled />
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="panel-heading" style="font-weight: bold; font-size: 18px">
+                                    Danh sách bệnh án:
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                        <thead>
+                                            <tr>
+                                                <th>STT</th>
+                                                <th>Ngày tạo hồ sơ</th>
+                                                <th>Chuyên khoa</th>
+                                                <th>Bác sĩ</th>
+                                                <th>Chức năng</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @{
+                                                int index = 1;
+                                            }
+                                            @foreach (var item in Model.hoSoBenhAns)
+                                            {
+                                                <tr class="odd gradeX">
+                                                    <td>@index</td>
+                                                    <td>@(item?.ngayTao.ToString() ?? "Không có dữ liệu")</td>
+                                                    <td>@(item?.ChuyenKhoa.Name ?? "Không có dữ liệu")</td>
+                                                    <td>@(item?.BacSi.hoTen ?? "Không có dữ liệu")</td>
+                                                    <td>
+                                                        <form asp-action="XoaThongTin" asp-controller="QuanLyChuyenKhoa" method="post">
+                                                            <input type="hidden" name="chuyenKhoaId" value="@item.chuyenKhoaId" />
+                                                            <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa?')">Xóa</button>
+                                                        </form>
+                                                    </td>
+                                                </tr>
+                                                index++;
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="~/assets/js/dataTables/jquery.dataTables.js"></script>
+    <script src="~/assets/js/dataTables/dataTables.bootstrap.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#dataTables-example').dataTable();
+        });
+    </script>
+}
