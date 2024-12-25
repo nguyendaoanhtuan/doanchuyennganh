@@ -4,6 +4,7 @@ using HTQuanLyHoSoSucKhoe.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HTQuanLyHoSoSucKhoe.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241225135856_ver5")]
+    partial class ver5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -349,6 +352,9 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("BacSiId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("Created_At")
                         .HasColumnType("datetime2");
 
@@ -374,21 +380,18 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                     b.Property<int>("appointmentId")
                         .HasColumnType("int");
 
-                    b.Property<int>("bacSiId")
-                        .HasColumnType("int");
-
                     b.Property<int>("chuyenKhoaId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("BacSiId");
 
                     b.HasIndex("HoSoBenhAnId");
 
                     b.HasIndex("LoaiPhieuId");
 
                     b.HasIndex("appointmentId");
-
-                    b.HasIndex("bacSiId");
 
                     b.HasIndex("chuyenKhoaId");
 
@@ -725,6 +728,10 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
 
             modelBuilder.Entity("HTQuanLyHoSoSucKhoe.Models.PhieuChiDinh", b =>
                 {
+                    b.HasOne("HTQuanLyHoSoSucKhoe.Models.BacSi", null)
+                        .WithMany("PhieuChiDinhs")
+                        .HasForeignKey("BacSiId");
+
                     b.HasOne("HTQuanLyHoSoSucKhoe.Models.HoSoBenhAn", "HoSoBenhAn")
                         .WithMany("PhieuChiDinhs")
                         .HasForeignKey("HoSoBenhAnId");
@@ -739,12 +746,6 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HTQuanLyHoSoSucKhoe.Models.BacSi", "BacSi")
-                        .WithMany("PhieuChiDinhs")
-                        .HasForeignKey("bacSiId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("HTQuanLyHoSoSucKhoe.Models.ChuyenKhoa", "ChuyenKhoa")
                         .WithMany("PhieuChiDinhs")
                         .HasForeignKey("chuyenKhoaId")
@@ -752,8 +753,6 @@ namespace HTQuanLyHoSoSucKhoe.Migrations
                         .IsRequired();
 
                     b.Navigation("Appointment");
-
-                    b.Navigation("BacSi");
 
                     b.Navigation("ChuyenKhoa");
 

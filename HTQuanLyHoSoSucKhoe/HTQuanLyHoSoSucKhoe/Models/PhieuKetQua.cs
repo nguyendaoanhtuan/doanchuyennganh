@@ -17,8 +17,8 @@
         public int appointmentId { get; set; }
         public virtual Appointment Appointment { get; set; }
 
-        public DateTime Created_At { get; set; } // Ngày tạo phiếu
-        public DateTime Updated_At { get; set; } // Ngày cập nhật phiếu
+        public DateTime Created_At { get; set; } = DateTime.Now; // Ngày tạo phiếu
+        public DateTime Updated_At { get; set; } = DateTime.Now; // Ngày cập nhật phiếu
 
         public int bacSiId  { get; set; }
         public virtual BacSi BacSi { get; set; }

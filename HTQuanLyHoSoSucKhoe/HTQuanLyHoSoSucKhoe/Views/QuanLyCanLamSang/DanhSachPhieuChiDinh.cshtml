@@ -56,6 +56,7 @@
                                             <td>@(item?.Created_At.ToString() ?? "Không có dữ liệu")</td>
                                             <td>@item.appointmentId</td>
                                             <td>
+                                                <a asp-action="ChiTietPhieuChiDinh" asp-controller="QuanLyCanLamSang" asp-route-id="@item.Id" class="btn btn-info btn-sm">Xem chi tiết</a>
                                                 <button class="btn btn-warning btn-sm" data-toggle="modal" data-target="#taoPhieuKetQuaModal_@item.phieuKetQuaId">
                                                     Tạo phiếu kết quả
                                                 </button>
@@ -73,14 +74,21 @@
                                                                 <input type="hidden" name="hoSoBenhAnId" value="@item.hoSoBenhAnId" />
                                                                 <input type="hidden" name="chuyenKhoaId" value="@item.chuyenKhoaId" />
                                                                 <input type="hidden" name="bacSiId" value="@item.bacSiId" />
-                                                                <div class="form-group">
-                                                                    <label for="chuyenKhoa">Tải file thứ nhất lên:</label>
-                                                                    <input type="file" name="file1" class="form-control mt-3" required>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="chuyenKhoa">Tải file thứ 2 (nếu có) lên:</label>
-                                                                    <input type="file" name="file2"  class="form-control mt-3">
-                                                                </div>
+                                                                 <table class="detail-table">
+                                                                    <div class="form-group">
+                                                                        <label for="chuyenKhoa">Tải file thứ nhất lên:</label>
+                                                                        <input type="file" name="file1" class="form-control mt-3" required>
+                                                                    </div>
+                                                                 </table>
+                                                                <table class="detail-table">
+                                                                    <label for="bacSi">Chọn bác sĩ:</label>
+                                                                    <select id="bacSi" name="SelectedBacSiId" class="form-control" required>
+                                                                        @foreach (var bacSi in ViewBag.BacSiList as List<BacSi>)
+                                                                        {
+                                                                            <option value="@bacSi.Id">@bacSi.hoTen</option>
+                                                                        }
+                                                                    </select>
+                                                                </table>
                                                                 <div class="modal-footer">
                                                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Tắt</button>
                                                                     <button type="submit" class="btn btn-primary">Tạo phiếu kết quả</button>

@@ -54,7 +54,10 @@
                                             <td>@(item?.LoaiChiDinh ?? "Không có dữ liệu")</td>
                                             <td>@(item?.Created_At.ToString() ?? "Không có dữ liệu")</td>
                                             <td>
-                                                <a asp-action="" asp-controller="QuanLyCanLamSang" class="btn btn-info btn-sm">Xem chi tiết</a>
+                                                <a asp-action="ChiTietPhieuChiDinh" asp-controller="QuanLyLamSang" asp-route-id="@item.Id" class="btn btn-info btn-sm">Xem chi tiết</a>
+                                                <form method="post" asp-action="XoaPhieuChiDinh" asp-controller="QuanLyLamSang" asp-route-id="@item.Id" onsubmit="return confirm('Bạn có chắc chắn muốn xóa cuộc hẹn này không?');">
+                                                    <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
+                                                </form>
                                             </td>
                                         </tr>
                                         index++;

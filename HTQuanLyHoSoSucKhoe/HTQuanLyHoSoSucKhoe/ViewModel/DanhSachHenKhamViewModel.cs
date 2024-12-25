@@ -15,6 +15,7 @@ namespace HTQuanLyHoSoSucKhoe.ViewModel
         public int SelectedChuyenKhoaId { get; set; }
         public List<SelectListItem> ChuyenKhoaOptions { get; set; } = new List<SelectListItem>();
 
+        public int SelectedBacSiId { get; set; }
         public string loaiPhieuChiDinh { get; set; }
     }
 }

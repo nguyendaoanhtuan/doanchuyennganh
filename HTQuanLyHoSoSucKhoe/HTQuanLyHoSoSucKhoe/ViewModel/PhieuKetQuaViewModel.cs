@@ -21,5 +21,12 @@
 
         public string TenChuyenKhoaLamSang { get; set;}
         public DateTime Created_At { get; set; }
+
+        public string tenBacSi { get; set; }
+        public string tenBenhNhan { get; set; } // Họ và tên người dùng
+        public string PhoneNumber { get; set; } // Số điện thoại bệnh nhân
+        public string Cccd { get; set; }
+        public DateTime NgayDangKy { get; set; }   // Ngày đăng ký của Appointment
+        public DateTime ThoiGianTaoPhieuChiDinh { get; set; } // Thời gian tạo phiếu chỉ định
     }
 }

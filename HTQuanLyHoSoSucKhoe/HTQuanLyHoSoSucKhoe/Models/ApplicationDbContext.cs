@@ -48,6 +48,16 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<PhieuKetQua>().ToTable("phieu_ket_quas");
 
 
+        // Mối quan hệ giữa BacSi và PhieuChiDinh
+        modelBuilder.Entity<BacSi>()
+          .HasMany(cd => cd.PhieuChiDinhs)
+          .WithOne(bs => bs.BacSi)
+          .HasForeignKey(bs => bs.bacSiId);
+        modelBuilder.Entity<PhieuChiDinh>()
+           .HasOne(bv => bv.BacSi)
+           .WithMany(bs => bs.PhieuChiDinhs)
+           .HasForeignKey(bs => bs.bacSiId);
+
         // Mối quan hệ giữa Appointment và PhieuChiDinh
         modelBuilder.Entity<Appointment>()
            .HasMany(cd => cd.PhieuChiDinhs)

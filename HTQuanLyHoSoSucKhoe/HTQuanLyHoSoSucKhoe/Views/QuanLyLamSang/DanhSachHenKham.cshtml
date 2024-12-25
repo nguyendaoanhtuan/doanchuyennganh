@@ -80,14 +80,28 @@
                                                                 <form asp-action="taoPhieuChiDinh" asp-controller="QuanLyLamSang" method="post">
                                                                     <input type="hidden" name="id" value="@item.id"/>
                                                                     <div class="form-group">
-                                                                        <label for="chuyenKhoa">Chọn chuyên khoa cận lâm sàng:</label>
-                                                                        <select id="chuyenKhoa" name="SelectedChuyenKhoaId" class="form-control" required>
-                                                                            @foreach (var tenChuyenKhoa in ViewBag.ChuyenKhoaOptions as List<SelectListItem>)
-                                                                            {
-                                                                                <option value="@tenChuyenKhoa.Value">@tenChuyenKhoa.Text</option>
-                                                                            }
-                                                                        </select>
+                                                                        <table class="detail-table">
+                                                                            
+                                                                                <label for="chuyenKhoa">Chọn chuyên khoa cận lâm sàng:</label>
+                                                                                <select id="chuyenKhoa" name="SelectedChuyenKhoaId" class="form-control" required>
+                                                                                    @foreach (var tenChuyenKhoa in ViewBag.ChuyenKhoaOptions as List<SelectListItem>)
+                                                                                    {
+                                                                                        <option value="@tenChuyenKhoa.Value">@tenChuyenKhoa.Text</option>
+                                                                                    }
+                                                                                </select>
+                                                                        </table>
+                                                                           <table class="detail-table">  
+                                                                                <label for="bacSi">Chọn bác sĩ:</label>
+                                                                                <select id="bacSi" name="SelectedBacSiId" class="form-control" required>
+                                                                                    @foreach (var bacSi in ViewBag.BacSiList as List<BacSi>)
+                                                                                    {
+                                                                                        <option value="@bacSi.Id">@bacSi.hoTen</option>
+                                                                                    }
+                                                                                </select>
+                                                                            
+                                                                        </table>
                                                                     </div>
+
                                                                     <div class="modal-footer">
                                                                         <button type="button" class="btn btn-danger" data-dismiss="modal">Tắt</button>
                                                                         <button type="submit" class="btn btn-primary">Tạo phiếu chỉ định</button>

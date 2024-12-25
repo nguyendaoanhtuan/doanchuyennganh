@@ -60,8 +60,8 @@
                                             </td>
                                             <td>@item.TenChuyenKhoaLamSang</td>
                                             <td>
-                                                <a asp-action="" asp-controller="QuanLyCanLamSang" class="btn btn-info btn-sm">Xem chi tiết</a>
-                                                <form method="post" asp-action="xoaPhieuKetQua" asp-controller="QuanLyCanLamSang" asp-route-id="@item.Id" onsubmit="return confirm('Bạn có chắc chắn muốn xóa cuộc hẹn này không?');">
+                                                <a asp-action="ChiTietPhieuKetQua" asp-controller="QuanLyCanLamSang" asp-route-id="@item.Id" class="btn btn-info btn-sm">Xem chi tiết</a>
+                                                <form method="post" asp-action="XoaPhieuKetQua" asp-controller="QuanLyCanLamSang" asp-route-id="@item.Id" onsubmit="return confirm('Bạn có chắc chắn muốn xóa cuộc hẹn này không?');">
                                                     <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
                                                 </form>
                                             </td>

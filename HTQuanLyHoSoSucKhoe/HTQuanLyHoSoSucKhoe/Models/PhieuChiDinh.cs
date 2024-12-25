@@ -11,6 +11,10 @@ namespace HTQuanLyHoSoSucKhoe.Models
 
         public int chuyenKhoaId { get; set; }
         public int appointmentId { get; set; }
+
+        public int bacSiId { get; set; }
+
+        public virtual BacSi BacSi { get; set; }
         public virtual Appointment Appointment { get; set; }
         public virtual ChuyenKhoa ChuyenKhoa { get; set; }
         public virtual HoSoBenhAn HoSoBenhAn { get; set; } // Điều hướng đến HoSoBenhAn

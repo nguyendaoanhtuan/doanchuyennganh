@@ -1,0 +1,109 @@
+﻿@model HTQuanLyHoSoSucKhoe.ViewModels.PhieuChiDinhViewModels
+
+@{
+	Layout = "~/Views/Shared/_LamSangLayout.cshtml";
+}
+
+<div id="page-wrapper">
+    <div class="header">
+        <h1 class="page-header">Cài đặt tài khoản</h1>
+        <ol class="breadcrumb">
+            <li><a asp-action="Index" asp-controller="QuanLyBenhVien">Trang chủ</a></li>
+            <li class="active">Cài đặt tài khoản</li>
+        </ol>
+    </div>
+
+    <div id="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Bảng thông tin phiếu chỉ định</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <!-- Khu vực hiển thị bảng thông tin -->
+                            <div class="col-md-6">
+                                <table class="detail-table">
+                                    <tr>
+                                        <th>Id:</th>
+                                        <td><input class="form-control" type="text" value="@Model.Id" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tên bệnh nhân:</th>
+                                        <td><input class="form-control" type="text" value="@Model.tenBenhNhan" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Số điện thoại:</th>
+                                        <td><input class="form-control" type="text" value="@Model.PhoneNumber" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Cccd:</th>
+                                        <td><input class="form-control" type="text" value="@Model.Cccd" readonly></td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Chuyên khoa được yêu cầu:</th>
+                                        <td><input class="form-control" type="text" value="@Model.LoaiChiDinh" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tên bác sĩ tạo chỉ định:</th>
+                                        <td><input class="form-control" type="text" value="@Model.tenBacSi" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Chuyên khoa tạo chỉ định:</th>
+                                        <td><input class="form-control" type="text" value="@Model.ChuyenKhoaName" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Ngày hẹn khám:</th>
+                                        <td><input class="form-control" type="text" value="@Model.NgayDangKy" readonly></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Ngày tạo chỉ định:</th>
+                                        <td><input class="form-control" type="text" value="@Model.Created_At" readonly></td>
+                                    </tr>
+
+
+                                </table>
+                                <div class="btn-container-form">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target="#editInfoModal_@Model.Id"><i class="fa fa-edit"></i> Chỉnh sửa</button>
+                                </div>
+                                <!-- Modal chỉnh sửa thông tin -->
+                                <div class="modal fade" id="editInfoModal_@Model.Id" tabindex="-1" role="dialog" aria-labelledby="editInfoModalLabel_@Model.Id" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <form asp-action="ChinhSuaPhieuChiDinh" asp-controller="QuanLyLamSang" method="post">
+                                            <div class="modal-content">
+                                                <input type="hidden" name="phieuChiDinhId" value="@Model.Id">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="editInfoModalLabel_@Model.Id">Chỉnh sửa thông tin</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="detail-table">
+                                                        <tr>
+                                                            <th>Chuyên khoa yêu cầu:</th>
+                                                            <td>
+                                                                <select id="chuyenKhoa" name="SelectedChuyenKhoaId" class="form-control" required>
+                                                                    @foreach (var tenChuyenKhoa in ViewBag.ChuyenKhoaOptions as List<SelectListItem>)
+                                                                    {
+                                                                        <option value="@tenChuyenKhoa.Value">@tenChuyenKhoa.Text</option>
+                                                                    }
+                                                                </select>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Thoát</button>
+                                                    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -35,5 +35,6 @@ namespace HTQuanLyHoSoSucKhoe.Models
 
         public virtual ICollection<PhieuKetQua>? PhieuKetQuas { get; set; }
 
+
     }
 }

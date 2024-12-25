@@ -199,7 +199,8 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
                     Created_At = p.Created_At,
                 })
                 .ToList();
-
+            var bacSiList = _context.BacSis.Where(i => i.ChuyenKhoaId == parsedChuyenKhoaId).ToList();
+            ViewBag.BacSiList = bacSiList;
             return View(phieuChiDinhList);
         }
 
@@ -212,7 +213,8 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
                 hoSoBenhAnId = viewModel.hoSoBenhAnId,
                 chuyenKhoaId = viewModel.chuyenKhoaId,
                 appointmentId = viewModel.appointmentId,
-                bacSiId = viewModel.bacSiId
+                bacSiId = viewModel.SelectedBacSiId,
+                Created_At = DateTime.Now,
             };
 
             // Kiểm tra và xử lý file đầu tiên
@@ -251,7 +253,178 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             return RedirectToAction("Index"); // Chuyển hướng về trang danh sách phiếu kết quả
         }
 
-       
 
+
+        [HttpPost]
+        public IActionResult XoaPhieuKetQua(int id)
+        {
+            // Tìm bản ghi cuộc hẹn cần xóa theo id
+            var phieuKetQua = _context.PhieuKetQuas.FirstOrDefault(a => a.Id == id);
+
+            if (phieuKetQua == null)
+            {
+                // Nếu không tìm thấy bản ghi, trả về thông báo lỗi
+                return NotFound("Không tìm thấy cuộc hẹn cần xóa.");
+            }
+
+            // Xóa bản ghi khỏi database
+            _context.PhieuKetQuas.Remove(phieuKetQua);
+            _context.SaveChanges(); // Lưu thay đổi vào cơ sở dữ liệu
+
+            TempData["SuccessMessage"] = "Xóa phiếu kết quả thành công!";
+
+            // Chuyển hướng về trang danh sách sau khi xóa thành công
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult ChiTietPhieuKetQua(int id)
+        {
+            var ChuyenKhoaId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của Chuyên khoa từ claims
+
+            // Kiểm tra nếu không tìm thấy thông tin Chuyên khoa trong Claims
+            if (string.IsNullOrEmpty(ChuyenKhoaId) || !int.TryParse(ChuyenKhoaId, out var parsedChuyenKhoaId))
+            {
+                return RedirectToAction("Login", "TaiKhoan"); // Điều hướng về trang login nếu không hợp lệ
+            }
+            var phieuKetQua = _context.PhieuKetQuas
+                .Where(p => p.chuyenKhoaId == parsedChuyenKhoaId && p.Id == id)
+                .Include(p => p.ChuyenKhoa)
+                .Include(p => p.Appointment)
+                .ThenInclude(a => a.User) // Bao gồm thông tin người dùng
+                .Include(p => p.HoSoBenhAn)
+                .Include(p => p.BacSi)
+                .Include(p => p.PhieuChiDinh)
+                .ThenInclude(pc => pc.ChuyenKhoa)
+                .Select(p => new PhieuKetQuaViewModel
+                {
+                    Id = p.Id,
+                    TenChuyenKhoaCanLamSang = _context.ChuyenKhoas
+                    .Where(ck => ck.Id == p.chuyenKhoaId)
+                    .Select(ck => ck.Name)
+                    .FirstOrDefault(), // Tên cận lâm sàng
+                    TenChuyenKhoaLamSang = _context.ChuyenKhoas
+                    .Where(ck => ck.Id == p.PhieuChiDinh.chuyenKhoaId)
+                    .Select(ck => ck.Name)
+                    .FirstOrDefault(), // Tên lâm sàng
+                    chuyenKhoaId = parsedChuyenKhoaId,
+                    appointmentId = p.Appointment.Id,
+                    hoSoBenhAnId = p.hoSoBenhAnId,
+                    bacSiId = p.bacSiId,
+                    tenBacSi = _context.BacSis
+                    .Where(ck => ck.Id == p.bacSiId)
+                    .Select(ck => ck.hoTen)
+                    .FirstOrDefault(),
+                    phieuChiDinhId = p.phieuChiDinhId,
+                    File1 = Url.Content("~/pdf/PhieuKetQua/" + p.duongDanFile1),
+                    tenBenhNhan = $"{p.Appointment.User.Ho} {p.Appointment.User.Ten}",
+                    PhoneNumber = p.Appointment.User.Phone_Number,
+                    Cccd = p.Appointment.User.Cccd,
+                    NgayDangKy = p.Appointment.NgayTao,
+                    ThoiGianTaoPhieuChiDinh = p.PhieuChiDinh.Created_At
+                })
+                .FirstOrDefault(); // Lấy đối tượng đầu tiên hoặc null nếu không có
+
+            // Kiểm tra nếu không tìm thấy phiếu kết quả
+            if (phieuKetQua == null)
+            {
+                return NotFound("Phiếu kết quả không tồn tại hoặc bạn không có quyền truy cập.");
+            }
+
+            return View(phieuKetQua);
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ChinhSuaPhieuKetQua(IFormFile file1, int phieuKetQuaId, PhieuKetQuaViewModel model)
+        {
+
+            var ChuyenKhoaId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của Chuyên khoa từ claims
+
+            // Kiểm tra nếu không tìm thấy thông tin Chuyên khoa trong Claims
+            if (string.IsNullOrEmpty(ChuyenKhoaId) || !int.TryParse(ChuyenKhoaId, out var parsedChuyenKhoaId))
+            {
+                return RedirectToAction("Login", "TaiKhoan"); // Điều hướng về trang login nếu không hợp lệ
+            }
+
+            // Lấy phiếu chỉ định từ database
+            var phieuKetQua = _context.PhieuKetQuas.FirstOrDefault(p => p.Id == phieuKetQuaId);
+            if (phieuKetQua == null)
+            {
+                return NotFound();
+            }
+
+            // Cập nhật thông tin phiếu chỉ định
+            if (file1 != null)
+            {
+                var filePath1 = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/pdf/PhieuKetQua", file1.FileName);
+
+                // Lưu file vào thư mục
+                using (var stream = new FileStream(filePath1, FileMode.Create))
+                {
+                    await file1.CopyToAsync(stream);
+                }
+
+                // Gán đường dẫn file vào thuộc tính của đối tượng
+                phieuKetQua.duongDanFile1 = file1.FileName;
+            }
+
+
+            // Lưu thay đổi vào database
+            _context.Update(phieuKetQua);
+            _context.SaveChanges();
+
+            // Quay về trang danh sách hoặc thông báo thành công
+            return RedirectToAction("ChiTietPhieuKetQua", new { id = phieuKetQuaId });
+        }
+
+        public IActionResult ChiTietPhieuChiDinh(int id)
+        {
+            var ChuyenKhoaId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của Chuyên khoa từ claims
+
+            // Kiểm tra nếu không tìm thấy thông tin Chuyên khoa trong Claims
+            if (string.IsNullOrEmpty(ChuyenKhoaId) || !int.TryParse(ChuyenKhoaId, out var parsedChuyenKhoaId))
+            {
+                return RedirectToAction("Login", "TaiKhoan"); // Điều hướng về trang login nếu không hợp lệ
+            }
+            var phieuChiDinh = _context.PhieuChiDinhs
+                .Where(p => p.LoaiChiDinh == parsedChuyenKhoaId && p.Id == id)
+                .Include(p => p.ChuyenKhoa)
+                .Include(p => p.Appointment)
+                .ThenInclude(a => a.User) // Bao gồm thông tin người dùng
+                .Include(p => p.HoSoBenhAn)
+                .ThenInclude(pc => pc.ChuyenKhoa)
+                .Select(p => new PhieuChiDinhViewModels
+                {
+                    Id = p.Id,
+                    LoaiChiDinh = _context.ChuyenKhoas
+                    .Where(ck => ck.Id == p.LoaiChiDinh) // Tìm tên chuyên khoa dựa trên LoaiChiDinh (ID)
+                    .Select(ck => ck.Name)
+                    .FirstOrDefault(),
+                    ChuyenKhoaName = _context.ChuyenKhoas
+                    .Where(ck => ck.Id == p.chuyenKhoaId)
+                    .Select(ck => ck.Name)
+                    .FirstOrDefault(), // Tên cận lâm sàng
+                    tenBacSi = _context.BacSis
+                    .Where(ck => ck.Id == p.bacSiId)
+                    .Select(ck => ck.hoTen)
+                    .FirstOrDefault(),
+                    appointmentId = p.Appointment.Id,
+                    tenBenhNhan = $"{p.Appointment.User.Ho} {p.Appointment.User.Ten}",
+                    PhoneNumber = p.Appointment.User.Phone_Number,
+                    Cccd = p.Appointment.User.Cccd,
+                    Created_At = p.Created_At,
+                    NgayDangKy = p.Appointment.NgayTao,
+                }).FirstOrDefault();
+
+
+            // Kiểm tra nếu không tìm thấy phiếu kết quả
+            if (phieuChiDinh == null)
+            {
+                return NotFound("Phiếu kết quả không tồn tại hoặc bạn không có quyền truy cập.");
+            }
+
+            return View(phieuChiDinh);
+
+        }
     }
 }
