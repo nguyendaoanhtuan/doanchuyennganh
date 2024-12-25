@@ -38,5 +38,8 @@ namespace HTQuanLyHoSoSucKhoe.Models
 
         // Thêm số thứ tự vào cuộc hẹn trong một ngày
         public int soThuTu { get; set; }
+
+        public virtual ICollection<PhieuKetQua>? PhieuKetQuas { get; set; }
+        public virtual ICollection<PhieuChiDinh>? PhieuChiDinhs { get; set; }
     }
 }

@@ -26,6 +26,8 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<PhieuChiDinh> PhieuChiDinhs { get; set; }
 
+    public DbSet<PhieuKetQua> PhieuKetQuas { get; set; }
+
     // Cấu hình bảng, ánh xạ cột và khóa
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -43,10 +45,68 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<LoaiDichVuKham>().ToTable("loai_dich_vu_khams");
         modelBuilder.Entity<LoaiDichVuChuyenKhoa>().ToTable("loai_dich_vu_chuyen_khoas");
         modelBuilder.Entity<LoaiPhieu>().ToTable("loai_phieus");
+        modelBuilder.Entity<PhieuKetQua>().ToTable("phieu_ket_quas");
 
 
+        // Mối quan hệ giữa Appointment và PhieuChiDinh
+        modelBuilder.Entity<Appointment>()
+           .HasMany(cd => cd.PhieuChiDinhs)
+           .WithOne(bs => bs.Appointment)
+           .HasForeignKey(bs => bs.appointmentId);
+        modelBuilder.Entity<PhieuChiDinh>()
+           .HasOne(bv => bv.Appointment)
+           .WithMany(bs => bs.PhieuChiDinhs)
+           .HasForeignKey(bs => bs.appointmentId);
 
+        // Mối quan hệ giữa PhieuChiDinh và PhieuKetQua
+        modelBuilder.Entity<PhieuChiDinh>()
+           .HasMany(cd => cd.PhieuKetQuas)
+           .WithOne(bs => bs.PhieuChiDinh)
+           .HasForeignKey(bs => bs.phieuChiDinhId);
+        modelBuilder.Entity<PhieuKetQua>()
+           .HasOne(bv => bv.Appointment)
+           .WithMany(bs => bs.PhieuKetQuas)
+           .HasForeignKey(bs => bs.phieuChiDinhId);
 
+        // Mối quan hệ giữa Appointment và PhieuKetQua
+        modelBuilder.Entity<Appointment>()
+           .HasMany(cd => cd.PhieuKetQuas)
+           .WithOne(bs => bs.Appointment)
+           .HasForeignKey(bs => bs.appointmentId);
+        modelBuilder.Entity<PhieuKetQua>()
+           .HasOne(bv => bv.Appointment)
+           .WithMany(bs => bs.PhieuKetQuas)
+           .HasForeignKey(bs => bs.appointmentId);
+
+        // Mối quan hệ giữa BacSi và PhieuKetQua
+        modelBuilder.Entity<BacSi>()
+           .HasMany(cd => cd.PhieuKetQuas)
+           .WithOne(bs => bs.BacSi)
+           .HasForeignKey(bs => bs.bacSiId);
+        modelBuilder.Entity<PhieuKetQua>()
+           .HasOne(bv => bv.BacSi)
+           .WithMany(bs => bs.PhieuKetQuas)
+           .HasForeignKey(bs => bs.bacSiId);
+
+        // Mối quan hệ giữa ChuyenKhoa và PhieuKetQua
+        modelBuilder.Entity<ChuyenKhoa>()
+           .HasMany(cd => cd.PhieuKetQuas)
+           .WithOne(bs => bs.ChuyenKhoa)
+           .HasForeignKey(bs => bs.chuyenKhoaId);
+        modelBuilder.Entity<PhieuKetQua>()
+           .HasOne(bv => bv.ChuyenKhoa)
+           .WithMany(bs => bs.PhieuKetQuas)
+           .HasForeignKey(bs => bs.chuyenKhoaId);
+
+        // Mối quan hệ giữa HoSoBenhAn và PhieuKetQua
+        modelBuilder.Entity<HoSoBenhAn>()
+           .HasMany(cd => cd.PhieuKetQuas)
+           .WithOne(bs => bs.HoSoBenhAn)
+           .HasForeignKey(bs => bs.hoSoBenhAnId);
+        modelBuilder.Entity<PhieuKetQua>()
+           .HasOne(bv => bv.HoSoBenhAn)
+           .WithMany(bs => bs.PhieuKetQuas)
+           .HasForeignKey(bs => bs.hoSoBenhAnId);
 
         // Mối quan hệ giữa HoSoBenhAn và DonThuoc
         modelBuilder.Entity<BacSi>()

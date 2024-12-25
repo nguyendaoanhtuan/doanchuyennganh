@@ -3,6 +3,7 @@ using HTQuanLyHoSoSucKhoe.ViewModel;
 using HTQuanLyHoSoSucKhoe.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
@@ -186,6 +187,13 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             }).ToList();
             var bacSiList = _context.BacSis.Where(i => i.ChuyenKhoaId == parsedChuyenKhoaId).ToList();
             ViewBag.BacSiList = bacSiList;
+            ViewBag.ChuyenKhoaOptions = _context.ChuyenKhoas
+            .Where(ck => ck.RoleId == 4)
+            .Select(ck => new SelectListItem
+            {
+                Value = ck.Id.ToString(),
+                Text = ck.Name
+            }).ToList();
             return View(henKhams);
         }
         public IActionResult ChiTietHoSo(int id)
@@ -213,6 +221,110 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             _context.SaveChanges();
             // Chuyển hướng đến trang Index sau khi thành công
             return RedirectToAction("DanhSachHenKham");
+        }
+
+        [HttpPost]
+
+        public IActionResult TaoPhieuChiDinh(DanhSachHenKhamViewModel model)
+        {
+            var chuyenKhoaId = int.TryParse(User.FindFirstValue(ClaimTypes.NameIdentifier), out int parsedChuyenKhoaId);
+            var chuyenKhoa = _context.ChuyenKhoas
+                    .FirstOrDefault(ck => ck.Id == model.SelectedChuyenKhoaId && ck.RoleId == 4);
+
+                if (chuyenKhoa != null)
+                {
+                    // Save "Phiếu Chỉ Định"
+                    var phieuChiDinh = new PhieuChiDinh
+                    {
+                        appointmentId = model.id,
+                        LoaiChiDinh = model .SelectedChuyenKhoaId,
+                        chuyenKhoaId = parsedChuyenKhoaId,
+                        Created_At = DateTime.Now
+                    };
+
+                    _context.PhieuChiDinhs.Add(phieuChiDinh);
+                    _context.SaveChanges();
+
+                    TempData["Success"] = "Tạo phiếu chỉ định thành công.";
+                }
+                else
+                {
+                    TempData["Error"] = "Chuyên khoa không hợp lệ.";
+                    return RedirectToAction("DanhSachHenKham");
+                 }
+
+
+            return RedirectToAction("DanhSachHenKham");
+        }
+
+        public IActionResult DanhSachPhieuChiDinh()
+        {
+            // Lấy chuyenKhoaId từ tài khoản đăng nhập
+            var chuyenKhoaId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            // Lấy danh sách phiếu chỉ định và các thông tin liên quan
+            var phieuChiDinhList = _context.PhieuChiDinhs
+                .Where(p => p.chuyenKhoaId == chuyenKhoaId)
+                .Include(p => p.ChuyenKhoa)
+                .Include(p => p.Appointment) // Bao gồm Appointments
+                .Include(p => p.ChuyenKhoa.TaiKhoan) // Bao gồm User
+                .Select(p => new PhieuChiDinhViewModels
+                {
+                    Id = p.Id,
+                    LoaiChiDinh = _context.ChuyenKhoas
+                    .Where(ck => ck.Id == p.LoaiChiDinh) // Tìm tên chuyên khoa dựa trên LoaiChiDinh (ID)
+                    .Select(ck => ck.Name)
+                    .FirstOrDefault(),
+                    Created_At = p.Created_At,
+                })
+                .ToList();
+
+            return View(phieuChiDinhList);
+        }
+
+
+        public IActionResult DanhSachPhieuKetQua()
+        {
+            var ChuyenKhoaId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Lấy ID của Chuyên khoa từ claims
+
+            // Kiểm tra nếu không tìm thấy thông tin Chuyên khoa trong Claims
+            if (string.IsNullOrEmpty(ChuyenKhoaId) || !int.TryParse(ChuyenKhoaId, out var parsedChuyenKhoaId))
+            {
+                return RedirectToAction("Login", "TaiKhoan"); // Điều hướng về trang login nếu không hợp lệ
+            }
+            var phieuKetQuaList = _context.PhieuKetQuas
+                .Where(p => p.PhieuChiDinh.chuyenKhoaId == parsedChuyenKhoaId)
+                .Include(p => p.ChuyenKhoa)
+                .Include(p => p.Appointment)
+                .Include(p => p.HoSoBenhAn)
+                .Include(p => p.BacSi)
+                .Include(p => p.PhieuChiDinh)
+                .ThenInclude(pc => pc.ChuyenKhoa)
+                .Select(p => new PhieuKetQuaViewModel
+                {
+                    Id = p.Id,
+                    TenChuyenKhoaCanLamSang = _context.ChuyenKhoas
+                    .Where(ck => ck.Id == p.chuyenKhoaId)
+                    .Select(ck => ck.Name)
+                    .FirstOrDefault(), // Tên cận lâm sàng
+                    TenChuyenKhoaLamSang = _context.ChuyenKhoas
+                    .Where(ck => ck.Id == p.PhieuChiDinh.chuyenKhoaId)
+                    .Select(ck => ck.Name)
+                    .FirstOrDefault(), // Tên lâm sàng
+                    chuyenKhoaId = parsedChuyenKhoaId,
+                    appointmentId = p.Appointment.Id,
+                    hoSoBenhAnId = p.hoSoBenhAnId,
+                    bacSiId = p.bacSiId,
+                    phieuChiDinhId = p.phieuChiDinhId,
+                    File1 = Url.Content("~/pdf/PhieuKetQua/" + p.duongDanFile1),
+                    File2 = Url.Content("~/pdf/PhieuKetQua/" + p.duongDanFile2),
+                    File3 = Url.Content("~/pdf/PhieuKetQua/" + p.duongDanFile3),
+                })
+                .ToList();
+
+            return View(phieuKetQuaList);
+
+
         }
     }
 }

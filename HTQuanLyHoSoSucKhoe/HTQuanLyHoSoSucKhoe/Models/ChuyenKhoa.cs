@@ -37,5 +37,7 @@ namespace HTQuanLyHoSoSucKhoe.Models
         public ICollection<PhieuChiDinh>? PhieuChiDinhs { get; set; }
 
         public ICollection<HoSoBenhAn> HoSoBenhAns { get; set; }
+
+        public virtual ICollection<PhieuKetQua>? PhieuKetQuas { get; set; }
     }
 }

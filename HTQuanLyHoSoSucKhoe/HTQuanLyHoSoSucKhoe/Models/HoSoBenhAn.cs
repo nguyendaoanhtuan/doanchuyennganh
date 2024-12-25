@@ -35,5 +35,7 @@ namespace HTQuanLyHoSoSucKhoe.Models
         // Các thông tin khác về bệnh án (lịch sử thăm khám, kết quả xét nghiệm, ...)
 
         public virtual ICollection<PhieuChiDinh>? PhieuChiDinhs { get; set; }
+
+        public virtual ICollection<PhieuKetQua>? PhieuKetQuas { get; set; }
     }
 }

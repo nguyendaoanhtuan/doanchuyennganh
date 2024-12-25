@@ -12,25 +12,6 @@ namespace HTQuanLyHoSoSucKhoe.Controllers
             return View();
         }
 
-        public IActionResult LichSuKhamBenh()
-        {
-            return View();
-        }
-        public IActionResult LichSuKeThuoc()
-        {
-            return View();
-        }
-        public IActionResult LichSuTiemPhong()
-        {
-            return View();
-        }
-        public IActionResult LichSuDatLichKham()
-        {
-            return View();
-        }
-        public IActionResult LichSuDatLichTiemPhong()
-        {
-            return View();
-        }
+        
     }
 }

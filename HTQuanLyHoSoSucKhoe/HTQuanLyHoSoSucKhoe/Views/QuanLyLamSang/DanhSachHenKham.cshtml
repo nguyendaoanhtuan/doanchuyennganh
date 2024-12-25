@@ -65,7 +65,40 @@
                                                     {
                                                         <a asp-action="ChiTietHoSo" asp-controller="QuanLyLamSang" asp-route-id="@item.id" class="btn btn-info btn-sm">Xem hồ sơ</a>
                                                     }
+
+                                                    <button class="btn btn-warning btn-sm" data-toggle="modal" data-target="#taoPhieuChiDinhModal_@item.id">
+                                                        Tạo phiếu chỉ định
+                                                    </button>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="taoPhieuChiDinhModal_@item.id" tabindex="-1" role="dialog" aria-labelledby="taoPhieuChiDinhModalLabel_@item.id" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                                    <h4 class="modal-title" id="taoPhieuChiDinhModalLabel_@item.id">Chỉnh sửa trạng thái</h4>
+                                                                </div>
+                                                                <form asp-action="taoPhieuChiDinh" asp-controller="QuanLyLamSang" method="post">
+                                                                    <input type="hidden" name="id" value="@item.id"/>
+                                                                    <div class="form-group">
+                                                                        <label for="chuyenKhoa">Chọn chuyên khoa cận lâm sàng:</label>
+                                                                        <select id="chuyenKhoa" name="SelectedChuyenKhoaId" class="form-control" required>
+                                                                            @foreach (var tenChuyenKhoa in ViewBag.ChuyenKhoaOptions as List<SelectListItem>)
+                                                                            {
+                                                                                <option value="@tenChuyenKhoa.Value">@tenChuyenKhoa.Text</option>
+                                                                            }
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Tắt</button>
+                                                                        <button type="submit" class="btn btn-primary">Tạo phiếu chỉ định</button>
+                                                                    </div>
+
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 }
+
                                             </td>
                                         </tr>
                                         index++;

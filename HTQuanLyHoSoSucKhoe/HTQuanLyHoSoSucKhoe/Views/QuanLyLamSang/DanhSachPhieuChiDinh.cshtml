@@ -1,6 +1,7 @@
-﻿@model List<HTQuanLyHoSoSucKhoe.ViewModels.PhieuKetQuaViewModel>
+﻿@model List<HTQuanLyHoSoSucKhoe.ViewModels.PhieuChiDinhViewModels>
+
 @{
-    Layout = "~/Views/Shared/_CanLamSangLayout.cshtml";
+	Layout = "~/Views/Shared/_LamSangLayout.cshtml";
 }
 
 <div id="page-wrapper">
@@ -36,10 +37,9 @@
                             <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                 <thead>
                                     <tr>
-                                        <th>Số thứ tự</th>
-                                        <th>Tên chuyên khoa cận lâm sàng</th>
-                                        <th>file kết quả</th>
-                                        <th>Tên chuyên khoa lâm sàng</th>
+                                        <th>STT</th>
+                                        <th>Chỉ định</th>
+                                        <th>Thời gian tạo</th>
                                         <th>Chức năng</th>
                                     </tr>
                                 </thead>
@@ -47,23 +47,14 @@
                                     @{
                                         int index = 1;
                                     }
-                                    @foreach (var item in Model ?? new List<HTQuanLyHoSoSucKhoe.ViewModels.PhieuKetQuaViewModel>())
+                                    @foreach (var item in Model ?? new List<HTQuanLyHoSoSucKhoe.ViewModels.PhieuChiDinhViewModels>())
                                     {
                                         <tr class="odd gradeX">
-                                            <td>@index</td>
-                                            <td>@(item?.TenChuyenKhoaCanLamSang ?? "Không có dữ liệu")</td>
-                                            <td>
-                                                @if (!string.IsNullOrEmpty(item.File1))
-                                                {
-                                                    <a href="@item.File1" target="_blank">Xem File</a>
-                                                }
-                                            </td>
-                                            <td>@item.TenChuyenKhoaLamSang</td>
+                                            <td>@item.Id</td>
+                                            <td>@(item?.LoaiChiDinh ?? "Không có dữ liệu")</td>
+                                            <td>@(item?.Created_At.ToString() ?? "Không có dữ liệu")</td>
                                             <td>
                                                 <a asp-action="" asp-controller="QuanLyCanLamSang" class="btn btn-info btn-sm">Xem chi tiết</a>
-                                                <form method="post" asp-action="xoaPhieuKetQua" asp-controller="QuanLyCanLamSang" asp-route-id="@item.Id" onsubmit="return confirm('Bạn có chắc chắn muốn xóa cuộc hẹn này không?');">
-                                                    <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
-                                                </form>
                                             </td>
                                         </tr>
                                         index++;
